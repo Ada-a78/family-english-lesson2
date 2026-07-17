@@ -1,0 +1,2571 @@
+{
+  "policy_version": 2,
+  "scope": "all_synthesized_content",
+  "inventory_reviewed": true,
+  "source_corpus_scanned": true,
+  "lexicon_sources": [
+    "book_master: 教材/多语言专名发音主词典.json（109页全书扫描）",
+    "lesson_delta: Unit 1 Lesson 2 教材第5–7页",
+    "external_delta: 本课未提供课外资源"
+  ],
+  "synthesis_context_count": 69,
+  "proper_noun_occurrence_count": 48,
+  "language_switch_counts": {
+    "zh-CN": 26,
+    "en-US": 22
+  },
+  "glossary": [
+    {
+      "display": "Baobao",
+      "aliases": [],
+      "native_form": "宝宝",
+      "spoken_text": "宝宝",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "全书人物表第1页；Lesson 1"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Maomao",
+      "aliases": [],
+      "native_form": "毛毛",
+      "spoken_text": "毛毛",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "全书人物表第1页；Lesson 2"
+      ],
+      "synthesized_occurrences": 7
+    },
+    {
+      "display": "Yangyang",
+      "aliases": [],
+      "native_form": "阳阳",
+      "spoken_text": "阳阳",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "全书人物表第1页；Lesson 1"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Ms Wang",
+      "aliases": [
+        "Ms. Wang"
+      ],
+      "native_form": "王老师",
+      "spoken_text": "王老师",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "teacher",
+      "source_locations": [
+        "全书人物表第1页；Lesson 1"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Lingling",
+      "aliases": [],
+      "native_form": "玲玲",
+      "spoken_text": "玲玲",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "全书人物表第1页；Lesson 2"
+      ],
+      "synthesized_occurrences": 8
+    },
+    {
+      "display": "Guoguo",
+      "aliases": [],
+      "native_form": "果果",
+      "spoken_text": "果果",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "全书人物表第1页；Lesson 2"
+      ],
+      "synthesized_occurrences": 6
+    },
+    {
+      "display": "Mike",
+      "aliases": [],
+      "native_form": "Mike",
+      "spoken_text": "Mike",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "source_locations": [
+        "全书人物表第1页；多课主对话"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Sara",
+      "aliases": [],
+      "native_form": "Sara",
+      "spoken_text": "Sara",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "source_locations": [
+        "全书人物表第1页；Lesson 4 等"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Kate",
+      "aliases": [],
+      "native_form": "Kate",
+      "spoken_text": "Kate",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "source_locations": [
+        "全书人物表第1页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Danny",
+      "aliases": [],
+      "native_form": "Danny",
+      "spoken_text": "Danny",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "source_locations": [
+        "全书人物表第1页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "John",
+      "aliases": [],
+      "native_form": "John",
+      "spoken_text": "John",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "source_locations": [
+        "Unit 1 教材第10页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Peter",
+      "aliases": [],
+      "native_form": "Peter",
+      "spoken_text": "Peter",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "source_locations": [
+        "Unit 2 教材第18页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Li Yu",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "spoken_text": "李宇",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Li Yu；依据 GB/T 28039—2011 与 GB/T 16159—2012，确定应走普通话而非英语语音。教材未给汉字和声调，Lǐ Yǔ 是供孩子清楚跟读的教学读法，‘李宇’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "source_locations": [
+        "Unit 2 教材第18页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Joe",
+      "aliases": [],
+      "native_form": "Joe",
+      "spoken_text": "Joe",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "source_locations": [
+        "Unit 2 教材第18页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Li Hua",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "spoken_text": "李华",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Li Hua；国家标准据以确定普通话语言路由。教材未给汉字和声调，Lǐ Huá 是供孩子清楚跟读的教学读法，‘李华’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "source_locations": [
+        "Unit 2 教材第21页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Zhang Ming",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "spoken_text": "张明",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Zhang Ming；国家标准据以确定普通话语言路由。教材未给汉字和声调，Zhāng Míng 是供孩子清楚跟读的教学读法，‘张明’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "source_locations": [
+        "Unit 2 教材第21页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Wang Qiang",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "spoken_text": "王强",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Wang Qiang；国家标准据以确定普通话语言路由。教材未给汉字和声调，Wáng Qiáng 是供孩子清楚跟读的教学读法，‘王强’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "source_locations": [
+        "Unit 2 教材第21页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Lili",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "spoken_text": "丽丽",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Lili；国家标准据以确定普通话语言路由。教材未给汉字和声调，Lìli 是教学读法，‘丽丽’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "source_locations": [
+        "Revision I 教材第44页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Mingming",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "spoken_text": "明明",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Mingming；国家标准据以确定普通话语言路由。教材未给汉字和声调，Míngming 是教学读法，‘明明’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "source_locations": [
+        "Revision I 教材第44页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Dongdong",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "spoken_text": "东东",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Dongdong；国家标准据以确定普通话语言路由。教材未给汉字和声调，Dōngdong 是教学读法，‘东东’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "source_locations": [
+        "Revision I 教材第44页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Amy",
+      "aliases": [],
+      "native_form": "Amy",
+      "spoken_text": "Amy",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "source_locations": [
+        "Revision I 教材第47页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Bob",
+      "aliases": [],
+      "native_form": "Bob",
+      "spoken_text": "Bob",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "source_locations": [
+        "Unit 6 教材第76页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Linda",
+      "aliases": [],
+      "native_form": "Linda",
+      "spoken_text": "Linda",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "source_locations": [
+        "Unit 7 教材第82页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Canada",
+      "aliases": [],
+      "native_form": "Canada",
+      "spoken_text": "Canada",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "country",
+      "source_locations": [
+        "Unit 1 Lesson 1 与 Lesson 4"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Northeast China",
+      "aliases": [],
+      "native_form": "Northeast China",
+      "spoken_text": "Northeast China",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Northeast China 作为完整英语地理短语教授；英语句中按清晰的通用美语朗读",
+      "category": "region",
+      "source_locations": [
+        "Unit 1 Lesson 1"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "China",
+      "aliases": [],
+      "native_form": "China",
+      "spoken_text": "China",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "China 是教材明确教授、英语词典收录的英语国名形式；英语句中按通用美语朗读",
+      "category": "country",
+      "source_locations": [
+        "全书多课与书后 Word List"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Beijing",
+      "aliases": [],
+      "native_form": "Beijing",
+      "spoken_text": "Bay-jing",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "Beijing 是教材英语句中的既定英文地名形式；保留教材拼写，合成层用 Bay-jing 固定清晰英语读音，避免英语语音随机误读",
+      "category": "city",
+      "source_locations": [
+        "Unit 1 Lessons 1–2"
+      ],
+      "synthesized_occurrences": 7
+    },
+    {
+      "display": "Dalian",
+      "aliases": [],
+      "native_form": "大连",
+      "spoken_text": "大连",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "source_locations": [
+        "Unit 1 Lesson 1"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Tianchi Lake",
+      "aliases": [],
+      "native_form": "天池",
+      "spoken_text": "天池",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "scenic_place",
+      "source_locations": [
+        "Unit 1 Lesson 1"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Changbai Mountain",
+      "aliases": [],
+      "native_form": "长白山",
+      "spoken_text": "长白山",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "scenic_place",
+      "source_locations": [
+        "Unit 1 Lesson 1"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Beijicun",
+      "aliases": [],
+      "native_form": "北极村",
+      "spoken_text": "北极村",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "scenic_place",
+      "source_locations": [
+        "Unit 1 Lesson 1"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Mohe",
+      "aliases": [],
+      "native_form": "漠河",
+      "spoken_text": "漠河",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "source_locations": [
+        "Unit 1 Lesson 1"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Shanghai",
+      "aliases": [],
+      "native_form": "Shanghai",
+      "spoken_text": "Shanghai",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "Shanghai 是教材英语词汇中的既定英文地名形式；英语句中按通用美语词典读音朗读",
+      "category": "city",
+      "source_locations": [
+        "Unit 1 Lesson 1 Word Bank"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Hangzhou",
+      "aliases": [],
+      "native_form": "杭州",
+      "spoken_text": "杭州",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "source_locations": [
+        "Unit 1 Lesson 1 Word Bank"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "National Library of China",
+      "aliases": [],
+      "native_form": "National Library of China",
+      "spoken_text": "National Library of China",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把机构英文全称列为本课英语学习内容；英语句中完整按通用美语朗读，中文释义另读",
+      "category": "institution",
+      "source_locations": [
+        "Unit 1 Lesson 2；Word List 第98页"
+      ],
+      "synthesized_occurrences": 8
+    },
+    {
+      "display": "China Science and Technology Museum",
+      "aliases": [],
+      "native_form": "China Science and Technology Museum",
+      "spoken_text": "China Science and Technology Museum",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把机构英文全称列为本课英语学习内容；英语句中完整按通用美语朗读，中文释义另读",
+      "category": "institution",
+      "source_locations": [
+        "Unit 1 Lesson 2；Word List 第98页"
+      ],
+      "synthesized_occurrences": 7
+    },
+    {
+      "display": "Hubei",
+      "aliases": [],
+      "native_form": "湖北",
+      "spoken_text": "湖北",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "region",
+      "source_locations": [
+        "Unit 1 Lessons 2–3"
+      ],
+      "synthesized_occurrences": 5
+    },
+    {
+      "display": "University of Toronto",
+      "aliases": [],
+      "native_form": "University of Toronto",
+      "spoken_text": "University of Toronto",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "institution",
+      "source_locations": [
+        "Unit 1 Lesson 4"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "University of Ottawa",
+      "aliases": [],
+      "native_form": "University of Ottawa",
+      "spoken_text": "University of Ottawa",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "institution",
+      "source_locations": [
+        "Unit 1 Lesson 4"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Toronto",
+      "aliases": [],
+      "native_form": "Toronto",
+      "spoken_text": "Toronto",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "city",
+      "source_locations": [
+        "Unit 1 Lesson 4；Word List 第101页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Ottawa",
+      "aliases": [],
+      "native_form": "Ottawa",
+      "spoken_text": "Ottawa",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "city",
+      "source_locations": [
+        "Unit 1 Lesson 4；Word List 第101页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Canadian Museum of History",
+      "aliases": [],
+      "native_form": "Canadian Museum of History",
+      "spoken_text": "Canadian Museum of History",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "institution",
+      "source_locations": [
+        "Unit 1 Lesson 4"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Canada Science and Technology Museum",
+      "aliases": [],
+      "native_form": "Canada Science and Technology Museum",
+      "spoken_text": "Canada Science and Technology Museum",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "institution",
+      "source_locations": [
+        "Unit 1 Lesson 4"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Hulunbuir Grassland",
+      "aliases": [],
+      "native_form": "呼伦贝尔草原",
+      "spoken_text": "呼伦贝尔草原",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "scenic_place",
+      "source_locations": [
+        "Unit 1 Project 教材第13页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Sunshine Children’s Home",
+      "aliases": [
+        "Sunshine Children's Home"
+      ],
+      "native_form": "Sunshine Children’s Home",
+      "spoken_text": "Sunshine Children’s Home",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "institution",
+      "source_locations": [
+        "Revision I 教材第44页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Smart Education of China",
+      "aliases": [],
+      "native_form": "Smart Education of China",
+      "spoken_text": "Smart Education of China",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Smart Education of China 作为英语机构名称教授；英语句中按通用美语朗读",
+      "category": "institution",
+      "source_locations": [
+        "Unit 3 Lesson 10；Word List 第99页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Finland",
+      "aliases": [],
+      "native_form": "Finland",
+      "spoken_text": "Finland",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "country",
+      "source_locations": [
+        "Unit 3 Lesson 10；Word List 第99页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Qinghai-Xizang Railway",
+      "aliases": [],
+      "native_form": "青藏铁路",
+      "spoken_text": "青藏铁路",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "institution",
+      "source_locations": [
+        "Unit 3 Lesson 11"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Xizang",
+      "aliases": [],
+      "native_form": "西藏",
+      "spoken_text": "西藏",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "region",
+      "source_locations": [
+        "Unit 3 Lesson 11"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Xining",
+      "aliases": [],
+      "native_form": "西宁",
+      "spoken_text": "西宁",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "source_locations": [
+        "Unit 3 Lesson 11"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Lhasa",
+      "aliases": [],
+      "native_form": "拉萨",
+      "spoken_text": "拉萨",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "source_locations": [
+        "Unit 3 Lesson 11"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Southwest China",
+      "aliases": [],
+      "native_form": "Southwest China",
+      "spoken_text": "Southwest China",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Southwest China 作为完整英语地理短语教授；英语句中按通用美语朗读",
+      "category": "region",
+      "source_locations": [
+        "Unit 3 Lesson 11"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "BeiDou Navigation Satellite System",
+      "aliases": [],
+      "native_form": "BeiDou Navigation Satellite System",
+      "spoken_text": "Bay-doh Navigation Satellite System",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "采用北斗系统公开使用的英文名称 BeiDou Navigation Satellite System；英语句中用固定 Bay-doh 音节载体清晰朗读英文全称",
+      "category": "institution",
+      "source_locations": [
+        "Unit 3 Lesson 12；Word List 第99页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "BDS",
+      "aliases": [],
+      "native_form": "BDS",
+      "spoken_text": "B. D. S.",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材使用英文缩写 BDS；按三个英文字母逐个朗读，不把缩写当作一个词猜读",
+      "category": "institution",
+      "source_locations": [
+        "Unit 3 Lesson 12；Word List 第99页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "BeiDou",
+      "aliases": [],
+      "native_form": "北斗",
+      "spoken_text": "北斗",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "institution",
+      "source_locations": [
+        "Unit 3 Lesson 12"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Earth",
+      "aliases": [],
+      "native_form": "Earth",
+      "spoken_text": "Earth",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "place",
+      "source_locations": [
+        "Unit 3 Lesson 12；Word List 第99页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Yunnan",
+      "aliases": [],
+      "native_form": "云南",
+      "spoken_text": "云南",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "region",
+      "source_locations": [
+        "Unit 5 Lesson 17"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "WHO",
+      "aliases": [
+        "World Health Organization"
+      ],
+      "native_form": "WHO",
+      "spoken_text": "W. H. O.",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材使用首字母缩写 WHO；在本课语境中按 W-H-O 三个英文字母逐个朗读",
+      "category": "institution",
+      "source_locations": [
+        "Unit 5 Lesson 17；Word List 第101页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Denmark",
+      "aliases": [],
+      "native_form": "Denmark",
+      "spoken_text": "Denmark",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "country",
+      "source_locations": [
+        "Unit 5 Lesson 16；Word List 第99页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "USA",
+      "aliases": [],
+      "native_form": "USA",
+      "spoken_text": "U. S. A.",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材使用首字母缩写 USA；按 U-S-A 三个英文字母逐个朗读",
+      "category": "country",
+      "source_locations": [
+        "Unit 2、Unit 5、Unit 7"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "UK",
+      "aliases": [],
+      "native_form": "UK",
+      "spoken_text": "U. K.",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材使用首字母缩写 UK；按 U-K 两个英文字母逐个朗读",
+      "category": "country",
+      "source_locations": [
+        "Unit 1 Word Bank 教材第12页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Germany",
+      "aliases": [],
+      "native_form": "Germany",
+      "spoken_text": "Germany",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "country",
+      "source_locations": [
+        "Unit 5 Lesson 18；Word List 第101页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Asia",
+      "aliases": [],
+      "native_form": "Asia",
+      "spoken_text": "Asia",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "region",
+      "source_locations": [
+        "Unit 7 Lesson 24"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "VR",
+      "aliases": [],
+      "native_form": "VR",
+      "spoken_text": "V. R.",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材使用技术缩写 VR；按 V-R 两个英文字母逐个朗读，不把缩写猜成普通单词",
+      "category": "technology",
+      "source_locations": [
+        "Unit 3 Lesson 10 教材第34页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "PPT",
+      "aliases": [],
+      "native_form": "PPT",
+      "spoken_text": "P. P. T.",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材使用常见课堂缩写 PPT；按 P-P-T 三个英文字母逐个朗读",
+      "category": "technology",
+      "source_locations": [
+        "Unit 5 Project 教材第61页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Sun Jiadong",
+      "aliases": [],
+      "native_form": "孙家栋",
+      "spoken_text": "孙家栋",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 15"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Nie Er",
+      "aliases": [],
+      "native_form": "聂耳",
+      "spoken_text": "聂耳",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 15"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Tao Xingzhi",
+      "aliases": [],
+      "native_form": "陶行知",
+      "spoken_text": "陶行知",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 15"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Qian Xuesen",
+      "aliases": [],
+      "native_form": "钱学森",
+      "spoken_text": "钱学森",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 15"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Tu Youyou",
+      "aliases": [],
+      "native_form": "屠呦呦",
+      "spoken_text": "屠呦呦",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 15"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Bing Xin",
+      "aliases": [],
+      "native_form": "冰心",
+      "spoken_text": "冰心",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 16"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Hans Christian Andersen",
+      "aliases": [],
+      "native_form": "Hans Christian Andersen",
+      "spoken_text": "Hans Christian Andersen",
+      "spoken_language": "da-DK",
+      "origin_language": "da-DK",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材注明丹麦人物，按丹麦语原名和已安装丹麦语语音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 16"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Letters to Young Readers",
+      "aliases": [],
+      "native_form": "Letters to Young Readers",
+      "spoken_text": "Letters to Young Readers",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材在英语课文中明确使用 Letters to Young Readers 作为英语书名；按清晰通用美语朗读",
+      "category": "book_title",
+      "source_locations": [
+        "Unit 5 Lesson 16 教材第53页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "The Ugly Duckling",
+      "aliases": [],
+      "native_form": "The Ugly Duckling",
+      "spoken_text": "The Ugly Duckling",
+      "spoken_language": "en-US",
+      "origin_language": "da-DK",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材采用通行英语书名 The Ugly Duckling；作为英语阅读内容按清晰通用美语朗读",
+      "category": "book_title",
+      "source_locations": [
+        "Unit 5 Lesson 16 教材第53页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "The Emperor’s New Clothes",
+      "aliases": [
+        "The Emperor's New Clothes"
+      ],
+      "native_form": "The Emperor’s New Clothes",
+      "spoken_text": "The Emperor’s New Clothes",
+      "spoken_language": "en-US",
+      "origin_language": "da-DK",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材采用通行英语书名 The Emperor's New Clothes；作为英语阅读内容按清晰通用美语朗读",
+      "category": "book_title",
+      "source_locations": [
+        "Unit 5 Lesson 16 教材第53页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "The Little Match Girl",
+      "aliases": [],
+      "native_form": "The Little Match Girl",
+      "spoken_text": "The Little Match Girl",
+      "spoken_language": "en-US",
+      "origin_language": "da-DK",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材采用通行英语书名 The Little Match Girl；作为英语阅读内容按清晰通用美语朗读",
+      "category": "book_title",
+      "source_locations": [
+        "Unit 5 Lesson 16 教材第53页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Wu Cheng’en",
+      "aliases": [
+        "Wu Cheng'en"
+      ],
+      "native_form": "吴承恩",
+      "spoken_text": "吴承恩",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 16"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Luo Guanzhong",
+      "aliases": [],
+      "native_form": "罗贯中",
+      "spoken_text": "罗贯中",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 16"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "J.K. Rowling",
+      "aliases": [
+        "J. K. Rowling"
+      ],
+      "native_form": "J.K. Rowling",
+      "spoken_text": "J. K. Rowling",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "采用作者公开英文姓名形式；首字母 J、K 分别朗读，Rowling 按英语姓名常规读音",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 16"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Cao Xueqin",
+      "aliases": [],
+      "native_form": "曹雪芹",
+      "spoken_text": "曹雪芹",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 16"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Journey to the West",
+      "aliases": [],
+      "native_form": "Journey to the West",
+      "spoken_text": "Journey to the West",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Journey to the West 作为英语书名教授；按清晰通用美语朗读，中文原名另作释义",
+      "category": "book_title",
+      "source_locations": [
+        "Unit 5 Lesson 16 Think and share 教材第55页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Romance of the Three Kingdoms",
+      "aliases": [],
+      "native_form": "Romance of the Three Kingdoms",
+      "spoken_text": "Romance of the Three Kingdoms",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Romance of the Three Kingdoms 作为英语书名教授；按清晰通用美语朗读",
+      "category": "book_title",
+      "source_locations": [
+        "Unit 5 Lesson 16 Think and share 教材第55页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Harry Potter",
+      "aliases": [],
+      "native_form": "Harry Potter",
+      "spoken_text": "Harry Potter",
+      "spoken_language": "en-US",
+      "origin_language": "en-GB",
+      "verification_status": "verified",
+      "pronunciation_basis": "采用作品公开英语名称 Harry Potter；本教材通用美语环境中保持清晰英语读音",
+      "category": "book_title",
+      "source_locations": [
+        "Unit 5 Lesson 16 Think and share 教材第55页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "A Dream of Red Mansions",
+      "aliases": [],
+      "native_form": "A Dream of Red Mansions",
+      "spoken_text": "A Dream of Red Mansions",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "严格保留教材印刷形式 A Dream of Red Mansions，并按清晰通用美语朗读；不擅自替换成其他英译书名",
+      "category": "book_title",
+      "source_locations": [
+        "Unit 5 Lesson 16 Think and share 教材第55页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Gu Fangzhou",
+      "aliases": [],
+      "native_form": "顾方舟",
+      "spoken_text": "顾方舟",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 17"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Bi Sheng",
+      "aliases": [],
+      "native_form": "毕昇",
+      "spoken_text": "毕昇",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 18"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Thomas Alva Edison",
+      "aliases": [
+        "Thomas Edison"
+      ],
+      "native_form": "Thomas Alva Edison",
+      "spoken_text": "Thomas Alva Edison",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 18"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "March of the Volunteers",
+      "aliases": [],
+      "native_form": "March of the Volunteers",
+      "spoken_text": "March of the Volunteers",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材采用英语标题 March of the Volunteers；英语活动中按清晰通用美语朗读",
+      "category": "work_title",
+      "source_locations": [
+        "Unit 5 Lesson 15 Listen, match and say 教材第51页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "The Father of Sugar Pills",
+      "aliases": [],
+      "native_form": "The Father of Sugar Pills",
+      "spoken_text": "The Father of Sugar Pills",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语课文标题 The Father of Sugar Pills 呈现；按清晰通用美语朗读",
+      "category": "work_title",
+      "source_locations": [
+        "Unit 5 Lesson 17 教材第56页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Li Bai",
+      "aliases": [],
+      "native_form": "李白",
+      "spoken_text": "李白",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 18"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Ludwig van Beethoven",
+      "aliases": [
+        "Beethoven"
+      ],
+      "native_form": "Ludwig van Beethoven",
+      "spoken_text": "Ludwig van Beethoven",
+      "spoken_language": "de-DE",
+      "origin_language": "de-DE",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材注明德国人物，按德语原名和已安装德语语音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 18"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Fur Elise",
+      "aliases": [
+        "Für Elise"
+      ],
+      "native_form": "Für Elise",
+      "spoken_text": "Für Elise",
+      "spoken_language": "de-DE",
+      "origin_language": "de-DE",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材印作 Fur Elise；原德语标题为 Für Elise，专名卡由德语语音清楚朗读，教材显示拼写保持不改",
+      "category": "work_title",
+      "source_locations": [
+        "Unit 5 Lesson 18 Activity 2 教材第60页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Thoughts in the Silent Night",
+      "aliases": [],
+      "native_form": "Thoughts in the Silent Night",
+      "spoken_text": "Thoughts in the Silent Night",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Thoughts in the Silent Night 作为英语译题教授；按清晰通用美语朗读，中文原题另作释义",
+      "category": "work_title",
+      "source_locations": [
+        "Unit 5 Lesson 18 教材第59–60页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Xu Yuanchong",
+      "aliases": [],
+      "native_form": "许渊冲",
+      "spoken_text": "许渊冲",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Unit 5 Lesson 18 教材第60页译者标注"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Chinese Zodiac",
+      "aliases": [],
+      "native_form": "Chinese Zodiac",
+      "spoken_text": "Chinese Zodiac",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Chinese Zodiac 作为明确英语教学目标，保留教材英语形式",
+      "category": "cultural_item",
+      "source_locations": [
+        "Unit 7；Word List 第100页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Spring Festival",
+      "aliases": [],
+      "native_form": "Spring Festival",
+      "spoken_text": "Spring Festival",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Spring Festival 作为明确英语教学目标，保留教材英语形式",
+      "category": "cultural_item",
+      "source_locations": [
+        "Unit 7 Lessons 24–25"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Chinese New Year",
+      "aliases": [],
+      "native_form": "Chinese New Year",
+      "spoken_text": "Chinese New Year",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Chinese New Year 作为明确英语教学目标，保留教材英语形式",
+      "category": "cultural_item",
+      "source_locations": [
+        "Unit 7 Lessons 23–25"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Mid-Autumn Festival",
+      "aliases": [],
+      "native_form": "Mid-Autumn Festival",
+      "spoken_text": "Mid-Autumn Festival",
+      "spoken_language": "en-US",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材在英语句中使用 Mid-Autumn Festival；这是明确英语表达，按清晰通用美语朗读，中文节名另作释义",
+      "category": "cultural_item",
+      "source_locations": [
+        "Unit 7 Revision II 教材第95页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Han Dynasty",
+      "aliases": [],
+      "native_form": "Han Dynasty",
+      "spoken_text": "Han Dynasty",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Han Dynasty 作为明确英语教学目标，保留教材英语形式",
+      "category": "cultural_item",
+      "source_locations": [
+        "Culture Corner 教材第96页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Hanfu",
+      "aliases": [],
+      "native_form": "汉服",
+      "spoken_text": "汉服",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "cultural_item",
+      "source_locations": [
+        "Culture Corner 教材第96页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Yugong",
+      "aliases": [],
+      "native_form": "愚公",
+      "spoken_text": "愚公",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Taihang",
+      "aliases": [],
+      "native_form": "太行山",
+      "spoken_text": "太行山",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "landmark",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Wangwu",
+      "aliases": [],
+      "native_form": "王屋山",
+      "spoken_text": "王屋山",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "landmark",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Jizhou",
+      "aliases": [],
+      "native_form": "冀州",
+      "spoken_text": "冀州",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "region",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Heyang",
+      "aliases": [],
+      "native_form": "河阳",
+      "spoken_text": "河阳",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "region",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Bohai",
+      "aliases": [],
+      "native_form": "渤海",
+      "spoken_text": "渤海",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "landmark",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Zhishou",
+      "aliases": [],
+      "native_form": "智叟",
+      "spoken_text": "智叟",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "God of Mountains",
+      "aliases": [],
+      "native_form": "God of Mountains",
+      "spoken_text": "God of Mountains",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材以英语译名作为阅读目标，保留教材英语形式",
+      "category": "cultural_item",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Heavenly God",
+      "aliases": [],
+      "native_form": "Heavenly God",
+      "spoken_text": "Heavenly God",
+      "spoken_language": "en-US",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材以英语译名作为阅读目标，保留教材英语形式",
+      "category": "cultural_item",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ],
+      "synthesized_occurrences": 0
+    },
+    {
+      "display": "Kua’eshi",
+      "aliases": [
+        "Kua'eshi"
+      ],
+      "native_form": "夸娥氏",
+      "spoken_text": "夸娥氏",
+      "spoken_language": "zh-CN",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ],
+      "synthesized_occurrences": 0
+    }
+  ],
+  "contexts": [
+    {
+      "context": "dialogue[1].english",
+      "text": "Hi, Lingling. Did you travel this summer vacation?",
+      "matches": [
+        {
+          "matched_form": "Lingling",
+          "display": "Lingling",
+          "spoken_text": "玲玲",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[2].english",
+      "text": "No, I didn’t. I stayed in Beijing. I went to the National Library of China on foot and read books there.",
+      "matches": [
+        {
+          "matched_form": "Beijing",
+          "display": "Beijing",
+          "spoken_text": "Bay-jing",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "city"
+        },
+        {
+          "matched_form": "National Library of China",
+          "display": "National Library of China",
+          "spoken_text": "National Library of China",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[3].english",
+      "text": "That’s good. Did you also stay in Beijing, Maomao?",
+      "matches": [
+        {
+          "matched_form": "Beijing",
+          "display": "Beijing",
+          "spoken_text": "Bay-jing",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "city"
+        },
+        {
+          "matched_form": "Maomao",
+          "display": "Maomao",
+          "spoken_text": "毛毛",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[4].english",
+      "text": "Yes, I did. I worked as a volunteer at China Science and Technology Museum.",
+      "matches": [
+        {
+          "matched_form": "China Science and Technology Museum",
+          "display": "China Science and Technology Museum",
+          "spoken_text": "China Science and Technology Museum",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[5].english",
+      "text": "Wonderful! When did you work there?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[6].english",
+      "text": "From August 1st to 10th.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[7].english",
+      "text": "Is the museum far from your home? How did you get there?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[8].english",
+      "text": "Not too far. I went there by bus. Where did you go, Guoguo?",
+      "matches": [
+        {
+          "matched_form": "Guoguo",
+          "display": "Guoguo",
+          "spoken_text": "果果",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[9].english",
+      "text": "I went to Hubei to see my grandparents. I learned to take care of plants and animals.",
+      "matches": [
+        {
+          "matched_form": "Hubei",
+          "display": "Hubei",
+          "spoken_text": "湖北",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "region"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[10].english",
+      "text": "Hubei is far from here. How did you get there?",
+      "matches": [
+        {
+          "matched_form": "Hubei",
+          "display": "Hubei",
+          "spoken_text": "湖北",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "region"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[11].english",
+      "text": "I took a train.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "dialogue[12].english",
+      "text": "Wow! All of us had a meaningful summer vacation.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "listen_and_say[1].question",
+      "text": "Where did he/she go this summer vacation?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "listen_and_say[1].answer",
+      "text": "Lingling went to the National Library of China. Maomao went to China Science and Technology Museum. Guoguo went to Hubei.",
+      "matches": [
+        {
+          "matched_form": "Lingling",
+          "display": "Lingling",
+          "spoken_text": "玲玲",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "National Library of China",
+          "display": "National Library of China",
+          "spoken_text": "National Library of China",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        },
+        {
+          "matched_form": "Maomao",
+          "display": "Maomao",
+          "spoken_text": "毛毛",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "China Science and Technology Museum",
+          "display": "China Science and Technology Museum",
+          "spoken_text": "China Science and Technology Museum",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        },
+        {
+          "matched_form": "Guoguo",
+          "display": "Guoguo",
+          "spoken_text": "果果",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Hubei",
+          "display": "Hubei",
+          "spoken_text": "湖北",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "region"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "listen_and_say[2].question",
+      "text": "What did he/she do there?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "listen_and_say[2].answer",
+      "text": "Lingling read books. Maomao worked as a volunteer. Guoguo learned to take care of plants and animals.",
+      "matches": [
+        {
+          "matched_form": "Lingling",
+          "display": "Lingling",
+          "spoken_text": "玲玲",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Maomao",
+          "display": "Maomao",
+          "spoken_text": "毛毛",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Guoguo",
+          "display": "Guoguo",
+          "spoken_text": "果果",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "listen_and_say[3].question",
+      "text": "How did he/she get there?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "listen_and_say[3].answer",
+      "text": "Lingling went on foot. Maomao went by bus. Guoguo took a train.",
+      "matches": [
+        {
+          "matched_form": "Lingling",
+          "display": "Lingling",
+          "spoken_text": "玲玲",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Maomao",
+          "display": "Maomao",
+          "spoken_text": "毛毛",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Guoguo",
+          "display": "Guoguo",
+          "spoken_text": "果果",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[1].prompt",
+      "text": "Did you travel this summer vacation?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[1].answer",
+      "text": "No, I didn’t. I stayed in Beijing.",
+      "matches": [
+        {
+          "matched_form": "Beijing",
+          "display": "Beijing",
+          "spoken_text": "Bay-jing",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "city"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[2].prompt",
+      "text": "Where did you go this summer vacation?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[2].answer",
+      "text": "I went to the National Library of China.",
+      "matches": [
+        {
+          "matched_form": "National Library of China",
+          "display": "National Library of China",
+          "spoken_text": "National Library of China",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[3].prompt",
+      "text": "What did you do there?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[3].answer",
+      "text": "I read books there.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[4].prompt",
+      "text": "How did you get there?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "role_play[4].answer",
+      "text": "I went there on foot.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model",
+      "text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and read books there. I also learned many new things.",
+      "matches": [
+        {
+          "matched_form": "Lingling",
+          "display": "Lingling",
+          "spoken_text": "玲玲",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Beijing",
+          "display": "Beijing",
+          "spoken_text": "Bay-jing",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "city"
+        },
+        {
+          "matched_form": "National Library of China",
+          "display": "National Library of China",
+          "spoken_text": "National Library of China",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[1].headword",
+      "text": "meaningful",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[1].collocation",
+      "text": "a meaningful summer vacation",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[1].sentence",
+      "text": "All of us had a meaningful summer vacation.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[1].headword_repeat",
+      "text": "meaningful",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[2].headword",
+      "text": "on foot",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[2].collocation",
+      "text": "go there on foot",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[2].sentence",
+      "text": "Lingling went to the library on foot.",
+      "matches": [
+        {
+          "matched_form": "Lingling",
+          "display": "Lingling",
+          "spoken_text": "玲玲",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[2].headword_repeat",
+      "text": "on foot",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[3].headword",
+      "text": "National Library of China",
+      "matches": [
+        {
+          "matched_form": "National Library of China",
+          "display": "National Library of China",
+          "spoken_text": "National Library of China",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[3].collocation",
+      "text": "visit the National Library of China",
+      "matches": [
+        {
+          "matched_form": "National Library of China",
+          "display": "National Library of China",
+          "spoken_text": "National Library of China",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[3].sentence",
+      "text": "I read books at the National Library of China.",
+      "matches": [
+        {
+          "matched_form": "National Library of China",
+          "display": "National Library of China",
+          "spoken_text": "National Library of China",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[3].headword_repeat",
+      "text": "National Library of China",
+      "matches": [
+        {
+          "matched_form": "National Library of China",
+          "display": "National Library of China",
+          "spoken_text": "National Library of China",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[4].headword",
+      "text": "China Science and Technology Museum",
+      "matches": [
+        {
+          "matched_form": "China Science and Technology Museum",
+          "display": "China Science and Technology Museum",
+          "spoken_text": "China Science and Technology Museum",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[4].collocation",
+      "text": "volunteer at China Science and Technology Museum",
+      "matches": [
+        {
+          "matched_form": "China Science and Technology Museum",
+          "display": "China Science and Technology Museum",
+          "spoken_text": "China Science and Technology Museum",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[4].sentence",
+      "text": "Maomao worked at China Science and Technology Museum.",
+      "matches": [
+        {
+          "matched_form": "Maomao",
+          "display": "Maomao",
+          "spoken_text": "毛毛",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "China Science and Technology Museum",
+          "display": "China Science and Technology Museum",
+          "spoken_text": "China Science and Technology Museum",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[4].headword_repeat",
+      "text": "China Science and Technology Museum",
+      "matches": [
+        {
+          "matched_form": "China Science and Technology Museum",
+          "display": "China Science and Technology Museum",
+          "spoken_text": "China Science and Technology Museum",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[5].headword",
+      "text": "far from",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[5].collocation",
+      "text": "far from home",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[5].sentence",
+      "text": "Hubei is far from Beijing.",
+      "matches": [
+        {
+          "matched_form": "Hubei",
+          "display": "Hubei",
+          "spoken_text": "湖北",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "region"
+        },
+        {
+          "matched_form": "Beijing",
+          "display": "Beijing",
+          "spoken_text": "Bay-jing",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "city"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "vocabulary[5].headword_repeat",
+      "text": "far from",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[1].examples[1]",
+      "text": "Did you travel this summer vacation?",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[1].examples[2]",
+      "text": "No, I didn’t. I stayed in Beijing.",
+      "matches": [
+        {
+          "matched_form": "Beijing",
+          "display": "Beijing",
+          "spoken_text": "Bay-jing",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "city"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[2].examples[1]",
+      "text": "Where did Guoguo go?",
+      "matches": [
+        {
+          "matched_form": "Guoguo",
+          "display": "Guoguo",
+          "spoken_text": "果果",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[2].examples[2]",
+      "text": "What did Maomao do there?",
+      "matches": [
+        {
+          "matched_form": "Maomao",
+          "display": "Maomao",
+          "spoken_text": "毛毛",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[2].examples[3]",
+      "text": "How did Lingling get there?",
+      "matches": [
+        {
+          "matched_form": "Lingling",
+          "display": "Lingling",
+          "spoken_text": "玲玲",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].examples[1]",
+      "text": "I worked as a volunteer.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].examples[2]",
+      "text": "I took a train.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].examples[3]",
+      "text": "I read books there.",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[1].examples[1]",
+      "text": "foot",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[1].examples[2]",
+      "text": "book",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[1].examples[3]",
+      "text": "good",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[1].examples[4]",
+      "text": "look",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[2].examples[1]",
+      "text": "far",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[2].examples[2]",
+      "text": "car",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[2].examples[3]",
+      "text": "park",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[2].examples[4]",
+      "text": "start",
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "quiz[1].question",
+      "text": "Did Lingling travel this summer vacation?",
+      "matches": [
+        {
+          "matched_form": "Lingling",
+          "display": "Lingling",
+          "spoken_text": "玲玲",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "quiz[1].answer",
+      "text": "No, she didn’t. She stayed in Beijing.",
+      "matches": [
+        {
+          "matched_form": "Beijing",
+          "display": "Beijing",
+          "spoken_text": "Bay-jing",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "city"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "quiz[2].question",
+      "text": "Where did Maomao work as a volunteer?",
+      "matches": [
+        {
+          "matched_form": "Maomao",
+          "display": "Maomao",
+          "spoken_text": "毛毛",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "quiz[2].answer",
+      "text": "He worked at China Science and Technology Museum.",
+      "matches": [
+        {
+          "matched_form": "China Science and Technology Museum",
+          "display": "China Science and Technology Museum",
+          "spoken_text": "China Science and Technology Museum",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "quiz[3].question",
+      "text": "How did Guoguo get to Hubei?",
+      "matches": [
+        {
+          "matched_form": "Guoguo",
+          "display": "Guoguo",
+          "spoken_text": "果果",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        },
+        {
+          "matched_form": "Hubei",
+          "display": "Hubei",
+          "spoken_text": "湖北",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "region"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "quiz[3].answer",
+      "text": "She took a train.",
+      "matches": [],
+      "segmentation_applied": true
+    }
+  ],
+  "unsegmented_known_occurrences": [],
+  "unresolved_pronunciations": []
+}

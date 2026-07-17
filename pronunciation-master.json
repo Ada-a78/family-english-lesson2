@@ -1,0 +1,1959 @@
+{
+  "schema_version": 2,
+  "policy": "full_book_plus_external_resources_multilingual_routing",
+  "coverage_status": "complete_full_book_reviewed",
+  "source_corpus_scanned": true,
+  "source_registry": [
+    {
+      "source_id": "textbook-2026-beijing-english-grade6-1",
+      "path": "教材/2026秋新版北京版英语六上.pdf",
+      "type": "textbook",
+      "coverage": "109/109 PDF pages rendered and reviewed, including Reading for Pleasure and both Word Lists"
+    },
+    {
+      "source_id": "gbt-28039-2011",
+      "title": "中国人名汉语拼音字母拼写规则",
+      "type": "national_standard",
+      "publisher": "国家市场监督管理总局／国家标准化管理委员会",
+      "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=22334869F6825C2492FC9BC913430EAD",
+      "use": "中国人名的汉语拼音拼写与普通话语言归属判定"
+    },
+    {
+      "source_id": "gbt-16159-2012",
+      "title": "汉语拼音正词法基本规则",
+      "type": "national_standard",
+      "publisher": "中华人民共和国教育部／国家标准化管理委员会",
+      "url": "https://www.moe.gov.cn/ewebeditor/uploadfile/2015/01/13/20150113091717604.pdf",
+      "use": "教育、编辑和出版场景中的汉语拼音规范与普通话读音路由"
+    },
+    {
+      "source_id": "cambridge-english-pronunciation",
+      "title": "Cambridge Dictionary English Pronunciation",
+      "type": "publisher_dictionary",
+      "publisher": "Cambridge University Press & Assessment",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/",
+      "use": "教材普通英语词、既定英语形式和美式英语词典读音复核"
+    },
+    {
+      "source_id": "merriam-webster-pronunciation-guide",
+      "title": "Merriam-Webster Guide to Pronunciation and Dictionary Headwords",
+      "type": "publisher_dictionary",
+      "publisher": "Merriam-Webster",
+      "url": "https://www.merriam-webster.com/grammar/how-to-use-the-dictionary",
+      "use": "区分现代英语词典读音与历史词源；复核普通英语词不回退到历史来源语言"
+    }
+  ],
+  "merge_precedence": [
+    "explicit_user_override",
+    "source_supplied_pronunciation_or_audio",
+    "authoritative_native_form",
+    "verified_book_master",
+    "reviewed_lesson_or_external_delta"
+  ],
+  "review_notes": [
+    "Li Yu、Li Hua、Zhang Ming、Wang Qiang、Lili、Mingming、Dongdong 均由美式英语路由改为普通话路由。",
+    "这些名字在教材中只有无声调拉丁拼写，没有汉字；词典明确把合成用汉字标为发音载体，不能当作教材原名汉字。",
+    "英语句中已经英语化并作为教学目标出现的国名、地名、机构英文全称按清晰通用美语朗读；中文释义仍用普通话。",
+    "WHO、USA、BDS、J.K. 均使用逐字母朗读层，避免语音引擎把缩写猜成普通单词。"
+  ],
+  "unresolved_pronunciations": [],
+  "terms": [
+    {
+      "display": "Baobao",
+      "aliases": [],
+      "native_form": "宝宝",
+      "romanization": "Bǎobǎo",
+      "spoken_text": "宝宝",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "教材人物名",
+      "source_locations": [
+        "全书人物表第1页；Lesson 1"
+      ]
+    },
+    {
+      "display": "Maomao",
+      "aliases": [],
+      "native_form": "毛毛",
+      "romanization": "Máomao",
+      "spoken_text": "毛毛",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "教材人物名",
+      "source_locations": [
+        "全书人物表第1页；Lesson 2"
+      ]
+    },
+    {
+      "display": "Yangyang",
+      "aliases": [],
+      "native_form": "阳阳",
+      "romanization": "Yángyang",
+      "spoken_text": "阳阳",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "教材人物名",
+      "source_locations": [
+        "全书人物表第1页；Lesson 1"
+      ]
+    },
+    {
+      "display": "Ms Wang",
+      "aliases": [
+        "Ms. Wang"
+      ],
+      "native_form": "王老师",
+      "romanization": "Wáng lǎoshī",
+      "spoken_text": "王老师",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "teacher",
+      "meaning": "教材教师称呼",
+      "source_locations": [
+        "全书人物表第1页；Lesson 1"
+      ]
+    },
+    {
+      "display": "Lingling",
+      "aliases": [],
+      "native_form": "玲玲",
+      "romanization": "Língling",
+      "spoken_text": "玲玲",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "教材人物名",
+      "source_locations": [
+        "全书人物表第1页；Lesson 2"
+      ]
+    },
+    {
+      "display": "Guoguo",
+      "aliases": [],
+      "native_form": "果果",
+      "romanization": "Guǒguo",
+      "spoken_text": "果果",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "教材人物名",
+      "source_locations": [
+        "全书人物表第1页；Lesson 2"
+      ]
+    },
+    {
+      "display": "Mike",
+      "aliases": [],
+      "native_form": "Mike",
+      "romanization": "",
+      "spoken_text": "Mike",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "meaning": "教材人物名",
+      "source_locations": [
+        "全书人物表第1页；多课主对话"
+      ]
+    },
+    {
+      "display": "Sara",
+      "aliases": [],
+      "native_form": "Sara",
+      "romanization": "",
+      "spoken_text": "Sara",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "meaning": "教材人物名",
+      "source_locations": [
+        "全书人物表第1页；Lesson 4 等"
+      ]
+    },
+    {
+      "display": "Kate",
+      "aliases": [],
+      "native_form": "Kate",
+      "romanization": "",
+      "spoken_text": "Kate",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "meaning": "教材动物角色名",
+      "source_locations": [
+        "全书人物表第1页"
+      ]
+    },
+    {
+      "display": "Danny",
+      "aliases": [],
+      "native_form": "Danny",
+      "romanization": "",
+      "spoken_text": "Danny",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "meaning": "教材动物角色名",
+      "source_locations": [
+        "全书人物表第1页"
+      ]
+    },
+    {
+      "display": "John",
+      "aliases": [],
+      "native_form": "John",
+      "romanization": "",
+      "spoken_text": "John",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "meaning": "教材人物名",
+      "source_locations": [
+        "Unit 1 教材第10页"
+      ]
+    },
+    {
+      "display": "Peter",
+      "aliases": [],
+      "native_form": "Peter",
+      "romanization": "",
+      "spoken_text": "Peter",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "meaning": "教材人物名",
+      "source_locations": [
+        "Unit 2 教材第18页"
+      ]
+    },
+    {
+      "display": "Li Yu",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "romanization": "Lǐ Yǔ",
+      "spoken_text": "李宇",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Li Yu；依据 GB/T 28039—2011 与 GB/T 16159—2012，确定应走普通话而非英语语音。教材未给汉字和声调，Lǐ Yǔ 是供孩子清楚跟读的教学读法，‘李宇’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "meaning": "教材中的中国人物名",
+      "source_locations": [
+        "Unit 2 教材第18页"
+      ],
+      "pronunciation_display_label": "普通话教学读法（教材无声调）：Lǐ Yǔ"
+    },
+    {
+      "display": "Joe",
+      "aliases": [],
+      "native_form": "Joe",
+      "romanization": "",
+      "spoken_text": "Joe",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "meaning": "教材人物名",
+      "source_locations": [
+        "Unit 2 教材第18页"
+      ]
+    },
+    {
+      "display": "Li Hua",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "romanization": "Lǐ Huá",
+      "spoken_text": "李华",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Li Hua；国家标准据以确定普通话语言路由。教材未给汉字和声调，Lǐ Huá 是供孩子清楚跟读的教学读法，‘李华’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "meaning": "教材中的中国人物名",
+      "source_locations": [
+        "Unit 2 教材第21页"
+      ],
+      "pronunciation_display_label": "普通话教学读法（教材无声调）：Lǐ Huá"
+    },
+    {
+      "display": "Zhang Ming",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "romanization": "Zhāng Míng",
+      "spoken_text": "张明",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Zhang Ming；国家标准据以确定普通话语言路由。教材未给汉字和声调，Zhāng Míng 是供孩子清楚跟读的教学读法，‘张明’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "meaning": "教材中的中国人物名",
+      "source_locations": [
+        "Unit 2 教材第21页"
+      ],
+      "pronunciation_display_label": "普通话教学读法（教材无声调）：Zhāng Míng"
+    },
+    {
+      "display": "Wang Qiang",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "romanization": "Wáng Qiáng",
+      "spoken_text": "王强",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Wang Qiang；国家标准据以确定普通话语言路由。教材未给汉字和声调，Wáng Qiáng 是供孩子清楚跟读的教学读法，‘王强’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "meaning": "教材中的中国人物名",
+      "source_locations": [
+        "Unit 2 教材第21页"
+      ],
+      "pronunciation_display_label": "普通话教学读法（教材无声调）：Wáng Qiáng"
+    },
+    {
+      "display": "Lili",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "romanization": "Lìli",
+      "spoken_text": "丽丽",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Lili；国家标准据以确定普通话语言路由。教材未给汉字和声调，Lìli 是教学读法，‘丽丽’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "meaning": "教材中的中国人物名",
+      "source_locations": [
+        "Revision I 教材第44页"
+      ],
+      "pronunciation_display_label": "普通话教学读法（教材无声调）：Lìli"
+    },
+    {
+      "display": "Mingming",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "romanization": "Míngming",
+      "spoken_text": "明明",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Mingming；国家标准据以确定普通话语言路由。教材未给汉字和声调，Míngming 是教学读法，‘明明’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "meaning": "教材中的中国人物名",
+      "source_locations": [
+        "Revision I 教材第44页"
+      ],
+      "pronunciation_display_label": "普通话教学读法（教材无声调）：Míngming"
+    },
+    {
+      "display": "Dongdong",
+      "aliases": [],
+      "native_form": "教材未给汉字",
+      "romanization": "Dōngdong",
+      "spoken_text": "东东",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材只给无声调汉语拼音 Dongdong；国家标准据以确定普通话语言路由。教材未给汉字和声调，Dōngdong 是教学读法，‘东东’仅作合成语音发音载体，均不宣称为出版社给定原名",
+      "category": "person",
+      "meaning": "教材中的中国人物名",
+      "source_locations": [
+        "Revision I 教材第44页"
+      ],
+      "pronunciation_display_label": "普通话教学读法（教材无声调）：Dōngdong"
+    },
+    {
+      "display": "Amy",
+      "aliases": [],
+      "native_form": "Amy",
+      "romanization": "",
+      "spoken_text": "Amy",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "meaning": "教材人物名",
+      "source_locations": [
+        "Revision I 教材第47页"
+      ]
+    },
+    {
+      "display": "Bob",
+      "aliases": [],
+      "native_form": "Bob",
+      "romanization": "",
+      "spoken_text": "Bob",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "meaning": "教材人物名",
+      "source_locations": [
+        "Unit 6 教材第76页"
+      ]
+    },
+    {
+      "display": "Linda",
+      "aliases": [],
+      "native_form": "Linda",
+      "romanization": "",
+      "spoken_text": "Linda",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "meaning": "教材人物名",
+      "source_locations": [
+        "Unit 7 教材第82页"
+      ]
+    },
+    {
+      "display": "Canada",
+      "aliases": [],
+      "native_form": "Canada",
+      "romanization": "",
+      "spoken_text": "Canada",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "country",
+      "meaning": "国家名（加拿大）",
+      "source_locations": [
+        "Unit 1 Lesson 1 与 Lesson 4"
+      ]
+    },
+    {
+      "display": "Northeast China",
+      "aliases": [],
+      "native_form": "Northeast China",
+      "romanization": "",
+      "spoken_text": "Northeast China",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Northeast China 作为完整英语地理短语教授；英语句中按清晰的通用美语朗读",
+      "category": "region",
+      "meaning": "中国东北地区",
+      "source_locations": [
+        "Unit 1 Lesson 1"
+      ]
+    },
+    {
+      "display": "China",
+      "aliases": [],
+      "native_form": "China",
+      "romanization": "",
+      "spoken_text": "China",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "China 是教材明确教授、英语词典收录的英语国名形式；英语句中按通用美语朗读",
+      "category": "country",
+      "meaning": "中国",
+      "source_locations": [
+        "全书多课与书后 Word List"
+      ]
+    },
+    {
+      "display": "Beijing",
+      "aliases": [],
+      "native_form": "Beijing",
+      "romanization": "Běijīng",
+      "spoken_text": "Bay-jing",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "Beijing 是教材英语句中的既定英文地名形式；保留教材拼写，合成层用 Bay-jing 固定清晰英语读音，避免英语语音随机误读",
+      "category": "city",
+      "meaning": "中国首都",
+      "source_locations": [
+        "Unit 1 Lessons 1–2"
+      ]
+    },
+    {
+      "display": "Dalian",
+      "aliases": [],
+      "native_form": "大连",
+      "romanization": "Dàlián",
+      "spoken_text": "大连",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "meaning": "中国城市",
+      "source_locations": [
+        "Unit 1 Lesson 1"
+      ]
+    },
+    {
+      "display": "Tianchi Lake",
+      "aliases": [],
+      "native_form": "天池",
+      "romanization": "Tiānchí",
+      "spoken_text": "天池",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "scenic_place",
+      "meaning": "长白山天池",
+      "source_locations": [
+        "Unit 1 Lesson 1"
+      ]
+    },
+    {
+      "display": "Changbai Mountain",
+      "aliases": [],
+      "native_form": "长白山",
+      "romanization": "Chángbáishān",
+      "spoken_text": "长白山",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "scenic_place",
+      "meaning": "中国山脉和景区",
+      "source_locations": [
+        "Unit 1 Lesson 1"
+      ]
+    },
+    {
+      "display": "Beijicun",
+      "aliases": [],
+      "native_form": "北极村",
+      "romanization": "Běijícūn",
+      "spoken_text": "北极村",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "scenic_place",
+      "meaning": "漠河北极村景区",
+      "source_locations": [
+        "Unit 1 Lesson 1"
+      ]
+    },
+    {
+      "display": "Mohe",
+      "aliases": [],
+      "native_form": "漠河",
+      "romanization": "Mòhé",
+      "spoken_text": "漠河",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "meaning": "中国城市",
+      "source_locations": [
+        "Unit 1 Lesson 1"
+      ]
+    },
+    {
+      "display": "Shanghai",
+      "aliases": [],
+      "native_form": "Shanghai",
+      "romanization": "Shànghǎi",
+      "spoken_text": "Shanghai",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "Shanghai 是教材英语词汇中的既定英文地名形式；英语句中按通用美语词典读音朗读",
+      "category": "city",
+      "meaning": "中国城市",
+      "source_locations": [
+        "Unit 1 Lesson 1 Word Bank"
+      ]
+    },
+    {
+      "display": "Hangzhou",
+      "aliases": [],
+      "native_form": "杭州",
+      "romanization": "Hángzhōu",
+      "spoken_text": "杭州",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "meaning": "中国城市",
+      "source_locations": [
+        "Unit 1 Lesson 1 Word Bank"
+      ]
+    },
+    {
+      "display": "National Library of China",
+      "aliases": [],
+      "native_form": "National Library of China",
+      "romanization": "",
+      "spoken_text": "National Library of China",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把机构英文全称列为本课英语学习内容；英语句中完整按通用美语朗读，中文释义另读",
+      "category": "institution",
+      "meaning": "中国国家图书馆",
+      "source_locations": [
+        "Unit 1 Lesson 2；Word List 第98页"
+      ]
+    },
+    {
+      "display": "China Science and Technology Museum",
+      "aliases": [],
+      "native_form": "China Science and Technology Museum",
+      "romanization": "",
+      "spoken_text": "China Science and Technology Museum",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把机构英文全称列为本课英语学习内容；英语句中完整按通用美语朗读，中文释义另读",
+      "category": "institution",
+      "meaning": "中国科学技术馆",
+      "source_locations": [
+        "Unit 1 Lesson 2；Word List 第98页"
+      ]
+    },
+    {
+      "display": "Hubei",
+      "aliases": [],
+      "native_form": "湖北",
+      "romanization": "Húběi",
+      "spoken_text": "湖北",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "region",
+      "meaning": "中国湖北省",
+      "source_locations": [
+        "Unit 1 Lessons 2–3"
+      ]
+    },
+    {
+      "display": "University of Toronto",
+      "aliases": [],
+      "native_form": "University of Toronto",
+      "romanization": "",
+      "spoken_text": "University of Toronto",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "institution",
+      "meaning": "多伦多大学",
+      "source_locations": [
+        "Unit 1 Lesson 4"
+      ]
+    },
+    {
+      "display": "University of Ottawa",
+      "aliases": [],
+      "native_form": "University of Ottawa",
+      "romanization": "",
+      "spoken_text": "University of Ottawa",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "institution",
+      "meaning": "渥太华大学",
+      "source_locations": [
+        "Unit 1 Lesson 4"
+      ]
+    },
+    {
+      "display": "Toronto",
+      "aliases": [],
+      "native_form": "Toronto",
+      "romanization": "",
+      "spoken_text": "Toronto",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "city",
+      "meaning": "加拿大城市多伦多",
+      "source_locations": [
+        "Unit 1 Lesson 4；Word List 第101页"
+      ]
+    },
+    {
+      "display": "Ottawa",
+      "aliases": [],
+      "native_form": "Ottawa",
+      "romanization": "",
+      "spoken_text": "Ottawa",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "city",
+      "meaning": "加拿大城市渥太华",
+      "source_locations": [
+        "Unit 1 Lesson 4；Word List 第101页"
+      ]
+    },
+    {
+      "display": "Canadian Museum of History",
+      "aliases": [],
+      "native_form": "Canadian Museum of History",
+      "romanization": "",
+      "spoken_text": "Canadian Museum of History",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "institution",
+      "meaning": "加拿大历史博物馆",
+      "source_locations": [
+        "Unit 1 Lesson 4"
+      ]
+    },
+    {
+      "display": "Canada Science and Technology Museum",
+      "aliases": [],
+      "native_form": "Canada Science and Technology Museum",
+      "romanization": "",
+      "spoken_text": "Canada Science and Technology Museum",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "institution",
+      "meaning": "加拿大科技博物馆",
+      "source_locations": [
+        "Unit 1 Lesson 4"
+      ]
+    },
+    {
+      "display": "Hulunbuir Grassland",
+      "aliases": [],
+      "native_form": "呼伦贝尔草原",
+      "romanization": "Hūlúnbèi'ěr Cǎoyuán",
+      "spoken_text": "呼伦贝尔草原",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "scenic_place",
+      "meaning": "呼伦贝尔草原",
+      "source_locations": [
+        "Unit 1 Project 教材第13页"
+      ]
+    },
+    {
+      "display": "Sunshine Children’s Home",
+      "aliases": [
+        "Sunshine Children's Home"
+      ],
+      "native_form": "Sunshine Children’s Home",
+      "romanization": "",
+      "spoken_text": "Sunshine Children’s Home",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "institution",
+      "meaning": "教材活动中的儿童之家",
+      "source_locations": [
+        "Revision I 教材第44页"
+      ]
+    },
+    {
+      "display": "Smart Education of China",
+      "aliases": [],
+      "native_form": "Smart Education of China",
+      "romanization": "",
+      "spoken_text": "Smart Education of China",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Smart Education of China 作为英语机构名称教授；英语句中按通用美语朗读",
+      "category": "institution",
+      "meaning": "国家智慧教育平台",
+      "source_locations": [
+        "Unit 3 Lesson 10；Word List 第99页"
+      ]
+    },
+    {
+      "display": "Finland",
+      "aliases": [],
+      "native_form": "Finland",
+      "romanization": "",
+      "spoken_text": "Finland",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "country",
+      "meaning": "国家名（芬兰）",
+      "source_locations": [
+        "Unit 3 Lesson 10；Word List 第99页"
+      ]
+    },
+    {
+      "display": "Qinghai-Xizang Railway",
+      "aliases": [],
+      "native_form": "青藏铁路",
+      "romanization": "Qīngzàng Tiělù",
+      "spoken_text": "青藏铁路",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "institution",
+      "meaning": "青藏铁路",
+      "source_locations": [
+        "Unit 3 Lesson 11"
+      ]
+    },
+    {
+      "display": "Xizang",
+      "aliases": [],
+      "native_form": "西藏",
+      "romanization": "Xīzàng",
+      "spoken_text": "西藏",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "region",
+      "meaning": "中国西藏自治区",
+      "source_locations": [
+        "Unit 3 Lesson 11"
+      ]
+    },
+    {
+      "display": "Xining",
+      "aliases": [],
+      "native_form": "西宁",
+      "romanization": "Xīníng",
+      "spoken_text": "西宁",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "meaning": "中国城市西宁",
+      "source_locations": [
+        "Unit 3 Lesson 11"
+      ]
+    },
+    {
+      "display": "Lhasa",
+      "aliases": [],
+      "native_form": "拉萨",
+      "romanization": "Lāsà",
+      "spoken_text": "拉萨",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "city",
+      "meaning": "中国城市拉萨",
+      "source_locations": [
+        "Unit 3 Lesson 11"
+      ]
+    },
+    {
+      "display": "Southwest China",
+      "aliases": [],
+      "native_form": "Southwest China",
+      "romanization": "",
+      "spoken_text": "Southwest China",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Southwest China 作为完整英语地理短语教授；英语句中按通用美语朗读",
+      "category": "region",
+      "meaning": "中国西南地区",
+      "source_locations": [
+        "Unit 3 Lesson 11"
+      ]
+    },
+    {
+      "display": "BeiDou Navigation Satellite System",
+      "aliases": [],
+      "native_form": "BeiDou Navigation Satellite System",
+      "romanization": "Běidǒu",
+      "spoken_text": "Bay-doh Navigation Satellite System",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "采用北斗系统公开使用的英文名称 BeiDou Navigation Satellite System；英语句中用固定 Bay-doh 音节载体清晰朗读英文全称",
+      "category": "institution",
+      "meaning": "中国北斗卫星导航系统",
+      "source_locations": [
+        "Unit 3 Lesson 12；Word List 第99页"
+      ]
+    },
+    {
+      "display": "BDS",
+      "aliases": [],
+      "native_form": "BDS",
+      "romanization": "",
+      "spoken_text": "B. D. S.",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材使用英文缩写 BDS；按三个英文字母逐个朗读，不把缩写当作一个词猜读",
+      "category": "institution",
+      "meaning": "北斗卫星导航系统英文简称",
+      "source_locations": [
+        "Unit 3 Lesson 12；Word List 第99页"
+      ]
+    },
+    {
+      "display": "BeiDou",
+      "aliases": [],
+      "native_form": "北斗",
+      "romanization": "Běidǒu",
+      "spoken_text": "北斗",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "institution",
+      "meaning": "北斗系统简称",
+      "source_locations": [
+        "Unit 3 Lesson 12"
+      ]
+    },
+    {
+      "display": "Earth",
+      "aliases": [],
+      "native_form": "Earth",
+      "romanization": "",
+      "spoken_text": "Earth",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "place",
+      "meaning": "地球",
+      "source_locations": [
+        "Unit 3 Lesson 12；Word List 第99页"
+      ]
+    },
+    {
+      "display": "Yunnan",
+      "aliases": [],
+      "native_form": "云南",
+      "romanization": "Yúnnán",
+      "spoken_text": "云南",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "region",
+      "meaning": "中国云南省",
+      "source_locations": [
+        "Unit 5 Lesson 17"
+      ]
+    },
+    {
+      "display": "WHO",
+      "aliases": [
+        "World Health Organization"
+      ],
+      "native_form": "WHO",
+      "romanization": "",
+      "spoken_text": "W. H. O.",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材使用首字母缩写 WHO；在本课语境中按 W-H-O 三个英文字母逐个朗读",
+      "category": "institution",
+      "meaning": "世界卫生组织",
+      "source_locations": [
+        "Unit 5 Lesson 17；Word List 第101页"
+      ]
+    },
+    {
+      "display": "Denmark",
+      "aliases": [],
+      "native_form": "Denmark",
+      "romanization": "",
+      "spoken_text": "Denmark",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "country",
+      "meaning": "国家名（丹麦）",
+      "source_locations": [
+        "Unit 5 Lesson 16；Word List 第99页"
+      ]
+    },
+    {
+      "display": "USA",
+      "aliases": [],
+      "native_form": "USA",
+      "romanization": "",
+      "spoken_text": "U. S. A.",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材使用首字母缩写 USA；按 U-S-A 三个英文字母逐个朗读",
+      "category": "country",
+      "meaning": "国家名（美国）",
+      "source_locations": [
+        "Unit 2、Unit 5、Unit 7"
+      ]
+    },
+    {
+      "display": "UK",
+      "aliases": [],
+      "native_form": "UK",
+      "romanization": "",
+      "spoken_text": "U. K.",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材使用首字母缩写 UK；按 U-K 两个英文字母逐个朗读",
+      "category": "country",
+      "meaning": "国家名（英国）",
+      "source_locations": [
+        "Unit 1 Word Bank 教材第12页"
+      ]
+    },
+    {
+      "display": "Germany",
+      "aliases": [],
+      "native_form": "Germany",
+      "romanization": "",
+      "spoken_text": "Germany",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "country",
+      "meaning": "国家名（德国）",
+      "source_locations": [
+        "Unit 5 Lesson 18；Word List 第101页"
+      ]
+    },
+    {
+      "display": "Asia",
+      "aliases": [],
+      "native_form": "Asia",
+      "romanization": "",
+      "spoken_text": "Asia",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "region",
+      "meaning": "亚洲",
+      "source_locations": [
+        "Unit 7 Lesson 24"
+      ]
+    },
+    {
+      "display": "VR",
+      "aliases": [],
+      "native_form": "VR",
+      "romanization": "",
+      "spoken_text": "V. R.",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材使用技术缩写 VR；按 V-R 两个英文字母逐个朗读，不把缩写猜成普通单词",
+      "category": "technology",
+      "meaning": "虚拟现实技术",
+      "source_locations": [
+        "Unit 3 Lesson 10 教材第34页"
+      ]
+    },
+    {
+      "display": "PPT",
+      "aliases": [],
+      "native_form": "PPT",
+      "romanization": "",
+      "spoken_text": "P. P. T.",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材使用常见课堂缩写 PPT；按 P-P-T 三个英文字母逐个朗读",
+      "category": "technology",
+      "meaning": "演示文稿",
+      "source_locations": [
+        "Unit 5 Project 教材第61页"
+      ]
+    },
+    {
+      "display": "Sun Jiadong",
+      "aliases": [],
+      "native_form": "孙家栋",
+      "romanization": "Sūn Jiādòng",
+      "spoken_text": "孙家栋",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国科学家",
+      "source_locations": [
+        "Unit 5 Lesson 15"
+      ]
+    },
+    {
+      "display": "Nie Er",
+      "aliases": [],
+      "native_form": "聂耳",
+      "romanization": "Niè Ěr",
+      "spoken_text": "聂耳",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国音乐家",
+      "source_locations": [
+        "Unit 5 Lesson 15"
+      ]
+    },
+    {
+      "display": "Tao Xingzhi",
+      "aliases": [],
+      "native_form": "陶行知",
+      "romanization": "Táo Xíngzhī",
+      "spoken_text": "陶行知",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国教育家",
+      "source_locations": [
+        "Unit 5 Lesson 15"
+      ]
+    },
+    {
+      "display": "Qian Xuesen",
+      "aliases": [],
+      "native_form": "钱学森",
+      "romanization": "Qián Xuésēn",
+      "spoken_text": "钱学森",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国科学家",
+      "source_locations": [
+        "Unit 5 Lesson 15"
+      ]
+    },
+    {
+      "display": "Tu Youyou",
+      "aliases": [],
+      "native_form": "屠呦呦",
+      "romanization": "Tú Yōuyōu",
+      "spoken_text": "屠呦呦",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国科学家",
+      "source_locations": [
+        "Unit 5 Lesson 15"
+      ]
+    },
+    {
+      "display": "Bing Xin",
+      "aliases": [],
+      "native_form": "冰心",
+      "romanization": "Bīng Xīn",
+      "spoken_text": "冰心",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国作家",
+      "source_locations": [
+        "Unit 5 Lesson 16"
+      ]
+    },
+    {
+      "display": "Hans Christian Andersen",
+      "aliases": [],
+      "native_form": "Hans Christian Andersen",
+      "romanization": "",
+      "spoken_text": "Hans Christian Andersen",
+      "spoken_language": "da-DK",
+      "language_label": "丹麦语",
+      "origin_language": "da-DK",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材注明丹麦人物，按丹麦语原名和已安装丹麦语语音复核",
+      "category": "person",
+      "meaning": "丹麦作家安徒生",
+      "source_locations": [
+        "Unit 5 Lesson 16"
+      ]
+    },
+    {
+      "display": "Letters to Young Readers",
+      "aliases": [],
+      "native_form": "Letters to Young Readers",
+      "romanization": "",
+      "spoken_text": "Letters to Young Readers",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材在英语课文中明确使用 Letters to Young Readers 作为英语书名；按清晰通用美语朗读",
+      "category": "book_title",
+      "meaning": "冰心《寄小读者》的教材英语书名",
+      "source_locations": [
+        "Unit 5 Lesson 16 教材第53页"
+      ]
+    },
+    {
+      "display": "The Ugly Duckling",
+      "aliases": [],
+      "native_form": "The Ugly Duckling",
+      "romanization": "",
+      "spoken_text": "The Ugly Duckling",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "da-DK",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材采用通行英语书名 The Ugly Duckling；作为英语阅读内容按清晰通用美语朗读",
+      "category": "book_title",
+      "meaning": "安徒生童话《丑小鸭》",
+      "source_locations": [
+        "Unit 5 Lesson 16 教材第53页"
+      ]
+    },
+    {
+      "display": "The Emperor’s New Clothes",
+      "aliases": [
+        "The Emperor's New Clothes"
+      ],
+      "native_form": "The Emperor’s New Clothes",
+      "romanization": "",
+      "spoken_text": "The Emperor’s New Clothes",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "da-DK",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材采用通行英语书名 The Emperor's New Clothes；作为英语阅读内容按清晰通用美语朗读",
+      "category": "book_title",
+      "meaning": "安徒生童话《皇帝的新装》",
+      "source_locations": [
+        "Unit 5 Lesson 16 教材第53页"
+      ]
+    },
+    {
+      "display": "The Little Match Girl",
+      "aliases": [],
+      "native_form": "The Little Match Girl",
+      "romanization": "",
+      "spoken_text": "The Little Match Girl",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "da-DK",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材采用通行英语书名 The Little Match Girl；作为英语阅读内容按清晰通用美语朗读",
+      "category": "book_title",
+      "meaning": "安徒生童话《卖火柴的小女孩》",
+      "source_locations": [
+        "Unit 5 Lesson 16 教材第53页"
+      ]
+    },
+    {
+      "display": "Wu Cheng’en",
+      "aliases": [
+        "Wu Cheng'en"
+      ],
+      "native_form": "吴承恩",
+      "romanization": "Wú Chéng'ēn",
+      "spoken_text": "吴承恩",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国作家",
+      "source_locations": [
+        "Unit 5 Lesson 16"
+      ]
+    },
+    {
+      "display": "Luo Guanzhong",
+      "aliases": [],
+      "native_form": "罗贯中",
+      "romanization": "Luó Guànzhōng",
+      "spoken_text": "罗贯中",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国作家",
+      "source_locations": [
+        "Unit 5 Lesson 16"
+      ]
+    },
+    {
+      "display": "J.K. Rowling",
+      "aliases": [
+        "J. K. Rowling"
+      ],
+      "native_form": "J.K. Rowling",
+      "romanization": "",
+      "spoken_text": "J. K. Rowling",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "采用作者公开英文姓名形式；首字母 J、K 分别朗读，Rowling 按英语姓名常规读音",
+      "category": "person",
+      "meaning": "英国作家",
+      "source_locations": [
+        "Unit 5 Lesson 16"
+      ]
+    },
+    {
+      "display": "Cao Xueqin",
+      "aliases": [],
+      "native_form": "曹雪芹",
+      "romanization": "Cáo Xuěqín",
+      "spoken_text": "曹雪芹",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国作家",
+      "source_locations": [
+        "Unit 5 Lesson 16"
+      ]
+    },
+    {
+      "display": "Journey to the West",
+      "aliases": [],
+      "native_form": "Journey to the West",
+      "romanization": "",
+      "spoken_text": "Journey to the West",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Journey to the West 作为英语书名教授；按清晰通用美语朗读，中文原名另作释义",
+      "category": "book_title",
+      "meaning": "《西游记》的教材英语书名",
+      "source_locations": [
+        "Unit 5 Lesson 16 Think and share 教材第55页"
+      ]
+    },
+    {
+      "display": "Romance of the Three Kingdoms",
+      "aliases": [],
+      "native_form": "Romance of the Three Kingdoms",
+      "romanization": "",
+      "spoken_text": "Romance of the Three Kingdoms",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Romance of the Three Kingdoms 作为英语书名教授；按清晰通用美语朗读",
+      "category": "book_title",
+      "meaning": "《三国演义》的教材英语书名",
+      "source_locations": [
+        "Unit 5 Lesson 16 Think and share 教材第55页"
+      ]
+    },
+    {
+      "display": "Harry Potter",
+      "aliases": [],
+      "native_form": "Harry Potter",
+      "romanization": "",
+      "spoken_text": "Harry Potter",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-GB",
+      "verification_status": "verified",
+      "pronunciation_basis": "采用作品公开英语名称 Harry Potter；本教材通用美语环境中保持清晰英语读音",
+      "category": "book_title",
+      "meaning": "《哈利·波特》系列",
+      "source_locations": [
+        "Unit 5 Lesson 16 Think and share 教材第55页"
+      ]
+    },
+    {
+      "display": "A Dream of Red Mansions",
+      "aliases": [],
+      "native_form": "A Dream of Red Mansions",
+      "romanization": "",
+      "spoken_text": "A Dream of Red Mansions",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "严格保留教材印刷形式 A Dream of Red Mansions，并按清晰通用美语朗读；不擅自替换成其他英译书名",
+      "category": "book_title",
+      "meaning": "《红楼梦》的教材英语书名",
+      "source_locations": [
+        "Unit 5 Lesson 16 Think and share 教材第55页"
+      ]
+    },
+    {
+      "display": "Gu Fangzhou",
+      "aliases": [],
+      "native_form": "顾方舟",
+      "romanization": "Gù Fāngzhōu",
+      "spoken_text": "顾方舟",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国医学科学家",
+      "source_locations": [
+        "Unit 5 Lesson 17"
+      ]
+    },
+    {
+      "display": "Bi Sheng",
+      "aliases": [],
+      "native_form": "毕昇",
+      "romanization": "Bì Shēng",
+      "spoken_text": "毕昇",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国古代发明家",
+      "source_locations": [
+        "Unit 5 Lesson 18"
+      ]
+    },
+    {
+      "display": "Thomas Alva Edison",
+      "aliases": [
+        "Thomas Edison"
+      ],
+      "native_form": "Thomas Alva Edison",
+      "romanization": "",
+      "spoken_text": "Thomas Alva Edison",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语形式呈现，保留教材教学目标中的英语读法",
+      "category": "person",
+      "meaning": "美国发明家",
+      "source_locations": [
+        "Unit 5 Lesson 18"
+      ]
+    },
+    {
+      "display": "March of the Volunteers",
+      "aliases": [],
+      "native_form": "March of the Volunteers",
+      "romanization": "",
+      "spoken_text": "March of the Volunteers",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材采用英语标题 March of the Volunteers；英语活动中按清晰通用美语朗读",
+      "category": "work_title",
+      "meaning": "中华人民共和国国歌《义勇军进行曲》的英语名称",
+      "source_locations": [
+        "Unit 5 Lesson 15 Listen, match and say 教材第51页"
+      ]
+    },
+    {
+      "display": "The Father of Sugar Pills",
+      "aliases": [],
+      "native_form": "The Father of Sugar Pills",
+      "romanization": "",
+      "spoken_text": "The Father of Sugar Pills",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材明确以英语课文标题 The Father of Sugar Pills 呈现；按清晰通用美语朗读",
+      "category": "work_title",
+      "meaning": "课文标题《糖丸之父》",
+      "source_locations": [
+        "Unit 5 Lesson 17 教材第56页"
+      ]
+    },
+    {
+      "display": "Li Bai",
+      "aliases": [],
+      "native_form": "李白",
+      "romanization": "Lǐ Bái",
+      "spoken_text": "李白",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国唐代诗人",
+      "source_locations": [
+        "Unit 5 Lesson 18"
+      ]
+    },
+    {
+      "display": "Ludwig van Beethoven",
+      "aliases": [
+        "Beethoven"
+      ],
+      "native_form": "Ludwig van Beethoven",
+      "romanization": "",
+      "spoken_text": "Ludwig van Beethoven",
+      "spoken_language": "de-DE",
+      "language_label": "德语",
+      "origin_language": "de-DE",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材注明德国人物，按德语原名和已安装德语语音复核",
+      "category": "person",
+      "meaning": "德国作曲家贝多芬",
+      "source_locations": [
+        "Unit 5 Lesson 18"
+      ]
+    },
+    {
+      "display": "Fur Elise",
+      "aliases": [
+        "Für Elise"
+      ],
+      "native_form": "Für Elise",
+      "romanization": "",
+      "spoken_text": "Für Elise",
+      "spoken_language": "de-DE",
+      "language_label": "德语",
+      "origin_language": "de-DE",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材印作 Fur Elise；原德语标题为 Für Elise，专名卡由德语语音清楚朗读，教材显示拼写保持不改",
+      "category": "work_title",
+      "meaning": "贝多芬钢琴曲《致爱丽丝》",
+      "source_locations": [
+        "Unit 5 Lesson 18 Activity 2 教材第60页"
+      ]
+    },
+    {
+      "display": "Thoughts in the Silent Night",
+      "aliases": [],
+      "native_form": "Thoughts in the Silent Night",
+      "romanization": "",
+      "spoken_text": "Thoughts in the Silent Night",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Thoughts in the Silent Night 作为英语译题教授；按清晰通用美语朗读，中文原题另作释义",
+      "category": "work_title",
+      "meaning": "李白《静夜思》的教材英译标题",
+      "source_locations": [
+        "Unit 5 Lesson 18 教材第59–60页"
+      ]
+    },
+    {
+      "display": "Xu Yuanchong",
+      "aliases": [],
+      "native_form": "许渊冲",
+      "romanization": "Xǔ Yuānchōng",
+      "spoken_text": "许渊冲",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国翻译家",
+      "source_locations": [
+        "Unit 5 Lesson 18 教材第60页译者标注"
+      ]
+    },
+    {
+      "display": "Chinese Zodiac",
+      "aliases": [],
+      "native_form": "Chinese Zodiac",
+      "romanization": "",
+      "spoken_text": "Chinese Zodiac",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Chinese Zodiac 作为明确英语教学目标，保留教材英语形式",
+      "category": "cultural_item",
+      "meaning": "教材明确教授的英文文化术语：中国生肖",
+      "source_locations": [
+        "Unit 7；Word List 第100页"
+      ]
+    },
+    {
+      "display": "Spring Festival",
+      "aliases": [],
+      "native_form": "Spring Festival",
+      "romanization": "",
+      "spoken_text": "Spring Festival",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Spring Festival 作为明确英语教学目标，保留教材英语形式",
+      "category": "cultural_item",
+      "meaning": "教材明确教授的英文文化术语：春节",
+      "source_locations": [
+        "Unit 7 Lessons 24–25"
+      ]
+    },
+    {
+      "display": "Chinese New Year",
+      "aliases": [],
+      "native_form": "Chinese New Year",
+      "romanization": "",
+      "spoken_text": "Chinese New Year",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Chinese New Year 作为明确英语教学目标，保留教材英语形式",
+      "category": "cultural_item",
+      "meaning": "教材明确教授的英文文化术语：中国新年",
+      "source_locations": [
+        "Unit 7 Lessons 23–25"
+      ]
+    },
+    {
+      "display": "Mid-Autumn Festival",
+      "aliases": [],
+      "native_form": "Mid-Autumn Festival",
+      "romanization": "",
+      "spoken_text": "Mid-Autumn Festival",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材在英语句中使用 Mid-Autumn Festival；这是明确英语表达，按清晰通用美语朗读，中文节名另作释义",
+      "category": "cultural_item",
+      "meaning": "教材使用的英语文化术语：中秋节",
+      "source_locations": [
+        "Unit 7 Revision II 教材第95页"
+      ]
+    },
+    {
+      "display": "Han Dynasty",
+      "aliases": [],
+      "native_form": "Han Dynasty",
+      "romanization": "",
+      "spoken_text": "Han Dynasty",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材把 Han Dynasty 作为明确英语教学目标，保留教材英语形式",
+      "category": "cultural_item",
+      "meaning": "教材明确教授的英文历史术语：汉朝",
+      "source_locations": [
+        "Culture Corner 教材第96页"
+      ]
+    },
+    {
+      "display": "Hanfu",
+      "aliases": [],
+      "native_form": "汉服",
+      "romanization": "Hànfú",
+      "spoken_text": "汉服",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "cultural_item",
+      "meaning": "中国传统服饰汉服",
+      "source_locations": [
+        "Culture Corner 教材第96页"
+      ]
+    },
+    {
+      "display": "Yugong",
+      "aliases": [],
+      "native_form": "愚公",
+      "romanization": "Yúgōng",
+      "spoken_text": "愚公",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国寓言人物愚公",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ]
+    },
+    {
+      "display": "Taihang",
+      "aliases": [],
+      "native_form": "太行山",
+      "romanization": "Tàihángshān",
+      "spoken_text": "太行山",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "landmark",
+      "meaning": "太行山",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ]
+    },
+    {
+      "display": "Wangwu",
+      "aliases": [],
+      "native_form": "王屋山",
+      "romanization": "Wángwūshān",
+      "spoken_text": "王屋山",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "landmark",
+      "meaning": "王屋山",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ]
+    },
+    {
+      "display": "Jizhou",
+      "aliases": [],
+      "native_form": "冀州",
+      "romanization": "Jìzhōu",
+      "spoken_text": "冀州",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "region",
+      "meaning": "中国古地名冀州",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ]
+    },
+    {
+      "display": "Heyang",
+      "aliases": [],
+      "native_form": "河阳",
+      "romanization": "Héyáng",
+      "spoken_text": "河阳",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "region",
+      "meaning": "中国古地名河阳",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ]
+    },
+    {
+      "display": "Bohai",
+      "aliases": [],
+      "native_form": "渤海",
+      "romanization": "Bóhǎi",
+      "spoken_text": "渤海",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "landmark",
+      "meaning": "渤海",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ]
+    },
+    {
+      "display": "Zhishou",
+      "aliases": [],
+      "native_form": "智叟",
+      "romanization": "Zhìsǒu",
+      "spoken_text": "智叟",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国寓言人物智叟",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ]
+    },
+    {
+      "display": "God of Mountains",
+      "aliases": [],
+      "native_form": "God of Mountains",
+      "romanization": "",
+      "spoken_text": "God of Mountains",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材以英语译名作为阅读目标，保留教材英语形式",
+      "category": "cultural_item",
+      "meaning": "教材故事中的山神英文称呼",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ]
+    },
+    {
+      "display": "Heavenly God",
+      "aliases": [],
+      "native_form": "Heavenly God",
+      "romanization": "",
+      "spoken_text": "Heavenly God",
+      "spoken_language": "en-US",
+      "language_label": "美式英语",
+      "origin_language": "en-US",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材以英语译名作为阅读目标，保留教材英语形式",
+      "category": "cultural_item",
+      "meaning": "教材故事中的天帝英文称呼",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ]
+    },
+    {
+      "display": "Kua’eshi",
+      "aliases": [
+        "Kua'eshi"
+      ],
+      "native_form": "夸娥氏",
+      "romanization": "Kuā'éshì",
+      "spoken_text": "夸娥氏",
+      "spoken_language": "zh-CN",
+      "language_label": "普通话",
+      "origin_language": "zh-CN",
+      "verification_status": "verified",
+      "pronunciation_basis": "教材拉丁拼写与权威中文原名、普通话读音复核",
+      "category": "person",
+      "meaning": "中国神话人物夸娥氏",
+      "source_locations": [
+        "Reading for Pleasure 教材第97页"
+      ]
+    }
+  ]
+}
