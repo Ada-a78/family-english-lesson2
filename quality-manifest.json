@@ -1,0 +1,62 @@
+{
+  "display_text_verified_against_spec": true,
+  "pronunciation_policy_version": 2,
+  "proper_noun_policy": "Verified language-specific segments inside General American English",
+  "speeds": [
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0
+  ],
+  "default_speed": 1.0,
+  "seek_seconds": 15,
+  "local_recording_rounds": 3,
+  "local_recording_uploads_audio": false,
+  "automatic_pronunciation_assessment": false,
+  "automatic_assessment_requirement": "protected backend plus consented pronunciation-assessment provider",
+  "correction_target_count": 3,
+  "completion_active_recall_prompts": 3,
+  "official_english_instructional_names": [
+    "National Library of China",
+    "China Science and Technology Museum"
+  ],
+  "follow_rate_ratio": 0.75,
+  "source_english_rate": 150,
+  "follow_effective_english_rate": 112.5,
+  "follow_audio_method": "pitch-preserving atempo from the reviewed stage-1 mixed-language line",
+  "follow_duration_ratios": [
+    1.3264366829100747,
+    1.3300135466365808,
+    1.3265277981263952,
+    1.3295618903033226,
+    1.323749968224917,
+    1.3208602008674573,
+    1.3268523834414443,
+    1.3281155534980775,
+    1.3294135886205962,
+    1.3249817945639553,
+    1.3161818861681758,
+    1.3265599453816992
+  ],
+  "proper_noun_scope": "all_synthesized_content",
+  "proper_noun_inventory_reviewed": true,
+  "pronunciation_scope": "all_synthesized_content",
+  "pronunciation_inventory_reviewed": true,
+  "source_corpus_scanned": true,
+  "unresolved_pronunciation_count": 0,
+  "language_switch_counts": {
+    "zh-CN": 44,
+    "en-US": 18
+  },
+  "proper_noun_synthesis_contexts": 91,
+  "proper_noun_occurrence_count": 62,
+  "unsegmented_known_proper_nouns": 0,
+  "video_codec": "H.264 Main / yuv420p",
+  "audio_codec": "AAC-LC / 48 kHz / mono",
+  "line_count": 12,
+  "vocabulary_count": 5,
+  "vocabulary_source_policy": "Lesson Word Bank first; book-final Word List fills gaps"
+}
