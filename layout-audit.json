@@ -1,13 +1,36 @@
 {
   "policy_version": 1,
   "policy": "measure -> whole-word wrap -> readable shrink -> split page -> fail closed",
-  "generated_frame_count": 77,
-  "audited_frame_count": 77,
-  "audited_text_surface_count": 619,
+  "generated_frame_count": 78,
+  "audited_frame_count": 78,
+  "audited_text_surface_count": 640,
   "overflow_count": 0,
   "clipped_text_count": 0,
   "overlap_count": 0,
   "replacement_character_count": 0,
+  "unsupported_ipa_glyph_count": 0,
+  "ipa_font_audit": {
+    "font": "/System/Library/Fonts/Supplemental/Times New Roman.ttf",
+    "checked_codepoints": [
+      "U+02D0",
+      "U+02C8",
+      "U+02CC",
+      "U+0251",
+      "U+0254",
+      "U+0259",
+      "U+025B",
+      "U+0261",
+      "U+026A",
+      "U+028A",
+      "U+028C",
+      "U+0292",
+      "U+00E6",
+      "U+014B"
+    ],
+    "long_vowel_mark": "U+02D0",
+    "unsupported_glyph_count": 0,
+    "status": "passed"
+  },
   "english_word_split_policy": "never split an English word across lines",
   "status": "passed",
   "frames": [
@@ -11226,7 +11249,7 @@
       "clipped": false
     },
     {
-      "frame": "grammar-03",
+      "frame": "grammar-03a-verb-pairs",
       "role": "section label",
       "text": "本课语法",
       "container": [
@@ -11247,62 +11270,503 @@
       "clipped": false
     },
     {
-      "frame": "grammar-03",
+      "frame": "grammar-03a-verb-pairs",
+      "role": "page counter",
+      "text": "3A / 3",
+      "container": [
+        1040,
+        38,
+        1175,
+        75
+      ],
+      "used_bbox": [
+        1075,
+        45,
+        1139,
+        67
+      ],
+      "font_size": 24,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03a-verb-pairs",
       "role": "title",
-      "text": "3. 一般过去时的规则与不规则变化",
+      "text": "原形 → 过去式：慢读、停顿、再对比",
       "container": [
         95,
         125,
         1180,
-        185
+        180
       ],
       "used_bbox": [
         95,
-        134,
-        704,
-        175
+        133,
+        695,
+        171
       ],
-      "font_size": 40,
+      "font_size": 36,
       "line_count": 1,
       "overflow": false,
       "clipped": false
     },
     {
-      "frame": "grammar-03",
-      "role": "body",
-      "text": "stay→stayed、work→worked；go→went、take→took。read 的现在式与过去式拼写相同：说现在或习惯时读 /riːd/，说已经发生的过去时读 /red/。本句讲暑假里已经发生的事，所以读 /red/。",
+      "frame": "grammar-03a-verb-pairs",
+      "role": "instruction",
+      "text": "先听原形，停一下，再听过去式。每组都要听清两个词。",
       "container": [
         95,
-        195,
+        190,
         1180,
-        300
+        230
       ],
       "used_bbox": [
         95,
-        199,
-        1175,
-        295
+        197,
+        720,
+        223
       ],
-      "font_size": 28,
-      "line_count": 3,
+      "font_size": 25,
+      "line_count": 1,
       "overflow": false,
       "clipped": false
     },
     {
-      "frame": "grammar-03",
-      "role": "example 1 English",
+      "frame": "grammar-03a-verb-pairs",
+      "role": "pair 1 base",
+      "text": "stay",
+      "container": [
+        121,
+        275,
+        300,
+        348
+      ],
+      "used_bbox": [
+        171,
+        293,
+        250,
+        329
+      ],
+      "font_size": 39,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03a-verb-pairs",
+      "role": "pair 1 arrow",
+      "text": "→",
+      "container": [
+        310,
+        275,
+        385,
+        348
+      ],
+      "used_bbox": [
+        333,
+        292,
+        361,
+        331
+      ],
+      "font_size": 39,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03a-verb-pairs",
+      "role": "pair 1 past",
+      "text": "stayed",
+      "container": [
+        395,
+        275,
+        595,
+        348
+      ],
+      "used_bbox": [
+        432,
+        293,
+        557,
+        329
+      ],
+      "font_size": 39,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03a-verb-pairs",
+      "role": "pair 2 base",
+      "text": "work",
+      "container": [
+        671,
+        275,
+        850,
+        348
+      ],
+      "used_bbox": [
+        715,
+        293,
+        806,
+        329
+      ],
+      "font_size": 39,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03a-verb-pairs",
+      "role": "pair 2 arrow",
+      "text": "→",
+      "container": [
+        860,
+        275,
+        935,
+        348
+      ],
+      "used_bbox": [
+        883,
+        292,
+        911,
+        331
+      ],
+      "font_size": 39,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03a-verb-pairs",
+      "role": "pair 2 past",
+      "text": "worked",
+      "container": [
+        945,
+        275,
+        1145,
+        348
+      ],
+      "used_bbox": [
+        976,
+        293,
+        1113,
+        329
+      ],
+      "font_size": 39,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03a-verb-pairs",
+      "role": "pair 3 base",
+      "text": "go",
+      "container": [
+        121,
+        420,
+        300,
+        493
+      ],
+      "used_bbox": [
+        186,
+        438,
+        234,
+        474
+      ],
+      "font_size": 39,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03a-verb-pairs",
+      "role": "pair 3 arrow",
+      "text": "→",
+      "container": [
+        310,
+        420,
+        385,
+        493
+      ],
+      "used_bbox": [
+        333,
+        437,
+        361,
+        476
+      ],
+      "font_size": 39,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03a-verb-pairs",
+      "role": "pair 3 past",
+      "text": "went",
+      "container": [
+        395,
+        420,
+        595,
+        493
+      ],
+      "used_bbox": [
+        450,
+        438,
+        539,
+        474
+      ],
+      "font_size": 39,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03a-verb-pairs",
+      "role": "pair 4 base",
+      "text": "take",
+      "container": [
+        671,
+        420,
+        850,
+        493
+      ],
+      "used_bbox": [
+        721,
+        438,
+        800,
+        474
+      ],
+      "font_size": 39,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03a-verb-pairs",
+      "role": "pair 4 arrow",
+      "text": "→",
+      "container": [
+        860,
+        420,
+        935,
+        493
+      ],
+      "used_bbox": [
+        883,
+        437,
+        911,
+        476
+      ],
+      "font_size": 39,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03a-verb-pairs",
+      "role": "pair 4 past",
+      "text": "took",
+      "container": [
+        945,
+        420,
+        1145,
+        493
+      ],
+      "used_bbox": [
+        1003,
+        438,
+        1086,
+        474
+      ],
+      "font_size": 39,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03a-verb-pairs",
+      "role": "footer",
+      "text": "规则变化：stay → stayed，work → worked；不规则变化：go → went，take → took。",
+      "container": [
+        120,
+        580,
+        1155,
+        620
+      ],
+      "used_bbox": [
+        120,
+        589,
+        912,
+        610
+      ],
+      "font_size": 21,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03b-read-contrast",
+      "role": "section label",
+      "text": "本课语法",
+      "container": [
+        63,
+        37,
+        350,
+        77
+      ],
+      "used_bbox": [
+        63,
+        43,
+        167,
+        71
+      ],
+      "font_size": 26,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03b-read-contrast",
+      "role": "page counter",
+      "text": "3B / 3",
+      "container": [
+        1040,
+        38,
+        1175,
+        75
+      ],
+      "used_bbox": [
+        1075,
+        45,
+        1139,
+        67
+      ],
+      "font_size": 24,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03b-read-contrast",
+      "role": "title",
+      "text": "read：拼写相同，读音看时间",
+      "container": [
+        95,
+        125,
+        1180,
+        180
+      ],
+      "used_bbox": [
+        95,
+        135,
+        563,
+        170
+      ],
+      "font_size": 36,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03b-read-contrast",
+      "role": "contrast 1 label",
+      "text": "现在或习惯",
+      "container": [
+        123,
+        225,
+        587,
+        270
+      ],
+      "used_bbox": [
+        287,
+        233,
+        422,
+        262
+      ],
+      "font_size": 27,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03b-read-contrast",
+      "role": "contrast 1 word",
+      "text": "read",
+      "container": [
+        133,
+        292,
+        330,
+        365
+      ],
+      "used_bbox": [
+        174,
+        303,
+        288,
+        353
+      ],
+      "font_size": 54,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03b-read-contrast",
+      "role": "contrast 1 IPA",
+      "text": "/riːd/",
+      "container": [
+        345,
+        292,
+        577,
+        365
+      ],
+      "used_bbox": [
+        411,
+        305,
+        511,
+        351
+      ],
+      "font_size": 52,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03b-read-contrast",
+      "role": "contrast 1 example",
       "text": "I read books every day.",
       "container": [
-        120,
-        324,
-        1155,
-        386
+        125,
+        405,
+        585,
+        470
       ],
       "used_bbox": [
-        120,
-        324,
-        425,
-        349
+        216,
+        426,
+        493,
+        449
+      ],
+      "font_size": 25,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03b-read-contrast",
+      "role": "contrast 2 label",
+      "text": "已经发生的过去",
+      "container": [
+        673,
+        225,
+        1137,
+        270
+      ],
+      "used_bbox": [
+        810,
+        233,
+        999,
+        262
       ],
       "font_size": 27,
       "line_count": 1,
@@ -11310,86 +11774,86 @@
       "clipped": false
     },
     {
-      "frame": "grammar-03",
-      "role": "example 1 second line",
-      "text": "我每天读书（现在或习惯，read /riːd/）。",
+      "frame": "grammar-03b-read-contrast",
+      "role": "contrast 2 word",
+      "text": "read",
       "container": [
-        120,
-        386,
-        1155,
-        430
+        683,
+        292,
+        880,
+        365
       ],
       "used_bbox": [
-        120,
-        397,
-        505,
-        418
+        724,
+        303,
+        838,
+        353
       ],
-      "font_size": 21,
+      "font_size": 54,
       "line_count": 1,
       "overflow": false,
       "clipped": false
     },
     {
-      "frame": "grammar-03",
-      "role": "example 2 English",
+      "frame": "grammar-03b-read-contrast",
+      "role": "contrast 2 IPA",
+      "text": "/red/",
+      "container": [
+        895,
+        292,
+        1127,
+        365
+      ],
+      "used_bbox": [
+        963,
+        305,
+        1058,
+        351
+      ],
+      "font_size": 52,
+      "line_count": 1,
+      "overflow": false,
+      "clipped": false
+    },
+    {
+      "frame": "grammar-03b-read-contrast",
+      "role": "contrast 2 example",
       "text": "I read books there yesterday.",
       "container": [
-        120,
-        456,
-        1155,
-        518
+        675,
+        405,
+        1135,
+        470
       ],
       "used_bbox": [
-        120,
-        456,
-        501,
-        481
+        732,
+        426,
+        1078,
+        449
       ],
-      "font_size": 27,
+      "font_size": 25,
       "line_count": 1,
       "overflow": false,
       "clipped": false
     },
     {
-      "frame": "grammar-03",
-      "role": "example 2 second line",
-      "text": "我昨天在那里读书（过去，read /red/）。",
+      "frame": "grammar-03b-read-contrast",
+      "role": "explanation",
+      "text": "every day 表示习惯，读 /riːd/；yesterday 表示过去，读 /red/。\n音标中的 ː 是长音符号，不是冒号，也不能显示成方框。",
       "container": [
         120,
-        518,
+        535,
         1155,
-        562
+        612
       ],
       "used_bbox": [
         120,
-        529,
-        506,
-        550
+        548,
+        761,
+        599
       ],
-      "font_size": 21,
-      "line_count": 1,
-      "overflow": false,
-      "clipped": false
-    },
-    {
-      "frame": "grammar-03",
-      "role": "footer",
-      "text": "规则用来帮助表达，不要求一次背完。",
-      "container": [
-        120,
-        599,
-        1155,
-        637
-      ],
-      "used_bbox": [
-        120,
-        606,
-        494,
-        629
-      ],
-      "font_size": 22,
-      "line_count": 1,
+      "font_size": 23,
+      "line_count": 2,
       "overflow": false,
       "clipped": false
     },

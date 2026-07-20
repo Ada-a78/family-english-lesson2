@@ -8,7 +8,7 @@
     "lesson_delta: Unit 1 Lesson 2 教材第5–7页",
     "external_delta: 本课未提供课外资源"
   ],
-  "synthesis_context_count": 68,
+  "synthesis_context_count": 81,
   "proper_noun_occurrence_count": 48,
   "language_switch_counts": {
     "zh-CN": 33,
@@ -979,6 +979,85 @@
       "segmentation_applied": true
     },
     {
+      "context": "grammar[3].verb_pairs[1].base",
+      "text": "stay",
+      "synthesis_text": "stay",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].verb_pairs[1].past",
+      "text": "stayed",
+      "synthesis_text": "stayed",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].verb_pairs[2].base",
+      "text": "work",
+      "synthesis_text": "work",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].verb_pairs[2].past",
+      "text": "worked",
+      "synthesis_text": "worked",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].verb_pairs[3].base",
+      "text": "go",
+      "synthesis_text": "go",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].verb_pairs[3].past",
+      "text": "went",
+      "synthesis_text": "went",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].verb_pairs[4].base",
+      "text": "take",
+      "synthesis_text": "take",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].verb_pairs[4].past",
+      "text": "took",
+      "synthesis_text": "took",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].read_present_label",
+      "text": "read",
+      "synthesis_text": "reed",
+      "contextual_pronunciation": {
+        "display_text": "read",
+        "spoken_text": "reed",
+        "target": "read",
+        "pronunciation": "/riːd/",
+        "tense": "simple present / habitual",
+        "reason": "这一项专门示范现在或习惯时的 read 读音。"
+      },
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
       "context": "grammar[3].examples[1]",
       "text": "I read books every day.",
       "synthesis_text": "I reed books every day.",
@@ -989,6 +1068,21 @@
         "pronunciation": "/riːd/",
         "tense": "simple present / habitual",
         "reason": "every day 明确表示习惯动作。"
+      },
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "grammar[3].read_past_label",
+      "text": "read",
+      "synthesis_text": "red",
+      "contextual_pronunciation": {
+        "display_text": "read",
+        "spoken_text": "red",
+        "target": "read",
+        "pronunciation": "/red/",
+        "tense": "past simple",
+        "reason": "这一项专门示范过去时的 read 读音。"
       },
       "matches": [],
       "segmentation_applied": true
@@ -1041,6 +1135,22 @@
       "segmentation_applied": true
     },
     {
+      "context": "phonics[1].exceptions[1]",
+      "text": "school",
+      "synthesis_text": "school",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[1].exceptions[2]",
+      "text": "blood",
+      "synthesis_text": "blood",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
       "context": "phonics[2].examples[1]",
       "text": "far",
       "synthesis_text": "far",
@@ -1068,6 +1178,14 @@
       "context": "phonics[2].examples[4]",
       "text": "start",
       "synthesis_text": "start",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[2].exceptions[1]",
+      "text": "warm",
+      "synthesis_text": "warm",
       "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
@@ -1236,6 +1354,22 @@
       "pronunciation": "/red/",
       "tense": "past simple",
       "reason": "yesterday 明确表示过去时间。"
+    },
+    "grammar[3].read_present_label": {
+      "display_text": "read",
+      "spoken_text": "reed",
+      "target": "read",
+      "pronunciation": "/riːd/",
+      "tense": "simple present / habitual",
+      "reason": "这一项专门示范现在或习惯时的 read 读音。"
+    },
+    "grammar[3].read_past_label": {
+      "display_text": "read",
+      "spoken_text": "red",
+      "target": "read",
+      "pronunciation": "/red/",
+      "tense": "past simple",
+      "reason": "这一项专门示范过去时的 read 读音。"
     }
   },
   "unsegmented_known_occurrences": [],

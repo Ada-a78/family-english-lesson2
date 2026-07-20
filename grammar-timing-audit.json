@@ -1,0 +1,39 @@
+{
+  "policy": "English female voice; base form, pause, past form, pause",
+  "pair_count": 4,
+  "pairs": [
+    {
+      "base": "stay",
+      "past": "stayed",
+      "english_voice": "Samantha",
+      "rate": 122,
+      "between_forms_seconds": 0.9,
+      "after_pair_seconds": 1.25
+    },
+    {
+      "base": "work",
+      "past": "worked",
+      "english_voice": "Samantha",
+      "rate": 122,
+      "between_forms_seconds": 0.9,
+      "after_pair_seconds": 1.25
+    },
+    {
+      "base": "go",
+      "past": "went",
+      "english_voice": "Samantha",
+      "rate": 122,
+      "between_forms_seconds": 0.9,
+      "after_pair_seconds": 1.25
+    },
+    {
+      "base": "take",
+      "past": "took",
+      "english_voice": "Samantha",
+      "rate": 122,
+      "between_forms_seconds": 0.9,
+      "after_pair_seconds": 1.25
+    }
+  ],
+  "status": "passed"
+}
