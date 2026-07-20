@@ -8,11 +8,11 @@
     "lesson_delta: Unit 1 Lesson 2 教材第5–7页",
     "external_delta: 本课未提供课外资源"
   ],
-  "synthesis_context_count": 91,
-  "proper_noun_occurrence_count": 62,
+  "synthesis_context_count": 68,
+  "proper_noun_occurrence_count": 48,
   "language_switch_counts": {
-    "zh-CN": 44,
-    "en-US": 18
+    "zh-CN": 33,
+    "en-US": 15
   },
   "glossary": [
     {
@@ -28,7 +28,7 @@
       "source_locations": [
         "全书人物表第1页；Lesson 2"
       ],
-      "synthesized_occurrences": 9
+      "synthesized_occurrences": 7
     },
     {
       "display": "Lingling",
@@ -43,7 +43,7 @@
       "source_locations": [
         "全书人物表第1页；Lesson 2"
       ],
-      "synthesized_occurrences": 11
+      "synthesized_occurrences": 8
     },
     {
       "display": "Guoguo",
@@ -58,7 +58,7 @@
       "source_locations": [
         "全书人物表第1页；Lesson 2"
       ],
-      "synthesized_occurrences": 7
+      "synthesized_occurrences": 6
     },
     {
       "display": "Beijing",
@@ -73,7 +73,7 @@
       "source_locations": [
         "Unit 1 Lessons 1–2"
       ],
-      "synthesized_occurrences": 11
+      "synthesized_occurrences": 7
     },
     {
       "display": "National Library of China",
@@ -88,7 +88,7 @@
       "source_locations": [
         "Unit 1 Lesson 2；Word List 第98页；中国国家图书馆官方英文页面"
       ],
-      "synthesized_occurrences": 10
+      "synthesized_occurrences": 8
     },
     {
       "display": "China Science and Technology Museum",
@@ -103,7 +103,7 @@
       "source_locations": [
         "Unit 1 Lesson 2；Word List 第98页；中国科学技术馆官方英文网站"
       ],
-      "synthesized_occurrences": 8
+      "synthesized_occurrences": 7
     },
     {
       "display": "Hubei",
@@ -118,7 +118,7 @@
       "source_locations": [
         "Unit 1 Lessons 2–3"
       ],
-      "synthesized_occurrences": 6
+      "synthesized_occurrences": 5
     }
   ],
   "contexts": [
@@ -280,83 +280,6 @@
       "context": "dialogue[12].english",
       "text": "Wow! All of us had a meaningful summer vacation.",
       "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.self_correction[1].sentence_model",
-      "text": "All of us had a meaningful summer vacation.",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.self_correction[1].target_model",
-      "text": "meaningful",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.self_correction[2].sentence_model",
-      "text": "I worked as a volunteer.",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.self_correction[2].target_model",
-      "text": "worked",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.self_correction[3].sentence_model",
-      "text": "I read books there.",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.self_correction[3].target_model",
-      "text": "read",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.checkpoints[1].question",
-      "text": "Who stayed in Beijing?",
-      "matches": [
-        {
-          "matched_form": "Beijing",
-          "display": "Beijing",
-          "spoken_text": "北京",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "city"
-        }
-      ],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.checkpoints[1].answer",
-      "text": "Lingling stayed in Beijing.",
-      "matches": [
-        {
-          "matched_form": "Lingling",
-          "display": "Lingling",
-          "spoken_text": "玲玲",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "person"
-        },
-        {
-          "matched_form": "Beijing",
-          "display": "Beijing",
-          "spoken_text": "北京",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "city"
-        }
-      ],
       "segmentation_applied": true
     },
     {
@@ -571,112 +494,6 @@
     {
       "context": "role_play[4].answer",
       "text": "I went there on foot.",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.checkpoints[2].question",
-      "text": "Maomao worked as a volunteer at ...",
-      "matches": [
-        {
-          "matched_form": "Maomao",
-          "display": "Maomao",
-          "spoken_text": "毛毛",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "person"
-        }
-      ],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.checkpoints[2].answer",
-      "text": "Maomao worked as a volunteer at China Science and Technology Museum.",
-      "matches": [
-        {
-          "matched_form": "Maomao",
-          "display": "Maomao",
-          "spoken_text": "毛毛",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "person"
-        },
-        {
-          "matched_form": "China Science and Technology Museum",
-          "display": "China Science and Technology Museum",
-          "spoken_text": "China Science and Technology Museum",
-          "spoken_language": "en-US",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "institution"
-        }
-      ],
-      "segmentation_applied": true
-    },
-    {
-      "context": "think_share.steps[1].question",
-      "text": "Please tell us your name first.",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "think_share.steps[1].answer",
-      "text": "Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6.",
-      "matches": [
-        {
-          "matched_form": "Lingling",
-          "display": "Lingling",
-          "spoken_text": "玲玲",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "person"
-        }
-      ],
-      "segmentation_applied": true
-    },
-    {
-      "context": "think_share.steps[2].question",
-      "text": "How was your summer vacation? Did you travel ... ? Where did you go? How did you get there?",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "think_share.steps[2].answer",
-      "text": "It was meaningful. No, I didn’t. I stayed in Beijing. I went to the National Library of China on foot.",
-      "matches": [
-        {
-          "matched_form": "Beijing",
-          "display": "Beijing",
-          "spoken_text": "北京",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "city"
-        },
-        {
-          "matched_form": "National Library of China",
-          "display": "National Library of China",
-          "spoken_text": "National Library of China",
-          "spoken_language": "en-US",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "institution"
-        }
-      ],
-      "segmentation_applied": true
-    },
-    {
-      "context": "think_share.steps[3].question",
-      "text": "When did you go there? What did you do there? What else do you want to share about your summer vacation?",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "think_share.steps[3].answer",
-      "text": "I went there during the summer vacation and read books. I also learned many new things.",
       "matches": [],
       "segmentation_applied": true
     },
@@ -953,37 +770,6 @@
       "segmentation_applied": true
     },
     {
-      "context": "retrieval_practice.checkpoints[3].question",
-      "text": "How did Guoguo get to Hubei?",
-      "matches": [
-        {
-          "matched_form": "Guoguo",
-          "display": "Guoguo",
-          "spoken_text": "果果",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "person"
-        },
-        {
-          "matched_form": "Hubei",
-          "display": "Hubei",
-          "spoken_text": "湖北",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "region"
-        }
-      ],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.checkpoints[3].answer",
-      "text": "She took a train.",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
       "context": "grammar[1].examples[1]",
       "text": "Did you travel this summer vacation?",
       "matches": [],
@@ -1090,18 +876,6 @@
       "segmentation_applied": true
     },
     {
-      "context": "phonics[1].exceptions[1]",
-      "text": "school",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "phonics[1].exceptions[2]",
-      "text": "blood",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
       "context": "phonics[2].examples[1]",
       "text": "far",
       "matches": [],
@@ -1123,52 +897,6 @@
       "context": "phonics[2].examples[4]",
       "text": "start",
       "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "phonics[2].exceptions[1]",
-      "text": "warm",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.checkpoints[4].question",
-      "text": "Retell one summer vacation story: where, what, and how.",
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "retrieval_practice.checkpoints[4].answer",
-      "text": "Lingling stayed in Beijing. She went to the National Library of China on foot and read books there.",
-      "matches": [
-        {
-          "matched_form": "Lingling",
-          "display": "Lingling",
-          "spoken_text": "玲玲",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "person"
-        },
-        {
-          "matched_form": "Beijing",
-          "display": "Beijing",
-          "spoken_text": "北京",
-          "spoken_language": "zh-CN",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "city"
-        },
-        {
-          "matched_form": "National Library of China",
-          "display": "National Library of China",
-          "spoken_text": "National Library of China",
-          "spoken_language": "en-US",
-          "origin_language": "zh-CN",
-          "verification_status": "verified",
-          "category": "institution"
-        }
-      ],
       "segmentation_applied": true
     },
     {
