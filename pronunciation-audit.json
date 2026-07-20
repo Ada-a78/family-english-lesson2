@@ -1372,6 +1372,80 @@
       "reason": "这一项专门示范过去时的 read 读音。"
     }
   },
+  "contextual_read_actual_audio_lock": [
+    {
+      "context": "dialogue[2].english",
+      "display_text": "No, I didn’t. I stayed in Beijing. I went to the National Library of China on foot and read books there.",
+      "target_pronunciation": "/red/",
+      "actual_synthesis_text": "No, I didn’t. I stayed in Beijing. I went to the National Library of China on foot and red books there.",
+      "required_unambiguous_word": "red",
+      "status": "passed"
+    },
+    {
+      "context": "listen_and_say[2].answer",
+      "display_text": "Lingling read books. Maomao worked as a volunteer. Guoguo learned to take care of plants and animals.",
+      "target_pronunciation": "/red/",
+      "actual_synthesis_text": "Lingling red books. Maomao worked as a volunteer. Guoguo learned to take care of plants and animals.",
+      "required_unambiguous_word": "red",
+      "status": "passed"
+    },
+    {
+      "context": "role_play[3].answer",
+      "display_text": "I read books there.",
+      "target_pronunciation": "/red/",
+      "actual_synthesis_text": "I red books there.",
+      "required_unambiguous_word": "red",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.model",
+      "display_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and read books there. I also learned many new things.",
+      "target_pronunciation": "/red/",
+      "actual_synthesis_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and red books there. I also learned many new things.",
+      "required_unambiguous_word": "red",
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[3].sentence",
+      "display_text": "I read books at the National Library of China.",
+      "target_pronunciation": "/riːd/",
+      "actual_synthesis_text": "I reed books at the National Library of China.",
+      "required_unambiguous_word": "reed",
+      "status": "passed"
+    },
+    {
+      "context": "grammar[3].examples[1]",
+      "display_text": "I read books every day.",
+      "target_pronunciation": "/riːd/",
+      "actual_synthesis_text": "I reed books every day.",
+      "required_unambiguous_word": "reed",
+      "status": "passed"
+    },
+    {
+      "context": "grammar[3].examples[2]",
+      "display_text": "I read books there yesterday.",
+      "target_pronunciation": "/red/",
+      "actual_synthesis_text": "I red books there yesterday.",
+      "required_unambiguous_word": "red",
+      "status": "passed"
+    },
+    {
+      "context": "grammar[3].read_present_label",
+      "display_text": "read",
+      "target_pronunciation": "/riːd/",
+      "actual_synthesis_text": "reed",
+      "required_unambiguous_word": "reed",
+      "status": "passed"
+    },
+    {
+      "context": "grammar[3].read_past_label",
+      "display_text": "read",
+      "target_pronunciation": "/red/",
+      "actual_synthesis_text": "red",
+      "required_unambiguous_word": "red",
+      "status": "passed"
+    }
+  ],
   "unsegmented_known_occurrences": [],
   "unresolved_pronunciations": []
 }

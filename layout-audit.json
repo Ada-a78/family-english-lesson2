@@ -11839,7 +11839,7 @@
     {
       "frame": "grammar-03b-read-contrast",
       "role": "explanation",
-      "text": "every day 表示习惯，读 /riːd/；yesterday 表示过去，读 /red/。\n音标中的 ː 是长音符号，不是冒号，也不能显示成方框。",
+      "text": "every day 表示习惯，读 /riːd/；yesterday 表示过去，读 /red/（标准音播放两遍）。\n音标中的 ː 是长音符号，不是冒号，也不能显示成方框。",
       "container": [
         120,
         535,
@@ -11849,7 +11849,7 @@
       "used_bbox": [
         120,
         548,
-        761,
+        968,
         599
       ],
       "font_size": 23,
