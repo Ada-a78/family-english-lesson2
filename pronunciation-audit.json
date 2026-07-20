@@ -125,6 +125,8 @@
     {
       "context": "dialogue[1].english",
       "text": "Hi, Lingling. Did you travel this summer vacation?",
+      "synthesis_text": "Hi, Lingling. Did you travel this summer vacation?",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Lingling",
@@ -141,6 +143,15 @@
     {
       "context": "dialogue[2].english",
       "text": "No, I didn’t. I stayed in Beijing. I went to the National Library of China on foot and read books there.",
+      "synthesis_text": "No, I didn’t. I stayed in Beijing. I went to the National Library of China on foot and red books there.",
+      "contextual_pronunciation": {
+        "display_text": "No, I didn’t. I stayed in Beijing. I went to the National Library of China on foot and read books there.",
+        "spoken_text": "No, I didn’t. I stayed in Beijing. I went to the National Library of China on foot and red books there.",
+        "target": "read",
+        "pronunciation": "/red/",
+        "tense": "past simple",
+        "reason": "整段在叙述已经发生的暑假经历，read 是过去式。"
+      },
       "matches": [
         {
           "matched_form": "Beijing",
@@ -166,6 +177,8 @@
     {
       "context": "dialogue[3].english",
       "text": "That’s good. Did you also stay in Beijing, Maomao?",
+      "synthesis_text": "That’s good. Did you also stay in Beijing, Maomao?",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Beijing",
@@ -191,6 +204,8 @@
     {
       "context": "dialogue[4].english",
       "text": "Yes, I did. I worked as a volunteer at China Science and Technology Museum.",
+      "synthesis_text": "Yes, I did. I worked as a volunteer at China Science and Technology Museum.",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "China Science and Technology Museum",
@@ -207,24 +222,32 @@
     {
       "context": "dialogue[5].english",
       "text": "Wonderful! When did you work there?",
+      "synthesis_text": "Wonderful! When did you work there?",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "dialogue[6].english",
       "text": "From August 1st to 10th.",
+      "synthesis_text": "From August 1st to 10th.",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "dialogue[7].english",
       "text": "Is the museum far from your home? How did you get there?",
+      "synthesis_text": "Is the museum far from your home? How did you get there?",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "dialogue[8].english",
       "text": "Not too far. I went there by bus. Where did you go, Guoguo?",
+      "synthesis_text": "Not too far. I went there by bus. Where did you go, Guoguo?",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Guoguo",
@@ -241,6 +264,8 @@
     {
       "context": "dialogue[9].english",
       "text": "I went to Hubei to see my grandparents. I learned to take care of plants and animals.",
+      "synthesis_text": "I went to Hubei to see my grandparents. I learned to take care of plants and animals.",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Hubei",
@@ -257,6 +282,8 @@
     {
       "context": "dialogue[10].english",
       "text": "Hubei is far from here. How did you get there?",
+      "synthesis_text": "Hubei is far from here. How did you get there?",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Hubei",
@@ -273,24 +300,32 @@
     {
       "context": "dialogue[11].english",
       "text": "I took a train.",
+      "synthesis_text": "I took a train.",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "dialogue[12].english",
       "text": "Wow! All of us had a meaningful summer vacation.",
+      "synthesis_text": "Wow! All of us had a meaningful summer vacation.",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "listen_and_say[1].question",
       "text": "Where did he/she go this summer vacation?",
+      "synthesis_text": "Where did he/she go this summer vacation?",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "listen_and_say[1].answer",
       "text": "Lingling went to the National Library of China. Maomao went to China Science and Technology Museum. Guoguo went to Hubei.",
+      "synthesis_text": "Lingling went to the National Library of China. Maomao went to China Science and Technology Museum. Guoguo went to Hubei.",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Lingling",
@@ -352,12 +387,23 @@
     {
       "context": "listen_and_say[2].question",
       "text": "What did he/she do there?",
+      "synthesis_text": "What did he/she do there?",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "listen_and_say[2].answer",
       "text": "Lingling read books. Maomao worked as a volunteer. Guoguo learned to take care of plants and animals.",
+      "synthesis_text": "Lingling red books. Maomao worked as a volunteer. Guoguo learned to take care of plants and animals.",
+      "contextual_pronunciation": {
+        "display_text": "Lingling read books. Maomao worked as a volunteer. Guoguo learned to take care of plants and animals.",
+        "spoken_text": "Lingling red books. Maomao worked as a volunteer. Guoguo learned to take care of plants and animals.",
+        "target": "read",
+        "pronunciation": "/red/",
+        "tense": "past simple",
+        "reason": "问题使用 did 询问已经发生的事情，答案用一般过去时。"
+      },
       "matches": [
         {
           "matched_form": "Lingling",
@@ -392,12 +438,16 @@
     {
       "context": "listen_and_say[3].question",
       "text": "How did he/she get there?",
+      "synthesis_text": "How did he/she get there?",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "listen_and_say[3].answer",
       "text": "Lingling went on foot. Maomao went by bus. Guoguo took a train.",
+      "synthesis_text": "Lingling went on foot. Maomao went by bus. Guoguo took a train.",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Lingling",
@@ -432,12 +482,16 @@
     {
       "context": "role_play[1].prompt",
       "text": "Did you travel this summer vacation?",
+      "synthesis_text": "Did you travel this summer vacation?",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "role_play[1].answer",
       "text": "No, I didn’t. I stayed in Beijing.",
+      "synthesis_text": "No, I didn’t. I stayed in Beijing.",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Beijing",
@@ -454,12 +508,16 @@
     {
       "context": "role_play[2].prompt",
       "text": "Where did you go this summer vacation?",
+      "synthesis_text": "Where did you go this summer vacation?",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "role_play[2].answer",
       "text": "I went to the National Library of China.",
+      "synthesis_text": "I went to the National Library of China.",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "National Library of China",
@@ -476,30 +534,54 @@
     {
       "context": "role_play[3].prompt",
       "text": "What did you do there?",
+      "synthesis_text": "What did you do there?",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "role_play[3].answer",
       "text": "I read books there.",
+      "synthesis_text": "I red books there.",
+      "contextual_pronunciation": {
+        "display_text": "I read books there.",
+        "spoken_text": "I red books there.",
+        "target": "read",
+        "pronunciation": "/red/",
+        "tense": "past simple",
+        "reason": "回答 What did you do there，说明过去做过的事情。"
+      },
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "role_play[4].prompt",
       "text": "How did you get there?",
+      "synthesis_text": "How did you get there?",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "role_play[4].answer",
       "text": "I went there on foot.",
+      "synthesis_text": "I went there on foot.",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "think_share.model",
       "text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and read books there. I also learned many new things.",
+      "synthesis_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and red books there. I also learned many new things.",
+      "contextual_pronunciation": {
+        "display_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and read books there. I also learned many new things.",
+        "spoken_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and red books there. I also learned many new things.",
+        "target": "read",
+        "pronunciation": "/red/",
+        "tense": "past simple",
+        "reason": "分享的是已经结束的暑假经历，前后动词均为过去式。"
+      },
       "matches": [
         {
           "matched_form": "Lingling",
@@ -534,42 +616,56 @@
     {
       "context": "vocabulary[1].headword",
       "text": "meaningful",
+      "synthesis_text": "meaningful",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "vocabulary[1].collocation",
       "text": "a meaningful summer vacation",
+      "synthesis_text": "a meaningful summer vacation",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "vocabulary[1].sentence",
       "text": "All of us had a meaningful summer vacation.",
+      "synthesis_text": "All of us had a meaningful summer vacation.",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "vocabulary[1].headword_repeat",
       "text": "meaningful",
+      "synthesis_text": "meaningful",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "vocabulary[2].headword",
       "text": "on foot",
+      "synthesis_text": "on foot",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "vocabulary[2].collocation",
       "text": "go there on foot",
+      "synthesis_text": "go there on foot",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "vocabulary[2].sentence",
       "text": "Lingling went to the library on foot.",
+      "synthesis_text": "Lingling went to the library on foot.",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Lingling",
@@ -586,12 +682,16 @@
     {
       "context": "vocabulary[2].headword_repeat",
       "text": "on foot",
+      "synthesis_text": "on foot",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "vocabulary[3].headword",
       "text": "National Library of China",
+      "synthesis_text": "National Library of China",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "National Library of China",
@@ -608,6 +708,8 @@
     {
       "context": "vocabulary[3].collocation",
       "text": "visit the National Library of China",
+      "synthesis_text": "visit the National Library of China",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "National Library of China",
@@ -624,6 +726,15 @@
     {
       "context": "vocabulary[3].sentence",
       "text": "I read books at the National Library of China.",
+      "synthesis_text": "I reed books at the National Library of China.",
+      "contextual_pronunciation": {
+        "display_text": "I read books at the National Library of China.",
+        "spoken_text": "I reed books at the National Library of China.",
+        "target": "read",
+        "pronunciation": "/riːd/",
+        "tense": "simple present / habitual",
+        "reason": "词汇例句没有过去时间标记，中文释义为一般性的‘我在……读书’，按现在或习惯表达。"
+      },
       "matches": [
         {
           "matched_form": "National Library of China",
@@ -640,6 +751,8 @@
     {
       "context": "vocabulary[3].headword_repeat",
       "text": "National Library of China",
+      "synthesis_text": "National Library of China",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "National Library of China",
@@ -656,6 +769,8 @@
     {
       "context": "vocabulary[4].headword",
       "text": "China Science and Technology Museum",
+      "synthesis_text": "China Science and Technology Museum",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "China Science and Technology Museum",
@@ -672,6 +787,8 @@
     {
       "context": "vocabulary[4].collocation",
       "text": "volunteer at China Science and Technology Museum",
+      "synthesis_text": "volunteer at China Science and Technology Museum",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "China Science and Technology Museum",
@@ -688,6 +805,8 @@
     {
       "context": "vocabulary[4].sentence",
       "text": "Maomao worked at China Science and Technology Museum.",
+      "synthesis_text": "Maomao worked at China Science and Technology Museum.",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Maomao",
@@ -713,6 +832,8 @@
     {
       "context": "vocabulary[4].headword_repeat",
       "text": "China Science and Technology Museum",
+      "synthesis_text": "China Science and Technology Museum",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "China Science and Technology Museum",
@@ -729,18 +850,24 @@
     {
       "context": "vocabulary[5].headword",
       "text": "far from",
+      "synthesis_text": "far from",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "vocabulary[5].collocation",
       "text": "far from home",
+      "synthesis_text": "far from home",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "vocabulary[5].sentence",
       "text": "Hubei is far from Beijing.",
+      "synthesis_text": "Hubei is far from Beijing.",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Hubei",
@@ -766,18 +893,24 @@
     {
       "context": "vocabulary[5].headword_repeat",
       "text": "far from",
+      "synthesis_text": "far from",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "grammar[1].examples[1]",
       "text": "Did you travel this summer vacation?",
+      "synthesis_text": "Did you travel this summer vacation?",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "grammar[1].examples[2]",
       "text": "No, I didn’t. I stayed in Beijing.",
+      "synthesis_text": "No, I didn’t. I stayed in Beijing.",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Beijing",
@@ -794,6 +927,8 @@
     {
       "context": "grammar[2].examples[1]",
       "text": "Where did Guoguo go?",
+      "synthesis_text": "Where did Guoguo go?",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Guoguo",
@@ -810,6 +945,8 @@
     {
       "context": "grammar[2].examples[2]",
       "text": "What did Maomao do there?",
+      "synthesis_text": "What did Maomao do there?",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Maomao",
@@ -826,6 +963,8 @@
     {
       "context": "grammar[2].examples[3]",
       "text": "How did Lingling get there?",
+      "synthesis_text": "How did Lingling get there?",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Lingling",
@@ -842,66 +981,102 @@
     {
       "context": "grammar[3].examples[1]",
       "text": "I read books every day.",
+      "synthesis_text": "I reed books every day.",
+      "contextual_pronunciation": {
+        "display_text": "I read books every day.",
+        "spoken_text": "I reed books every day.",
+        "target": "read",
+        "pronunciation": "/riːd/",
+        "tense": "simple present / habitual",
+        "reason": "every day 明确表示习惯动作。"
+      },
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "grammar[3].examples[2]",
       "text": "I read books there yesterday.",
+      "synthesis_text": "I red books there yesterday.",
+      "contextual_pronunciation": {
+        "display_text": "I read books there yesterday.",
+        "spoken_text": "I red books there yesterday.",
+        "target": "read",
+        "pronunciation": "/red/",
+        "tense": "past simple",
+        "reason": "yesterday 明确表示过去时间。"
+      },
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "phonics[1].examples[1]",
       "text": "foot",
+      "synthesis_text": "foot",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "phonics[1].examples[2]",
       "text": "book",
+      "synthesis_text": "book",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "phonics[1].examples[3]",
       "text": "good",
+      "synthesis_text": "good",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "phonics[1].examples[4]",
       "text": "look",
+      "synthesis_text": "look",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "phonics[2].examples[1]",
       "text": "far",
+      "synthesis_text": "far",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "phonics[2].examples[2]",
       "text": "car",
+      "synthesis_text": "car",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "phonics[2].examples[3]",
       "text": "park",
+      "synthesis_text": "park",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "phonics[2].examples[4]",
       "text": "start",
+      "synthesis_text": "start",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "quiz[1].question",
       "text": "Did Lingling travel this summer vacation?",
+      "synthesis_text": "Did Lingling travel this summer vacation?",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Lingling",
@@ -918,6 +1093,8 @@
     {
       "context": "quiz[1].answer",
       "text": "No, she didn’t. She stayed in Beijing.",
+      "synthesis_text": "No, she didn’t. She stayed in Beijing.",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Beijing",
@@ -934,6 +1111,8 @@
     {
       "context": "quiz[2].question",
       "text": "Where did Maomao work as a volunteer?",
+      "synthesis_text": "Where did Maomao work as a volunteer?",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Maomao",
@@ -950,6 +1129,8 @@
     {
       "context": "quiz[2].answer",
       "text": "He worked at China Science and Technology Museum.",
+      "synthesis_text": "He worked at China Science and Technology Museum.",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "China Science and Technology Museum",
@@ -966,6 +1147,8 @@
     {
       "context": "quiz[3].question",
       "text": "How did Guoguo get to Hubei?",
+      "synthesis_text": "How did Guoguo get to Hubei?",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Guoguo",
@@ -991,10 +1174,70 @@
     {
       "context": "quiz[3].answer",
       "text": "She took a train.",
+      "synthesis_text": "She took a train.",
+      "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     }
   ],
+  "contextual_pronunciation_decisions": {
+    "dialogue[2].english": {
+      "display_text": "No, I didn’t. I stayed in Beijing. I went to the National Library of China on foot and read books there.",
+      "spoken_text": "No, I didn’t. I stayed in Beijing. I went to the National Library of China on foot and red books there.",
+      "target": "read",
+      "pronunciation": "/red/",
+      "tense": "past simple",
+      "reason": "整段在叙述已经发生的暑假经历，read 是过去式。"
+    },
+    "listen_and_say[2].answer": {
+      "display_text": "Lingling read books. Maomao worked as a volunteer. Guoguo learned to take care of plants and animals.",
+      "spoken_text": "Lingling red books. Maomao worked as a volunteer. Guoguo learned to take care of plants and animals.",
+      "target": "read",
+      "pronunciation": "/red/",
+      "tense": "past simple",
+      "reason": "问题使用 did 询问已经发生的事情，答案用一般过去时。"
+    },
+    "role_play[3].answer": {
+      "display_text": "I read books there.",
+      "spoken_text": "I red books there.",
+      "target": "read",
+      "pronunciation": "/red/",
+      "tense": "past simple",
+      "reason": "回答 What did you do there，说明过去做过的事情。"
+    },
+    "think_share.model": {
+      "display_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and read books there. I also learned many new things.",
+      "spoken_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and red books there. I also learned many new things.",
+      "target": "read",
+      "pronunciation": "/red/",
+      "tense": "past simple",
+      "reason": "分享的是已经结束的暑假经历，前后动词均为过去式。"
+    },
+    "vocabulary[3].sentence": {
+      "display_text": "I read books at the National Library of China.",
+      "spoken_text": "I reed books at the National Library of China.",
+      "target": "read",
+      "pronunciation": "/riːd/",
+      "tense": "simple present / habitual",
+      "reason": "词汇例句没有过去时间标记，中文释义为一般性的‘我在……读书’，按现在或习惯表达。"
+    },
+    "grammar[3].examples[1]": {
+      "display_text": "I read books every day.",
+      "spoken_text": "I reed books every day.",
+      "target": "read",
+      "pronunciation": "/riːd/",
+      "tense": "simple present / habitual",
+      "reason": "every day 明确表示习惯动作。"
+    },
+    "grammar[3].examples[2]": {
+      "display_text": "I read books there yesterday.",
+      "spoken_text": "I red books there yesterday.",
+      "target": "read",
+      "pronunciation": "/red/",
+      "tense": "past simple",
+      "reason": "yesterday 明确表示过去时间。"
+    }
+  },
   "unsegmented_known_occurrences": [],
   "unresolved_pronunciations": []
 }
