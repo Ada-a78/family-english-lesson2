@@ -56,8 +56,25 @@
   "line_count": 12,
   "vocabulary_count": 5,
   "vocabulary_source_policy": "Lesson Word Bank first; book-final Word List fills gaps",
+  "layout_policy_version": 1,
+  "layout_generated_frame_count": 77,
+  "layout_audited_frame_count": 77,
+  "layout_audited_text_surface_count": 619,
+  "layout_overflow_count": 0,
+  "layout_overlap_count": 0,
+  "layout_clipped_text_count": 0,
+  "layout_replacement_character_count": 0,
+  "layout_status": "passed",
   "seek_seconds": 15,
-  "web_speed_controls": [0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0],
+  "web_speed_controls": [
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0
+  ],
   "family_practice_readings": 2,
   "family_practice_flow": "0.75x reviewed model, child reads, family gives one cue, replay, child rereads once",
   "local_recording_uploads_audio": false,
@@ -67,5 +84,5 @@
   "context_sensitive_read_decision_count": 7,
   "past_read_red_count": 5,
   "present_habitual_read_riid_count": 2,
-  "public_asset_version": "female-read-red-gap90-20260720"
+  "public_asset_version": "layout-safe-20260720"
 }
