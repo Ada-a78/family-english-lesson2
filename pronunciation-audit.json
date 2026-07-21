@@ -8,7 +8,7 @@
     "lesson_delta: Unit 1 Lesson 2 教材第5–7页",
     "external_delta: 本课未提供课外资源"
   ],
-  "synthesis_context_count": 86,
+  "synthesis_context_count": 84,
   "proper_noun_occurrence_count": 48,
   "language_switch_counts": {
     "zh-CN": 33,
@@ -990,22 +990,6 @@
       "context": "grammar[3].verb_pairs[1].past",
       "text": "stayed",
       "synthesis_text": "stayed",
-      "contextual_pronunciation": null,
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "grammar[3].verb_pairs[2].base",
-      "text": "work",
-      "synthesis_text": "work",
-      "contextual_pronunciation": null,
-      "matches": [],
-      "segmentation_applied": true
-    },
-    {
-      "context": "grammar[3].verb_pairs[2].past",
-      "text": "worked",
-      "synthesis_text": "worked",
       "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
