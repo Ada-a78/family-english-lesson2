@@ -6,11 +6,12 @@
 *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Arial,sans-serif;background:linear-gradient(180deg,#fff1df,#f7fbff);color:var(--navy)}
 .wrap{max-width:1040px;margin:auto;padding:18px}header{background:#fff;border-radius:24px;padding:22px;box-shadow:0 10px 30px #8b6c3b1a}h1{margin:4px 0 8px;font-size:clamp(26px,5vw,46px)}h2{margin-top:38px}.subtitle{color:var(--orange);font-weight:800}.goal{padding:12px 16px;background:#fff0dc;border-radius:14px;color:#96531f}video{width:100%;border-radius:18px;background:#000;margin-top:16px}.speeds{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.speeds button{min-height:46px;min-width:58px}button,.download{border:0;border-radius:999px;background:#eaf6f2;color:#176d56;padding:10px 15px;font-weight:800;cursor:pointer;text-decoration:none}button.active{background:var(--green);color:white}.downloads{display:flex;flex-wrap:wrap;gap:9px}.download{background:#fff0dc;color:#99531f}.note{color:var(--muted);line-height:1.7}.line-card{display:grid;grid-template-columns:100px 1fr;gap:15px;background:#fff;border-radius:20px;padding:15px;margin:12px 0;box-shadow:0 5px 18px #1d365710}.avatar img{width:82px;height:82px;object-fit:contain}.avatar{text-align:center;color:var(--green)}.line-body{position:relative}.num{position:absolute;right:0;color:#bbc4d1;font-weight:900}.en{font-size:20px;font-weight:800;line-height:1.55;padding-right:35px}.cn{color:#596b82;line-height:1.6}.chunks{background:#fff4e7;color:#95551f;padding:8px 12px;border-radius:10px}audio{width:100%;height:42px}.terms,.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}.term,.qa,.study-card{background:#fff;border-radius:18px;padding:16px;box-shadow:0 5px 18px #1d365710}.term strong,.term span,.term small{display:block;margin-bottom:8px}.term strong{font-size:24px}.term span{color:var(--green);font-weight:800}.qa{margin:12px 0}.qa h3{font-size:21px}.answer{margin-top:12px;padding:14px;background:#eef9f5;border-radius:12px;line-height:1.65}.study-card h3 span{font-size:18px;color:var(--orange)}.study-card li{margin-bottom:10px;line-height:1.5}footer{margin:38px 0 20px;text-align:center;color:#74839a}@media(max-width:620px){.wrap{padding:10px}.line-card{grid-template-columns:70px 1fr;padding:12px}.avatar img{width:62px;height:62px}.en{font-size:18px}}
 button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}.seek-controls button{min-height:50px;border-radius:14px;background:#fff0dc;color:#9a541f;font-size:17px}.copy-link{width:100%;min-height:48px;border-radius:14px;background:var(--orange);color:#fff;margin-top:10px}button:disabled{opacity:.48;cursor:not-allowed}.practice-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.practice-actions button{min-height:48px;border-radius:13px}.play-standard,.complete-practice{background:var(--green);color:#fff}.complete-practice{grid-column:1/-1}.practice-status{background:#fff4e7;padding:10px 12px;border-radius:10px;line-height:1.55}.practice-status[data-tone="success"]{background:#e7f8ef;color:#176d56}.practice-status[data-tone="error"]{background:#fff0ef;color:#9c3a32}.practice-status[data-tone="working"]{background:#eaf3ff;color:#285c98}.why{color:#596b82;line-height:1.6}.rounds{padding-left:22px}.privacy{background:#eef9f5;border-left:5px solid var(--green);padding:12px 14px;border-radius:10px;line-height:1.65}.family-checklist{background:#fff8ed;border-radius:12px;padding:12px 14px;line-height:1.65}.recording-note{font-size:14px;color:#65748a}.completion{display:grid;grid-template-columns:1fr 220px;align-items:center;overflow:hidden}.completion img{width:100%;max-height:310px;object-fit:contain;animation:cheer .75s ease-in-out infinite alternate;transform-origin:50% 90%}@keyframes cheer{from{transform:translateY(9px) rotate(-3deg)}to{transform:translateY(-10px) rotate(3deg)}}@media(prefers-reduced-motion:reduce){.completion img{animation:none}}@media(max-width:620px){.wrap{padding:10px}.line-card{grid-template-columns:70px 1fr;padding:12px}.avatar img{width:62px;height:62px}.en{font-size:18px}.practice-actions{grid-template-columns:1fr}.complete-practice{grid-column:1}.completion{grid-template-columns:1fr 145px}}
+.think-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px}.think-card{min-width:0;overflow:hidden}.think-card>small{color:var(--orange);font-weight:800}.bilingual-pair{background:#f3f8fb;border-radius:13px;padding:11px 13px;margin:10px 0;overflow:hidden}.pair-en{font-size:19px;line-height:1.45;font-weight:800;margin:0;overflow-wrap:break-word;word-break:normal}.pair-cn{font-size:17px;line-height:1.55;color:#596b82;margin:5px 0 0;overflow-wrap:anywhere}@media(max-width:620px){.think-grid{grid-template-columns:1fr}.pair-en{font-size:18px}}
 </style></head><body><main class="wrap">
 <header><div class="subtitle">北京版英语六年级上册</div><h1>Unit 1 · Lesson 2</h1><h2 style="margin:0">All of Us Had a Meaningful Summer Vacation</h2>
 <p class="goal">最低目标：听懂 3 句、跟读 3 句、回答 1 个问题。完成即可，不加量。</p>
 <button id="copyLink" class="copy-link" type="button">复制本页链接，发到微信</button><p id="copyStatus" class="note" aria-live="polite"></p>
-<video id="mainVideo" controls playsinline webkit-playsinline x5-playsinline x5-video-player-type="h5-page" preload="none" poster="poster.jpg" src="lesson2-lowercase-phonics-v12.mp4"></video>
+<video id="mainVideo" controls playsinline webkit-playsinline x5-playsinline x5-video-player-type="h5-page" preload="none" poster="poster.jpg" src="lesson2-think-share-bilingual-v13.mp4"></video>
 <div class="seek-controls"><button id="back15" type="button" aria-label="快退15秒">快退 15 秒</button><button id="forward15" type="button" aria-label="快进15秒">快进 15 秒</button></div>
 <div class="speeds" id="speeds"><button data-speed='0.5' aria-pressed='false'>0.5×</button><button data-speed='0.75' aria-pressed='false'>0.75×</button><button data-speed='1.0' aria-pressed='false'>1×</button><button data-speed='1.25' aria-pressed='false'>1.25×</button><button data-speed='1.5' aria-pressed='false'>1.5×</button><button data-speed='1.75' aria-pressed='false'>1.75×</button><button data-speed='2.0' aria-pressed='false'>2×</button></div><p id="speedText" class="note">当前速度：1×（默认）</p>
 <p class="note"><strong>本版声音：</strong>Samantha 美式女声；1×为自然清晰源音，0.75×跟读由同一女声保真降速。未经家长同意不得更换声音。</p>
@@ -48,6 +49,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
           
           
           
+          
           <audio controls preload="none" src="line-01-Guoguo.m4a"></audio></div>
         </article>
         <article class="line-card">
@@ -55,6 +57,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
           <div class="line-body"><div class="num">02</div><p class="en">No, I didn’t. I stayed in Beijing. I went to the National Library of China on foot and read books there.</p><p class="cn">没有，我没去。我留在北京。我步行去了中国国家图书馆，并在那里看了书。</p>
           <p class="chunks">意群：No, I didn’t / stayed in Beijing / went to the National Library of China / on foot / read books there</p>
           <p class="timing">本句0.75倍示范后，留 17 秒自己读。</p>
+          
           
           
           
@@ -72,6 +75,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
           
           
           
+          
           <audio controls preload="none" src="line-03-Guoguo.m4a"></audio></div>
         </article>
         <article class="line-card">
@@ -79,6 +83,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
           <div class="line-body"><div class="num">04</div><p class="en">Yes, I did. I worked as a volunteer at China Science and Technology Museum.</p><p class="cn">是的。我在中国科学技术馆做志愿者。</p>
           <p class="chunks">意群：Yes, I did / worked as a volunteer / at China Science and Technology Museum</p>
           <p class="timing">本句0.75倍示范后，留 13 秒自己读。</p>
+          
           
           
           
@@ -96,6 +101,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
           
           
           
+          
           <audio controls preload="none" src="line-05-Guoguo.m4a"></audio></div>
         </article>
         <article class="line-card">
@@ -103,6 +109,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
           <div class="line-body"><div class="num">06</div><p class="en">From August 1st to 10th.</p><p class="cn">从八月一日到十日。</p>
           <p class="chunks">意群：From August 1st / to 10th</p>
           <p class="timing">本句0.75倍示范后，留 5 秒自己读。</p>
+          
           
           
           
@@ -120,6 +127,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
           
           
           
+          
           <audio controls preload="none" src="line-07-Lingling.m4a"></audio></div>
         </article>
         <article class="line-card">
@@ -127,6 +135,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
           <div class="line-body"><div class="num">08</div><p class="en">Not too far. I went there by bus. Where did you go, Guoguo?</p><p class="cn">不太远。我乘公共汽车去的。果果，你去了哪里？</p>
           <p class="chunks">意群：Not too far / went there by bus / Where did you go, Guoguo</p>
           <p class="timing">本句0.75倍示范后，留 11 秒自己读。</p>
+          
           
           
           
@@ -144,6 +153,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
           
           
           
+          
           <audio controls preload="none" src="line-09-Guoguo.m4a"></audio></div>
         </article>
         <article class="line-card">
@@ -151,6 +161,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
           <div class="line-body"><div class="num">10</div><p class="en">Hubei is far from here. How did you get there?</p><p class="cn">湖北离这里很远。你是怎么去的？</p>
           <p class="chunks">意群：Hubei is far from here / How did you get there</p>
           <p class="timing">本句0.75倍示范后，留 8 秒自己读。</p>
+          
           
           
           
@@ -168,6 +179,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
           
           
           
+          
           <audio controls preload="none" src="line-11-Guoguo.m4a"></audio></div>
         </article>
         <article class="line-card">
@@ -175,6 +187,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
           <div class="line-body"><div class="num">12</div><p class="en">Wow! All of us had a meaningful summer vacation.</p><p class="cn">哇！我们所有人都度过了一个有意义的暑假。</p>
           <p class="chunks">意群：All of us / had a meaningful / summer vacation</p>
           <p class="timing">本句0.75倍示范后，留 9 秒自己读。</p>
+          
           
           
           
@@ -199,6 +212,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
         <div class="answer" hidden><strong>Lingling went on foot. Maomao went by bus. Guoguo took a train.</strong><br>玲玲步行去，毛毛乘公共汽车去，果果乘火车去。</div></article></section>
 <section><h2>四级主动回忆</h2><p class="note">从听辨、线索补全、中文提取英语，到独立复述；每一步都先开口，再核对。</p><article class='qa'><h3>第1级：听辨回忆</h3><p><strong>Who stayed in Beijing?</strong><br>谁留在北京？先说人物名。</p><button onclick="this.nextElementSibling.hidden=false;this.hidden=true">我先开口，再看答案</button><div class='answer' hidden><strong>Lingling stayed in Beijing.</strong><br>玲玲留在北京。</div></article><article class='qa'><h3>第2级：线索回忆</h3><p><strong>Maomao worked as a volunteer at ...</strong><br>根据句首线索补完整地点。</p><button onclick="this.nextElementSibling.hidden=false;this.hidden=true">我先开口，再看答案</button><div class='answer' hidden><strong>Maomao worked as a volunteer at China Science and Technology Museum.</strong><br>毛毛在中国科学技术馆做志愿者。</div></article><article class='qa'><h3>第3级：中文提取英语</h3><p><strong>How did Guoguo get to Hubei?</strong><br>果果怎么去湖北？不用看课文，用完整英语回答。</p><button onclick="this.nextElementSibling.hidden=false;this.hidden=true">我先开口，再看答案</button><div class='answer' hidden><strong>She took a train.</strong><br>她乘了火车。</div></article><article class='qa'><h3>第4级：独立复述</h3><p><strong>Retell one summer vacation story: where, what, and how.</strong><br>任选一个人物，不看课文，说出去了哪里、做了什么、怎么去。</p><button onclick="this.nextElementSibling.hidden=false;this.hidden=true">我先开口，再看答案</button><div class='answer' hidden><strong>Lingling stayed in Beijing. She went to the National Library of China on foot and read books there.</strong><br>示范：玲玲留在北京，步行去了中国国家图书馆，并在那里读书。</div></article>
 <article class="study-card"><h3>课后间隔提取</h3><ol><li>本视频结尾立即回忆一次</li><li>约10分钟后只回忆、不先重看答案</li><li>第1天回放主动回忆段</li><li>第3天独立复述一个人物</li><li>第7天完成三问三答</li></ol><p class="note">采用提取练习与间隔练习原则；具体间隔按学习材料和保持时长调整，不把艾宾浩斯曲线误写成人人相同的固定分钟表。</p></article></section>
+<section id="think-share-bilingual"><h2>Think and share：逐句中英对应</h2><p class="note">每句英文下面紧跟对应中文；视频已把较长内容拆成多页，避免小字、重影、截断或越出边框。</p><div class="think-grid"><article class='study-card think-card'><small>三步表达</small><h3>第1步：先介绍自己</h3><div class='bilingual-pair'><p class='pair-en'>Please tell us your name first.</p><p class='pair-cn'>请先告诉大家你的名字。</p></div><div class='bilingual-pair'><p class='pair-en'>Hello, everyone!</p><p class='pair-cn'>大家好！</p></div><div class='bilingual-pair'><p class='pair-en'>My name is Lingling.</p><p class='pair-cn'>我叫玲玲。</p></div><div class='bilingual-pair'><p class='pair-en'>I’m from Class 1, Grade 6.</p><p class='pair-cn'>我来自六年级一班。</p></div></article><article class='study-card think-card'><small>三步表达</small><h3>第2步：回答暑假问题</h3><div class='bilingual-pair'><p class='pair-en'>How was your summer vacation?</p><p class='pair-cn'>你的暑假过得怎么样？</p></div><div class='bilingual-pair'><p class='pair-en'>Did you travel ... ?</p><p class='pair-cn'>你去旅行了吗……？</p></div><div class='bilingual-pair'><p class='pair-en'>Where did you go?</p><p class='pair-cn'>你去了哪里？</p></div><div class='bilingual-pair'><p class='pair-en'>How did you get there?</p><p class='pair-cn'>你是怎么到那里的？</p></div></article><article class='study-card think-card'><small>三步表达</small><h3>第2步：参考回答</h3><div class='bilingual-pair'><p class='pair-en'>It was meaningful.</p><p class='pair-cn'>暑假很有意义。</p></div><div class='bilingual-pair'><p class='pair-en'>No, I didn’t.</p><p class='pair-cn'>没有，我没有去旅行。</p></div><div class='bilingual-pair'><p class='pair-en'>I stayed in Beijing.</p><p class='pair-cn'>我留在北京。</p></div><div class='bilingual-pair'><p class='pair-en'>I went to the National Library of China on foot.</p><p class='pair-cn'>我步行去了中国国家图书馆。</p></div></article><article class='study-card think-card'><small>三步表达</small><h3>第3步：继续追问</h3><div class='bilingual-pair'><p class='pair-en'>When did you go there?</p><p class='pair-cn'>你什么时候去的？</p></div><div class='bilingual-pair'><p class='pair-en'>What did you do there?</p><p class='pair-cn'>你在那里做了什么？</p></div><div class='bilingual-pair'><p class='pair-en'>What else do you want to share about your summer vacation?</p><p class='pair-cn'>关于你的暑假，你还想分享什么？</p></div></article><article class='study-card think-card'><small>三步表达</small><h3>第3步：参考回答</h3><div class='bilingual-pair'><p class='pair-en'>I went there during the summer vacation and read books.</p><p class='pair-cn'>暑假期间我去了那里并读了书。</p></div><div class='bilingual-pair'><p class='pair-en'>I also learned many new things.</p><p class='pair-cn'>我还学到了许多新知识。</p></div></article><article class='study-card think-card'><small>完整示范</small><h3>完整示范 1 / 4</h3><div class='bilingual-pair'><p class='pair-en'>Welcome to our School TV Show!</p><p class='pair-cn'>欢迎来到我们的校园电视节目！</p></div><div class='bilingual-pair'><p class='pair-en'>This week, we will talk about our summer vacation.</p><p class='pair-cn'>本周我们将谈论暑假。</p></div><div class='bilingual-pair'><p class='pair-en'>Hello, everyone!</p><p class='pair-cn'>大家好！</p></div></article><article class='study-card think-card'><small>完整示范</small><h3>完整示范 2 / 4</h3><div class='bilingual-pair'><p class='pair-en'>My name is Lingling.</p><p class='pair-cn'>我叫玲玲。</p></div><div class='bilingual-pair'><p class='pair-en'>I’m from Class 1, Grade 6.</p><p class='pair-cn'>我来自六年级一班。</p></div><div class='bilingual-pair'><p class='pair-en'>My summer vacation was meaningful.</p><p class='pair-cn'>我的暑假很有意义。</p></div></article><article class='study-card think-card'><small>完整示范</small><h3>完整示范 3 / 4</h3><div class='bilingual-pair'><p class='pair-en'>I didn’t travel.</p><p class='pair-cn'>我没有外出旅行。</p></div><div class='bilingual-pair'><p class='pair-en'>I stayed in Beijing.</p><p class='pair-cn'>我留在北京。</p></div></article><article class='study-card think-card'><small>完整示范</small><h3>完整示范 4 / 4</h3><div class='bilingual-pair'><p class='pair-en'>I went to the National Library of China on foot and read books there.</p><p class='pair-cn'>我步行去了中国国家图书馆，并在那里读了书。</p></div><div class='bilingual-pair'><p class='pair-en'>I also learned many new things.</p><p class='pair-cn'>我还学到了许多新知识。</p></div></article></div></section>
 <section><h2>本课五词精讲</h2><p class="note">每课只精学5项：听读音、懂中文、学搭配、放进句子里使用。教材原词与教学补充已经分开标注。</p><div class="grid">
         <article class="study-card vocab-card"><h3>1. meaningful <span>/ˈmiːnɪŋfəl/</span></h3>
         <p><strong>形容词</strong> · 有意义的</p>
@@ -241,7 +255,7 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
 <section class="study-card completion"><div><h2 style="margin-top:0">完成啦：先轻松想起三件事</h2><ol><li>谁留在北京？</li><li>谁在科技馆做志愿者？</li><li>果果怎样去湖北？</li></ol><p>能说出一个关键词就算成功。下一课开始前再快速提取一次，不要求今天全部背完。</p></div><img src="mascot.png" alt="欢呼跳跃的卡通学习伙伴"></section>
 <footer>儿童英语整课视频工厂 · 家庭学习网页 · 标准美语示范 + 家庭纠音 · 不包含真人声纹模仿</footer>
 </main><script>
-const voiceAssetVersion='lowercase-phonics-20260721-v12';document.querySelectorAll('video[src],audio[src]').forEach(m=>{const src=m.getAttribute('src');if(src&&!src.includes('?'))m.setAttribute('src',`${src}?voice=${voiceAssetVersion}`);});document.querySelectorAll('[data-model]').forEach(card=>{const src=card.dataset.model;if(src&&!src.includes('?'))card.dataset.model=`${src}?voice=${voiceAssetVersion}`;});
+const voiceAssetVersion='think-share-bilingual-20260721-v13';document.querySelectorAll('video[src],audio[src]').forEach(m=>{const src=m.getAttribute('src');if(src&&!src.includes('?'))m.setAttribute('src',`${src}?voice=${voiceAssetVersion}`);});document.querySelectorAll('[data-model]').forEach(card=>{const src=card.dataset.model;if(src&&!src.includes('?'))card.dataset.model=`${src}?voice=${voiceAssetVersion}`;});
 const mainVideo=document.getElementById('mainVideo');const media=[mainVideo,...document.querySelectorAll('audio')];const buttons=[...document.querySelectorAll('[data-speed]')];
 function setSpeed(s){media.forEach(m=>m.playbackRate=s);buttons.forEach(b=>{const on=Number(b.dataset.speed)===s;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});document.getElementById('speedText').textContent=`当前速度：${s}×${s===1?'（默认）':''}`;}
 function seekBy(seconds){if(!Number.isFinite(mainVideo.currentTime))return;const end=Number.isFinite(mainVideo.duration)?mainVideo.duration:Infinity;mainVideo.currentTime=Math.max(0,Math.min(end,mainVideo.currentTime+seconds));}

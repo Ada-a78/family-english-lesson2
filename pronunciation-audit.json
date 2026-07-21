@@ -8,11 +8,11 @@
     "lesson_delta: Unit 1 Lesson 2 教材第5–7页",
     "external_delta: 本课未提供课外资源"
   ],
-  "synthesis_context_count": 84,
-  "proper_noun_occurrence_count": 48,
+  "synthesis_context_count": 110,
+  "proper_noun_occurrence_count": 51,
   "language_switch_counts": {
-    "zh-CN": 33,
-    "en-US": 15
+    "zh-CN": 35,
+    "en-US": 16
   },
   "glossary": [
     {
@@ -43,7 +43,7 @@
       "source_locations": [
         "全书人物表第1页；Lesson 2"
       ],
-      "synthesized_occurrences": 8
+      "synthesized_occurrences": 9
     },
     {
       "display": "Guoguo",
@@ -73,7 +73,7 @@
       "source_locations": [
         "Unit 1 Lessons 1–2"
       ],
-      "synthesized_occurrences": 7
+      "synthesized_occurrences": 8
     },
     {
       "display": "National Library of China",
@@ -88,7 +88,7 @@
       "source_locations": [
         "Unit 1 Lesson 2；Word List 第98页；中国国家图书馆官方英文页面"
       ],
-      "synthesized_occurrences": 8
+      "synthesized_occurrences": 9
     },
     {
       "display": "China Science and Technology Museum",
@@ -571,17 +571,26 @@
       "segmentation_applied": true
     },
     {
-      "context": "think_share.model",
-      "text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and read books there. I also learned many new things.",
-      "synthesis_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and red books there. I also learned many new things.",
-      "contextual_pronunciation": {
-        "display_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and read books there. I also learned many new things.",
-        "spoken_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and red books there. I also learned many new things.",
-        "target": "read",
-        "pronunciation": "/red/",
-        "tense": "past simple",
-        "reason": "分享的是已经结束的暑假经历，前后动词均为过去式。"
-      },
+      "context": "think_share.pages[1].pairs[1].english",
+      "text": "Please tell us your name first.",
+      "synthesis_text": "Please tell us your name first.",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[1].pairs[2].english",
+      "text": "Hello, everyone!",
+      "synthesis_text": "Hello, everyone!",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[1].pairs[3].english",
+      "text": "My name is Lingling.",
+      "synthesis_text": "My name is Lingling.",
+      "contextual_pronunciation": null,
       "matches": [
         {
           "matched_form": "Lingling",
@@ -591,7 +600,72 @@
           "origin_language": "zh-CN",
           "verification_status": "verified",
           "category": "person"
-        },
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[1].pairs[4].english",
+      "text": "I’m from Class 1, Grade 6.",
+      "synthesis_text": "I’m from Class 1, Grade 6.",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[2].pairs[1].english",
+      "text": "How was your summer vacation?",
+      "synthesis_text": "How was your summer vacation?",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[2].pairs[2].english",
+      "text": "Did you travel ... ?",
+      "synthesis_text": "Did you travel ... ?",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[2].pairs[3].english",
+      "text": "Where did you go?",
+      "synthesis_text": "Where did you go?",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[2].pairs[4].english",
+      "text": "How did you get there?",
+      "synthesis_text": "How did you get there?",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[3].pairs[1].english",
+      "text": "It was meaningful.",
+      "synthesis_text": "It was meaningful.",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[3].pairs[2].english",
+      "text": "No, I didn’t.",
+      "synthesis_text": "No, I didn’t.",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[3].pairs[3].english",
+      "text": "I stayed in Beijing.",
+      "synthesis_text": "I stayed in Beijing.",
+      "contextual_pronunciation": null,
+      "matches": [
         {
           "matched_form": "Beijing",
           "display": "Beijing",
@@ -600,7 +674,16 @@
           "origin_language": "zh-CN",
           "verification_status": "verified",
           "category": "city"
-        },
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[3].pairs[4].english",
+      "text": "I went to the National Library of China on foot.",
+      "synthesis_text": "I went to the National Library of China on foot.",
+      "contextual_pronunciation": null,
+      "matches": [
         {
           "matched_form": "National Library of China",
           "display": "National Library of China",
@@ -611,6 +694,170 @@
           "category": "institution"
         }
       ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[4].pairs[1].english",
+      "text": "When did you go there?",
+      "synthesis_text": "When did you go there?",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[4].pairs[2].english",
+      "text": "What did you do there?",
+      "synthesis_text": "What did you do there?",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[4].pairs[3].english",
+      "text": "What else do you want to share about your summer vacation?",
+      "synthesis_text": "What else do you want to share about your summer vacation?",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[5].pairs[1].english",
+      "text": "I went there during the summer vacation and read books.",
+      "synthesis_text": "I went there during the summer vacation and red books.",
+      "contextual_pronunciation": {
+        "display_text": "I went there during the summer vacation and read books.",
+        "spoken_text": "I went there during the summer vacation and red books.",
+        "target": "read",
+        "pronunciation": "/red/",
+        "tense": "past simple",
+        "reason": "分享的是已经结束的暑假经历，read 是过去式。"
+      },
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.pages[5].pairs[2].english",
+      "text": "I also learned many new things.",
+      "synthesis_text": "I also learned many new things.",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[1].pairs[1].english",
+      "text": "Welcome to our School TV Show!",
+      "synthesis_text": "Welcome to our School TV Show!",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[1].pairs[2].english",
+      "text": "This week, we will talk about our summer vacation.",
+      "synthesis_text": "This week, we will talk about our summer vacation.",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[1].pairs[3].english",
+      "text": "Hello, everyone!",
+      "synthesis_text": "Hello, everyone!",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[2].pairs[1].english",
+      "text": "My name is Lingling.",
+      "synthesis_text": "My name is Lingling.",
+      "contextual_pronunciation": null,
+      "matches": [
+        {
+          "matched_form": "Lingling",
+          "display": "Lingling",
+          "spoken_text": "玲玲",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "person"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[2].pairs[2].english",
+      "text": "I’m from Class 1, Grade 6.",
+      "synthesis_text": "I’m from Class 1, Grade 6.",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[2].pairs[3].english",
+      "text": "My summer vacation was meaningful.",
+      "synthesis_text": "My summer vacation was meaningful.",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[3].pairs[1].english",
+      "text": "I didn’t travel.",
+      "synthesis_text": "I didn’t travel.",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[3].pairs[2].english",
+      "text": "I stayed in Beijing.",
+      "synthesis_text": "I stayed in Beijing.",
+      "contextual_pronunciation": null,
+      "matches": [
+        {
+          "matched_form": "Beijing",
+          "display": "Beijing",
+          "spoken_text": "北京",
+          "spoken_language": "zh-CN",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "city"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[4].pairs[1].english",
+      "text": "I went to the National Library of China on foot and read books there.",
+      "synthesis_text": "I went to the National Library of China on foot and red books there.",
+      "contextual_pronunciation": {
+        "display_text": "I went to the National Library of China on foot and read books there.",
+        "spoken_text": "I went to the National Library of China on foot and red books there.",
+        "target": "read",
+        "pronunciation": "/red/",
+        "tense": "past simple",
+        "reason": "分享的是已经结束的暑假经历，前后动词均为过去式。"
+      },
+      "matches": [
+        {
+          "matched_form": "National Library of China",
+          "display": "National Library of China",
+          "spoken_text": "National Library of China",
+          "spoken_language": "en-US",
+          "origin_language": "zh-CN",
+          "verification_status": "verified",
+          "category": "institution"
+        }
+      ],
+      "segmentation_applied": true
+    },
+    {
+      "context": "think_share.model_pages[4].pairs[2].english",
+      "text": "I also learned many new things.",
+      "synthesis_text": "I also learned many new things.",
+      "contextual_pronunciation": null,
+      "matches": [],
       "segmentation_applied": true
     },
     {
@@ -1347,9 +1594,17 @@
       "tense": "past simple",
       "reason": "回答 What did you do there，说明过去做过的事情。"
     },
-    "think_share.model": {
-      "display_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and read books there. I also learned many new things.",
-      "spoken_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and red books there. I also learned many new things.",
+    "think_share.pages[5].pairs[1].english": {
+      "display_text": "I went there during the summer vacation and read books.",
+      "spoken_text": "I went there during the summer vacation and red books.",
+      "target": "read",
+      "pronunciation": "/red/",
+      "tense": "past simple",
+      "reason": "分享的是已经结束的暑假经历，read 是过去式。"
+    },
+    "think_share.model_pages[4].pairs[1].english": {
+      "display_text": "I went to the National Library of China on foot and read books there.",
+      "spoken_text": "I went to the National Library of China on foot and red books there.",
       "target": "read",
       "pronunciation": "/red/",
       "tense": "past simple",
@@ -1422,10 +1677,18 @@
       "status": "passed"
     },
     {
-      "context": "think_share.model",
-      "display_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and read books there. I also learned many new things.",
+      "context": "think_share.pages[5].pairs[1].english",
+      "display_text": "I went there during the summer vacation and read books.",
       "target_pronunciation": "/red/",
-      "actual_synthesis_text": "Welcome to our School TV Show! This week, we will talk about our summer vacation. Hello, everyone! My name is Lingling. I’m from Class 1, Grade 6. My summer vacation was meaningful. I didn’t travel. I stayed in Beijing. I went to the National Library of China on foot and red books there. I also learned many new things.",
+      "actual_synthesis_text": "I went there during the summer vacation and red books.",
+      "required_unambiguous_word": "red",
+      "status": "passed"
+    },
+    {
+      "context": "think_share.model_pages[4].pairs[1].english",
+      "display_text": "I went to the National Library of China on foot and read books there.",
+      "target_pronunciation": "/red/",
+      "actual_synthesis_text": "I went to the National Library of China on foot and red books there.",
       "required_unambiguous_word": "red",
       "status": "passed"
     },
