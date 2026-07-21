@@ -19,7 +19,7 @@
     },
     {
       "pattern": "ar",
-      "visible_common_sound": "/ɑr/",
+      "visible_common_sound": "/ɑːr/",
       "grapheme_audio_covered": true,
       "common_sound_audio_covered_on_main_page": true,
       "common_sound_audio_covered_on_exception_page": true,

@@ -49,11 +49,13 @@
     {
       "context": "phonics[2].exceptions[1].grapheme_sound",
       "display_grapheme": "ar",
-      "target_ipa": "ɔɹ",
+      "target_ipa": "ɔːr",
       "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
-      "synthesis_api": "AVSpeechSynthesisIPANotationAttribute",
-      "rate": 0.38,
-      "duration_seconds": 0.316,
+      "synthesis_api": "macOS say reviewed lexical anchor",
+      "actual_synthesis_text": "or",
+      "whole_word_ipa_override_used": false,
+      "rate": 100,
+      "duration_seconds": 0.449,
       "raw_ipa_sent_to_ordinary_tts": false,
       "status": "passed"
     }
