@@ -1104,16 +1104,16 @@
     },
     {
       "context": "phonics[1].letter_names[1]",
-      "text": "O",
-      "synthesis_text": "O",
+      "text": "o",
+      "synthesis_text": "o",
       "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "phonics[1].letter_names[2]",
-      "text": "O",
-      "synthesis_text": "O",
+      "text": "o",
+      "synthesis_text": "o",
       "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
@@ -1168,16 +1168,16 @@
     },
     {
       "context": "phonics[2].letter_names[1]",
-      "text": "A",
-      "synthesis_text": "A",
+      "text": "a",
+      "synthesis_text": "a",
       "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
     },
     {
       "context": "phonics[2].letter_names[2]",
-      "text": "R",
-      "synthesis_text": "R",
+      "text": "r",
+      "synthesis_text": "r",
       "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
