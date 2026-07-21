@@ -8,7 +8,7 @@
     "lesson_delta: Unit 1 Lesson 2 教材第5–7页",
     "external_delta: 本课未提供课外资源"
   ],
-  "synthesis_context_count": 81,
+  "synthesis_context_count": 86,
   "proper_noun_occurrence_count": 48,
   "language_switch_counts": {
     "zh-CN": 33,
@@ -1103,6 +1103,22 @@
       "segmentation_applied": true
     },
     {
+      "context": "phonics[1].letter_names[1]",
+      "text": "O",
+      "synthesis_text": "O",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[1].letter_names[2]",
+      "text": "O",
+      "synthesis_text": "O",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
       "context": "phonics[1].examples[1]",
       "text": "foot",
       "synthesis_text": "foot",
@@ -1146,6 +1162,22 @@
       "context": "phonics[1].exceptions[2]",
       "text": "blood",
       "synthesis_text": "blood",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[2].letter_names[1]",
+      "text": "A",
+      "synthesis_text": "A",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "phonics[2].letter_names[2]",
+      "text": "R",
+      "synthesis_text": "R",
       "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true
@@ -1293,6 +1325,14 @@
       "context": "quiz[3].answer",
       "text": "She took a train.",
       "synthesis_text": "She took a train.",
+      "contextual_pronunciation": null,
+      "matches": [],
+      "segmentation_applied": true
+    },
+    {
+      "context": "completion.narration_segments[2]",
+      "text": "How, Where, What",
+      "synthesis_text": "How, Where, What",
       "contextual_pronunciation": null,
       "matches": [],
       "segmentation_applied": true

@@ -1,0 +1,109 @@
+{
+  "policy_version": "four-field-exact-bilingual-qa-v1",
+  "pair_count": 10,
+  "answer_translation_repeats_question_count": 0,
+  "combined_qa_delimiter_in_answer_count": 0,
+  "status": "passed",
+  "pairs": [
+    {
+      "context": "listen_and_say[1]",
+      "question": "Where did he/she go this summer vacation?",
+      "question_cn": "他或她这个暑假去了哪里？",
+      "answer": "Lingling went to the National Library of China. Maomao went to China Science and Technology Museum. Guoguo went to Hubei.",
+      "answer_cn": "玲玲去了中国国家图书馆，毛毛去了中国科学技术馆，果果去了湖北。",
+      "question_translation_in_answer": false,
+      "combined_qa_delimiter_in_answer": false,
+      "status": "passed"
+    },
+    {
+      "context": "listen_and_say[2]",
+      "question": "What did he/she do there?",
+      "question_cn": "他或她在那里做了什么？",
+      "answer": "Lingling read books. Maomao worked as a volunteer. Guoguo learned to take care of plants and animals.",
+      "answer_cn": "玲玲读了书，毛毛做了志愿者，果果学会了照顾植物和动物。",
+      "question_translation_in_answer": false,
+      "combined_qa_delimiter_in_answer": false,
+      "status": "passed"
+    },
+    {
+      "context": "listen_and_say[3]",
+      "question": "How did he/she get there?",
+      "question_cn": "他或她是怎么到那里的？",
+      "answer": "Lingling went on foot. Maomao went by bus. Guoguo took a train.",
+      "answer_cn": "玲玲步行去，毛毛乘公共汽车去，果果乘火车去。",
+      "question_translation_in_answer": false,
+      "combined_qa_delimiter_in_answer": false,
+      "status": "passed"
+    },
+    {
+      "context": "role_play[1]",
+      "question": "Did you travel this summer vacation?",
+      "question_cn": "你这个暑假旅行了吗？",
+      "answer": "No, I didn’t. I stayed in Beijing.",
+      "answer_cn": "没有。我留在北京。",
+      "question_translation_in_answer": false,
+      "combined_qa_delimiter_in_answer": false,
+      "status": "passed"
+    },
+    {
+      "context": "role_play[2]",
+      "question": "Where did you go this summer vacation?",
+      "question_cn": "你这个暑假去了哪里？",
+      "answer": "I went to the National Library of China.",
+      "answer_cn": "我去了中国国家图书馆。",
+      "question_translation_in_answer": false,
+      "combined_qa_delimiter_in_answer": false,
+      "status": "passed"
+    },
+    {
+      "context": "role_play[3]",
+      "question": "What did you do there?",
+      "question_cn": "你在那里做了什么？",
+      "answer": "I read books there.",
+      "answer_cn": "我在那里读了书。",
+      "question_translation_in_answer": false,
+      "combined_qa_delimiter_in_answer": false,
+      "status": "passed"
+    },
+    {
+      "context": "role_play[4]",
+      "question": "How did you get there?",
+      "question_cn": "你是怎么到那里的？",
+      "answer": "I went there on foot.",
+      "answer_cn": "我步行去的。",
+      "question_translation_in_answer": false,
+      "combined_qa_delimiter_in_answer": false,
+      "status": "passed"
+    },
+    {
+      "context": "quiz[1]",
+      "question": "Did Lingling travel this summer vacation?",
+      "question_cn": "玲玲这个暑假旅行了吗？",
+      "answer": "No, she didn’t. She stayed in Beijing.",
+      "answer_cn": "没有。她留在北京。",
+      "question_translation_in_answer": false,
+      "combined_qa_delimiter_in_answer": false,
+      "status": "passed"
+    },
+    {
+      "context": "quiz[2]",
+      "question": "Where did Maomao work as a volunteer?",
+      "question_cn": "毛毛在哪里做志愿者？",
+      "answer": "He worked at China Science and Technology Museum.",
+      "answer_cn": "他在中国科学技术馆做志愿者。",
+      "question_translation_in_answer": false,
+      "combined_qa_delimiter_in_answer": false,
+      "status": "passed"
+    },
+    {
+      "context": "quiz[3]",
+      "question": "How did Guoguo get to Hubei?",
+      "question_cn": "果果怎么去湖北？",
+      "answer": "She took a train.",
+      "answer_cn": "她乘了火车。",
+      "question_translation_in_answer": false,
+      "combined_qa_delimiter_in_answer": false,
+      "status": "passed"
+    }
+  ]
+}
