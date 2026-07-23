@@ -1,0 +1,73 @@
+{
+  "policy_version": "self-correction-final-pcm-offline-backcheck-v1",
+  "item_count": 3,
+  "raw_ipa_sent_to_ordinary_tts": false,
+  "network_audio_upload": false,
+  "items": [
+    {
+      "target": "meaningful",
+      "expected_ipa": "/ˈmi.nɪŋ.fəl/",
+      "authoritative_source_url": "https://dictionary.cambridge.org/us/pronunciation/english/meaningful",
+      "accepted_asr_labels": [
+        "meaningful"
+      ],
+      "rejected_asr_confusions": [],
+      "recognized_words": [
+        "[unk]",
+        "meaningful",
+        "meaningful"
+      ],
+      "rejected_confusion_hits": [],
+      "pcm_sha256": "8a13753a12ff8c617c61b287a80ee69f90d2ce28dd57c844237f06f67e138730",
+      "network_audio_upload": false,
+      "checks": {
+        "target_recognized_twice": true,
+        "no_rejected_confusion": true
+      },
+      "status": "passed"
+    },
+    {
+      "target": "worked",
+      "expected_ipa": "/wɝkt/",
+      "authoritative_source_url": "https://dictionary.cambridge.org/us/pronunciation/english/worked",
+      "accepted_asr_labels": [
+        "worked"
+      ],
+      "rejected_asr_confusions": [],
+      "recognized_words": [
+        "worked",
+        "worked"
+      ],
+      "rejected_confusion_hits": [],
+      "pcm_sha256": "2733dd185c83b9a515e295428ef38cc523774a6c8cfa5025572878a4662e366a",
+      "network_audio_upload": false,
+      "checks": {
+        "target_recognized_twice": true,
+        "no_rejected_confusion": true
+      },
+      "status": "passed"
+    },
+    {
+      "target": "read",
+      "expected_ipa": "/rɛd/",
+      "authoritative_source_url": "https://dictionary.cambridge.org/us/pronunciation/english/read",
+      "accepted_asr_labels": [
+        "read"
+      ],
+      "rejected_asr_confusions": [],
+      "recognized_words": [
+        "read",
+        "read"
+      ],
+      "rejected_confusion_hits": [],
+      "pcm_sha256": "6afed3c0b86b153edf07a8679798697e2656be8d08b98bff8b185449c37ac9f8",
+      "network_audio_upload": false,
+      "checks": {
+        "target_recognized_twice": true,
+        "no_rejected_confusion": true
+      },
+      "status": "passed"
+    }
+  ],
+  "status": "passed"
+}

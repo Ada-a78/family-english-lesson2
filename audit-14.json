@@ -1,0 +1,10 @@
+{
+  "policy_version": "possessive-inflection-and-mixed-name-component-v1",
+  "possessive_rule": "English possessive 's is /s/, /z/, or /ɪz/ according to the final spoken sound; it must stay attached to the base word in one en-US request",
+  "possessive_items": [],
+  "mixed_name_english_components": [],
+  "raw_apostrophe_only_tts_request_count": 0,
+  "mixed_english_component_translated_to_chinese_count": 0,
+  "network_audio_upload": false,
+  "status": "passed"
+}

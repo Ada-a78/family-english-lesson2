@@ -1,0 +1,94 @@
+{
+  "policy_version": "single-american-broad-ipa-epsilon-air-v1",
+  "label": "统一美式宽式 IPA（AIR 韵统一写 /ɛər/）",
+  "reference_key_url": "https://www.dictionary.com/articles/key-to-ipa-pronunciations",
+  "rhotic_air_vowel": "/ɛər/",
+  "primary_stress_mark": "ˈ",
+  "mixed_transcription_system_count": 0,
+  "legacy_simplified_er_display_count": 0,
+  "ascii_apostrophe_stress_count": 0,
+  "items": [
+    {
+      "pattern": "oo",
+      "display_sound": "/ʊ/",
+      "examples": [
+        {
+          "word": "foot",
+          "ipa": "/fʊt/"
+        },
+        {
+          "word": "book",
+          "ipa": "/bʊk/"
+        },
+        {
+          "word": "good",
+          "ipa": "/ɡʊd/"
+        },
+        {
+          "word": "look",
+          "ipa": "/lʊk/"
+        }
+      ],
+      "exceptions": [
+        [
+          "school",
+          "/skul/",
+          "元音 /u/"
+        ],
+        [
+          "blood",
+          "/blʌd/",
+          "短元音 /ʌ/"
+        ]
+      ],
+      "source_url": "https://dictionary.cambridge.org/us/pronunciation/english/book",
+      "checks": {
+        "declared_air_vowel_used": true,
+        "no_legacy_simplified_er_display": true,
+        "no_ascii_apostrophe_stress": true,
+        "all_examples_have_delimited_ipa": true,
+        "authoritative_source_declared": true
+      },
+      "status": "passed"
+    },
+    {
+      "pattern": "ar",
+      "display_sound": "/ɑr/",
+      "examples": [
+        {
+          "word": "far",
+          "ipa": "/fɑr/"
+        },
+        {
+          "word": "car",
+          "ipa": "/kɑr/"
+        },
+        {
+          "word": "park",
+          "ipa": "/pɑrk/"
+        },
+        {
+          "word": "start",
+          "ipa": "/stɑrt/"
+        }
+      ],
+      "exceptions": [
+        [
+          "warm",
+          "/wɔrm/",
+          "ar 在这里读 /ɔr/"
+        ]
+      ],
+      "source_url": "https://dictionary.cambridge.org/us/pronunciation/english/far",
+      "checks": {
+        "declared_air_vowel_used": true,
+        "no_legacy_simplified_er_display": true,
+        "no_ascii_apostrophe_stress": true,
+        "all_examples_have_delimited_ipa": true,
+        "authoritative_source_declared": true
+      },
+      "status": "passed"
+    }
+  ],
+  "status": "passed"
+}

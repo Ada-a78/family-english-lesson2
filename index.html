@@ -4,274 +4,119 @@
 <style>
 :root{--orange:#ed873c;--green:#2aaa83;--navy:#1d3657;--muted:#65748a;--paper:#fff;--bg:#fff5e9}
 *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Arial,sans-serif;background:linear-gradient(180deg,#fff1df,#f7fbff);color:var(--navy)}
-.wrap{max-width:1040px;margin:auto;padding:18px}header{background:#fff;border-radius:24px;padding:22px;box-shadow:0 10px 30px #8b6c3b1a}h1{margin:4px 0 8px;font-size:clamp(26px,5vw,46px)}h2{margin-top:38px}.subtitle{color:var(--orange);font-weight:800}.goal{padding:12px 16px;background:#fff0dc;border-radius:14px;color:#96531f}video{width:100%;border-radius:18px;background:#000;margin-top:16px}.speeds{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.speeds button{min-height:46px;min-width:58px}button,.download{border:0;border-radius:999px;background:#eaf6f2;color:#176d56;padding:10px 15px;font-weight:800;cursor:pointer;text-decoration:none}button.active{background:var(--green);color:white}.downloads{display:flex;flex-wrap:wrap;gap:9px}.download{background:#fff0dc;color:#99531f}.note{color:var(--muted);line-height:1.7}.line-card{display:grid;grid-template-columns:100px 1fr;gap:15px;background:#fff;border-radius:20px;padding:15px;margin:12px 0;box-shadow:0 5px 18px #1d365710}.avatar img{width:82px;height:82px;object-fit:contain}.avatar{text-align:center;color:var(--green)}.line-body{position:relative}.num{position:absolute;right:0;color:#bbc4d1;font-weight:900}.en{font-size:20px;font-weight:800;line-height:1.55;padding-right:35px}.cn{color:#596b82;line-height:1.6}.chunks{background:#fff4e7;color:#95551f;padding:8px 12px;border-radius:10px}audio{width:100%;height:42px}.terms,.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}.term,.qa,.study-card{background:#fff;border-radius:18px;padding:16px;box-shadow:0 5px 18px #1d365710}.term strong,.term span,.term small{display:block;margin-bottom:8px}.term strong{font-size:24px}.term span{color:var(--green);font-weight:800}.qa{margin:12px 0}.qa h3{font-size:21px}.answer{margin-top:12px;padding:14px;background:#eef9f5;border-radius:12px;line-height:1.65}.study-card h3 span{font-size:18px;color:var(--orange)}.study-card li{margin-bottom:10px;line-height:1.5}footer{margin:38px 0 20px;text-align:center;color:#74839a}@media(max-width:620px){.wrap{padding:10px}.line-card{grid-template-columns:70px 1fr;padding:12px}.avatar img{width:62px;height:62px}.en{font-size:18px}}
-button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}.seek-controls button{min-height:50px;border-radius:14px;background:#fff0dc;color:#9a541f;font-size:17px}.copy-link{width:100%;min-height:48px;border-radius:14px;background:var(--orange);color:#fff;margin-top:10px}button:disabled{opacity:.48;cursor:not-allowed}.practice-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.practice-actions button{min-height:48px;border-radius:13px}.play-standard,.complete-practice{background:var(--green);color:#fff}.complete-practice{grid-column:1/-1}.practice-status{background:#fff4e7;padding:10px 12px;border-radius:10px;line-height:1.55}.practice-status[data-tone="success"]{background:#e7f8ef;color:#176d56}.practice-status[data-tone="error"]{background:#fff0ef;color:#9c3a32}.practice-status[data-tone="working"]{background:#eaf3ff;color:#285c98}.why{color:#596b82;line-height:1.6}.rounds{padding-left:22px}.privacy{background:#eef9f5;border-left:5px solid var(--green);padding:12px 14px;border-radius:10px;line-height:1.65}.family-checklist{background:#fff8ed;border-radius:12px;padding:12px 14px;line-height:1.65}.recording-note{font-size:14px;color:#65748a}.completion{display:grid;grid-template-columns:1fr 220px;align-items:center;overflow:hidden}.completion img{width:100%;max-height:310px;object-fit:contain;animation:cheer .75s ease-in-out infinite alternate;transform-origin:50% 90%}@keyframes cheer{from{transform:translateY(9px) rotate(-3deg)}to{transform:translateY(-10px) rotate(3deg)}}@media(prefers-reduced-motion:reduce){.completion img{animation:none}}@media(max-width:620px){.wrap{padding:10px}.line-card{grid-template-columns:70px 1fr;padding:12px}.avatar img{width:62px;height:62px}.en{font-size:18px}.practice-actions{grid-template-columns:1fr}.complete-practice{grid-column:1}.completion{grid-template-columns:1fr 145px}}
-.think-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px}.think-card{min-width:0;overflow:hidden}.think-card>small{color:var(--orange);font-weight:800}.bilingual-pair{background:#f3f8fb;border-radius:13px;padding:11px 13px;margin:10px 0;overflow:hidden}.pair-en{font-size:19px;line-height:1.45;font-weight:800;margin:0;overflow-wrap:break-word;word-break:normal}.pair-cn{font-size:17px;line-height:1.55;color:#596b82;margin:5px 0 0;overflow-wrap:anywhere}@media(max-width:620px){.think-grid{grid-template-columns:1fr}.pair-en{font-size:18px}}
+.wrap{max-width:1040px;margin:auto;padding:18px}header{background:#fff;border-radius:24px;padding:22px;box-shadow:0 10px 30px #8b6c3b1a}h1{margin:4px 0 8px;font-size:clamp(26px,5vw,46px)}h2{margin-top:38px}.subtitle{color:var(--orange);font-weight:800}.goal{padding:12px 16px;background:#fff0dc;border-radius:14px;color:#96531f}video{width:100%;border-radius:18px;background:#000;margin-top:16px}.speeds{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}button,.download{border:0;border-radius:999px;background:#eaf6f2;color:#176d56;padding:10px 15px;font-weight:800;cursor:pointer;text-decoration:none}button.active{background:var(--green);color:white}.downloads{display:flex;flex-wrap:wrap;gap:9px}.download{background:#fff0dc;color:#99531f}.note{color:var(--muted);line-height:1.7}.line-card{display:grid;grid-template-columns:100px 1fr;gap:15px;background:#fff;border-radius:20px;padding:15px;margin:12px 0;box-shadow:0 5px 18px #1d365710}.avatar img{width:82px;height:82px;object-fit:contain}.avatar{text-align:center;color:var(--green)}.line-body{position:relative}.num{position:absolute;right:0;color:#bbc4d1;font-weight:900}.en{font-size:20px;font-weight:800;line-height:1.55;padding-right:35px}.cn{color:#596b82;line-height:1.6}.chunks{background:#fff4e7;color:#95551f;padding:8px 12px;border-radius:10px}audio{width:100%;height:42px}.terms,.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}.term,.qa,.study-card{background:#fff;border-radius:18px;padding:16px;box-shadow:0 5px 18px #1d365710}.term strong,.term span,.term small{display:block;margin-bottom:8px}.term strong{font-size:24px}.term span{color:var(--green);font-weight:800}.qa{margin:12px 0}.qa h3{font-size:21px}.answer{margin-top:12px;padding:14px;background:#eef9f5;border-radius:12px;line-height:1.65}.study-card h3 span{font-size:18px;color:var(--orange)}.study-card li{margin-bottom:10px;line-height:1.5}.think-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px}.think-card{min-width:0;overflow:hidden}.bilingual-pair{background:#f3f8fb;border-radius:13px;padding:11px 13px;margin:10px 0;overflow:hidden}.pair-en{font-size:19px;line-height:1.45;font-weight:800;margin:0;overflow-wrap:break-word;word-break:normal}.pair-cn{font-size:17px;line-height:1.55;color:#596b82;margin:5px 0 0;overflow-wrap:anywhere}footer{margin:38px 0 20px;text-align:center;color:#74839a}@media(max-width:620px){.wrap{padding:10px}.line-card{grid-template-columns:70px 1fr;padding:12px}.avatar img{width:62px;height:62px}.en{font-size:18px}.think-grid{grid-template-columns:1fr}}
+.seek-controls{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}.seek-controls button{min-height:50px;border-radius:14px;background:#fff0dc;color:#9a541f;font-size:17px}.copy-link{width:100%;min-height:48px;border-radius:14px;background:var(--orange);color:#fff;margin-top:10px}button:disabled{opacity:.48;cursor:not-allowed}.practice-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.practice-actions button{min-height:48px;border-radius:13px}.recording-playback{margin-top:10px}.practice-status{background:#fff4e7;padding:10px 12px;border-radius:10px;line-height:1.55}.why{color:#596b82;line-height:1.6}.rounds{padding-left:22px}.privacy{background:#eef9f5;border-left:5px solid var(--green);padding:12px 14px;border-radius:10px;line-height:1.65}.tense-table-wrap{overflow-x:auto;background:#fff;border-radius:18px;box-shadow:0 5px 18px #1d365710;margin-bottom:14px}.tense-table{width:100%;border-collapse:collapse;min-width:720px}.tense-table th,.tense-table td{padding:12px 14px;border-bottom:1px solid #e7eef2;text-align:left;vertical-align:top;line-height:1.5}.tense-table th{background:#eaf6f2;color:#176d56}.completion{display:grid;grid-template-columns:1fr 220px;align-items:center;overflow:hidden}.completion img{width:100%;max-height:310px;object-fit:contain;animation:cheer .75s ease-in-out infinite alternate;transform-origin:50% 90%}@keyframes cheer{from{transform:translateY(9px) rotate(-3deg)}to{transform:translateY(-10px) rotate(3deg)}}@media(prefers-reduced-motion:reduce){.completion img{animation:none}}@media(max-width:620px){.wrap{padding:10px}.line-card{grid-template-columns:70px 1fr;padding:12px}.avatar img{width:62px;height:62px}.en{font-size:18px}.practice-actions{grid-template-columns:1fr}.completion{grid-template-columns:1fr 145px}}
 </style></head><body><main class="wrap">
 <header><div class="subtitle">北京版英语六年级上册</div><h1>Unit 1 · Lesson 2</h1><h2 style="margin:0">All of Us Had a Meaningful Summer Vacation</h2>
 <p class="goal">最低目标：听懂 3 句、跟读 3 句、回答 1 个问题。完成即可，不加量。</p>
 <button id="copyLink" class="copy-link" type="button">复制本页链接，发到微信</button><p id="copyStatus" class="note" aria-live="polite"></p>
-<video id="mainVideo" controls playsinline webkit-playsinline x5-playsinline x5-video-player-type="h5-page" preload="none" poster="poster.jpg" src="lesson2-worked-final-t-v16.mp4"></video>
+<video id="mainVideo" controls playsinline webkit-playsinline x5-playsinline x5-video-player-type="h5-page" preload="none" poster="assets/asset-2f58b7378743.jpg" src="lesson2-ipa-unified-past-inventory-worked-20260724-v17.mp4"></video>
 <div class="seek-controls"><button id="back15" type="button" aria-label="快退15秒">快退 15 秒</button><button id="forward15" type="button" aria-label="快进15秒">快进 15 秒</button></div>
 <div class="speeds" id="speeds"><button data-speed='0.5' aria-pressed='false'>0.5×</button><button data-speed='0.75' aria-pressed='false'>0.75×</button><button data-speed='1.0' aria-pressed='false'>1×</button><button data-speed='1.25' aria-pressed='false'>1.25×</button><button data-speed='1.5' aria-pressed='false'>1.5×</button><button data-speed='1.75' aria-pressed='false'>1.75×</button><button data-speed='2.0' aria-pressed='false'>2×</button></div><p id="speedText" class="note">当前速度：1×（默认）</p>
-<p class="note"><strong>本版声音：</strong>Samantha 美式女声；1×为自然清晰源音，0.75×跟读由同一女声保真降速。未经家长同意不得更换声音。</p>
-<p class="note"><strong>本次纠正：</strong>凡叙述已经发生的暑假经历，<em>read</em> 的实际标准音已锁定为 /red/；表示现在或习惯时才读 /riːd/。语法页连续示范两遍 /red/，再播放降速的过去时例句。</p>
-<p class="note"><strong>开口时间：</strong>本课12句分别为9、17、10、13、7、5、9、11、14、8、5、9秒；不再整课固定40或90秒。每句先测量0.75倍示范的真实时长，再按句长、意群和跨语言负荷计算。</p>
-<p class="note"><strong>问答翻译已严格一一对应：</strong>问题区只显示英文问题和中文问题；答案卡只显示英文答案和它的中文答案，不再重复上方问题。</p>
-<p class="note"><strong>完成页已全文朗读：</strong>“完成啦”、“今天学会了什么？”、中间全部学习总结和底部鼓励语均有对应语音；How、Where、What 由清晰美语女声朗读。</p>
-<p class="note"><strong>自然拼读已重做：</strong>字母名称 o—停顿—o 与连写组合 oo 的词中声音分开教；常见音 /ʊ/ 示范3遍。例外页先重听 /ʊ/ 3遍，再分别清楚示范 school 中的 /uː/ 和 blood 中的 /ʌ/ 各3遍，随后完整单词各读2遍。a—停顿—r 与 ar 页同样完整覆盖 /ɑːr/、warm 中的 /ɔːr/ 和完整单词。</p>
-
+<p class="note">上方七档按钮可直接调整本页全部视频和逐句音频。</p>
 <p class="note"><strong>倍速说明：</strong>上方七个按钮控制本互动页播放，默认 1 倍。单独 MP4 不能内嵌这些网页按钮；微信分享区另备七个固定速度文件。若孩子必须在微信里打开后再调速，应发送已发布的家庭 H5 学习链接，不能只发送普通 MP4。</p>
 <p class="note">MP4 使用 H.264 + AAC，可直接发到微信，在手机、Pad、电脑和常见投屏设备播放。互动页请保持整个文件夹不拆散。</p></header>
 <section><h2>先校准多语言专有名词</h2><p class="note">按表达形式和教学目标分流：拼音/中文原名用普通话；完整英语官方名称与教材明确教授的英语表达用清晰美语。不能只因机构位于中国就把英语名称改读成中文。</p><div class="terms">
         <div class="term"><strong>Maomao</strong><span>毛毛 · 普通话 · Máomao</span>
-        <small>教材人物名</small><audio controls preload="none" src="term-01-Maomao.m4a"></audio></div>
+        <small>教材人物名</small><audio controls preload="none" src="assets/asset-f194d8b2b8f8.m4a"></audio></div>
         <div class="term"><strong>Lingling</strong><span>玲玲 · 普通话 · Língling</span>
-        <small>教材人物名</small><audio controls preload="none" src="term-02-Lingling.m4a"></audio></div>
+        <small>教材人物名</small><audio controls preload="none" src="assets/asset-b6e0c2a38a65.m4a"></audio></div>
         <div class="term"><strong>Guoguo</strong><span>果果 · 普通话 · Guǒguo</span>
-        <small>教材人物名</small><audio controls preload="none" src="term-03-Guoguo.m4a"></audio></div>
+        <small>教材人物名</small><audio controls preload="none" src="assets/asset-8a0ca5c60514.m4a"></audio></div>
         <div class="term"><strong>Beijing</strong><span>北京 · 普通话 · Běijīng</span>
-        <small>中国首都</small><audio controls preload="none" src="term-04-Beijing.m4a"></audio></div>
+        <small>中国首都</small><audio controls preload="none" src="assets/asset-85d3511d6f16.m4a"></audio></div>
         <div class="term"><strong>National Library of China</strong><span>National Library of China · 美式英语</span>
-        <small>中国国家图书馆</small><audio controls preload="none" src="term-05-National-Library-of-China.m4a"></audio></div>
+        <small>中国国家图书馆</small><audio controls preload="none" src="assets/asset-d111a62aa207.m4a"></audio></div>
         <div class="term"><strong>China Science and Technology Museum</strong><span>China Science and Technology Museum · 美式英语</span>
-        <small>中国科学技术馆</small><audio controls preload="none" src="term-06-China-Science-and-Technology-Museum.m4a"></audio></div>
+        <small>中国科学技术馆</small><audio controls preload="none" src="assets/asset-d7f6a05097e9.m4a"></audio></div>
         <div class="term"><strong>Hubei</strong><span>湖北 · 普通话 · Húběi</span>
-        <small>中国湖北省</small><audio controls preload="none" src="term-07-Hubei.m4a"></audio></div></div></section>
-<section><h2>课文逐句复听</h2><p class="note">每条音频依次是：标准英语 → 中文意思 → 0.75倍速英语跟读 → 本句自适应开口时间。系统按实际示范时长、词数、意群和审核后的跨语言切换逐句计算；每句实际秒数标在下方，提前读完可点“快进15秒”。</p>
+        <small>中国湖北省</small><audio controls preload="none" src="assets/asset-95c22253b432.m4a"></audio></div></div></section>
+<section><h2>课文逐句复听</h2><p class="note">每条音频依次是：标准英语 → 中文意思 → 0.75倍速英语跟读 → 本句自适应开口时间。系统先测量本句示范音频，再按句长、意群和语言切换计算等待时间；每句实际秒数标在下方。</p>
         <article class="line-card">
-          <div class="avatar"><img src="avatar-Guoguo.png" alt="Guoguo"><strong>Guoguo</strong></div>
+          <div class="avatar"><img src="assets/asset-8101bbf64640.png" alt="Guoguo"><strong>Guoguo</strong></div>
           <div class="line-body"><div class="num">01</div><p class="en">Hi, Lingling. Did you travel this summer vacation?</p><p class="cn">嗨，玲玲。这个暑假你出去旅行了吗？</p>
           <p class="chunks">意群：Hi, Lingling / Did you travel / this summer vacation</p>
           <p class="timing">本句0.75倍示范后，留 9 秒自己读。</p>
-
-
-
-
-
-
-
-
-
-
-
-
-          <audio controls preload="none" src="line-01-Guoguo.m4a"></audio></div>
+          <audio controls preload="none" src="assets/asset-d2ec177c5d2b.m4a"></audio></div>
         </article>
         <article class="line-card">
-          <div class="avatar"><img src="avatar-Lingling.png" alt="Lingling"><strong>Lingling</strong></div>
+          <div class="avatar"><img src="assets/asset-7ab1c72ce8b0.png" alt="Lingling"><strong>Lingling</strong></div>
           <div class="line-body"><div class="num">02</div><p class="en">No, I didn’t. I stayed in Beijing. I went to the National Library of China on foot and read books there.</p><p class="cn">没有，我没去。我留在北京。我步行去了中国国家图书馆，并在那里看了书。</p>
           <p class="chunks">意群：No, I didn’t / stayed in Beijing / went to the National Library of China / on foot / read books there</p>
           <p class="timing">本句0.75倍示范后，留 17 秒自己读。</p>
-
-
-
-
-
-
-
-
-
-
-
-
-          <audio controls preload="none" src="line-02-Lingling.m4a"></audio></div>
+          <audio controls preload="none" src="assets/asset-107de55a597c.m4a"></audio></div>
         </article>
         <article class="line-card">
-          <div class="avatar"><img src="avatar-Guoguo.png" alt="Guoguo"><strong>Guoguo</strong></div>
+          <div class="avatar"><img src="assets/asset-8101bbf64640.png" alt="Guoguo"><strong>Guoguo</strong></div>
           <div class="line-body"><div class="num">03</div><p class="en">That’s good. Did you also stay in Beijing, Maomao?</p><p class="cn">那很好。毛毛，你也留在北京了吗？</p>
           <p class="chunks">意群：That’s good / Did you also stay / in Beijing, Maomao</p>
           <p class="timing">本句0.75倍示范后，留 10 秒自己读。</p>
-
-
-
-
-
-
-
-
-
-
-
-
-          <audio controls preload="none" src="line-03-Guoguo.m4a"></audio></div>
+          <audio controls preload="none" src="assets/asset-fc8610037f14.m4a"></audio></div>
         </article>
         <article class="line-card">
-          <div class="avatar"><img src="avatar-Maomao.png" alt="Maomao"><strong>Maomao</strong></div>
+          <div class="avatar"><img src="assets/asset-1a6dde1f17e8.png" alt="Maomao"><strong>Maomao</strong></div>
           <div class="line-body"><div class="num">04</div><p class="en">Yes, I did. I worked as a volunteer at China Science and Technology Museum.</p><p class="cn">是的。我在中国科学技术馆做志愿者。</p>
           <p class="chunks">意群：Yes, I did / worked as a volunteer / at China Science and Technology Museum</p>
           <p class="timing">本句0.75倍示范后，留 13 秒自己读。</p>
-
-
-
-
-
-
-
-
-
-
-
-
-          <audio controls preload="none" src="line-04-Maomao.m4a"></audio></div>
+          <audio controls preload="none" src="assets/asset-46d4efd9ad15.m4a"></audio></div>
         </article>
         <article class="line-card">
-          <div class="avatar"><img src="avatar-Guoguo.png" alt="Guoguo"><strong>Guoguo</strong></div>
+          <div class="avatar"><img src="assets/asset-8101bbf64640.png" alt="Guoguo"><strong>Guoguo</strong></div>
           <div class="line-body"><div class="num">05</div><p class="en">Wonderful! When did you work there?</p><p class="cn">太棒了！你什么时候在那里工作的？</p>
           <p class="chunks">意群：Wonderful / When did you work there</p>
           <p class="timing">本句0.75倍示范后，留 7 秒自己读。</p>
-
-
-
-
-
-
-
-
-
-
-
-
-          <audio controls preload="none" src="line-05-Guoguo.m4a"></audio></div>
+          <audio controls preload="none" src="assets/asset-417a5ee3f911.m4a"></audio></div>
         </article>
         <article class="line-card">
-          <div class="avatar"><img src="avatar-Maomao.png" alt="Maomao"><strong>Maomao</strong></div>
+          <div class="avatar"><img src="assets/asset-1a6dde1f17e8.png" alt="Maomao"><strong>Maomao</strong></div>
           <div class="line-body"><div class="num">06</div><p class="en">From August 1st to 10th.</p><p class="cn">从八月一日到十日。</p>
           <p class="chunks">意群：From August 1st / to 10th</p>
           <p class="timing">本句0.75倍示范后，留 5 秒自己读。</p>
-
-
-
-
-
-
-
-
-
-
-
-
-          <audio controls preload="none" src="line-06-Maomao.m4a"></audio></div>
+          <audio controls preload="none" src="assets/asset-f455f4782460.m4a"></audio></div>
         </article>
         <article class="line-card">
-          <div class="avatar"><img src="avatar-Lingling.png" alt="Lingling"><strong>Lingling</strong></div>
+          <div class="avatar"><img src="assets/asset-7ab1c72ce8b0.png" alt="Lingling"><strong>Lingling</strong></div>
           <div class="line-body"><div class="num">07</div><p class="en">Is the museum far from your home? How did you get there?</p><p class="cn">博物馆离你家远吗？你是怎么去的？</p>
           <p class="chunks">意群：Is the museum far from your home / How did you get there</p>
           <p class="timing">本句0.75倍示范后，留 9 秒自己读。</p>
-
-
-
-
-
-
-
-
-
-
-
-
-          <audio controls preload="none" src="line-07-Lingling.m4a"></audio></div>
+          <audio controls preload="none" src="assets/asset-f8295e17c74e.m4a"></audio></div>
         </article>
         <article class="line-card">
-          <div class="avatar"><img src="avatar-Maomao.png" alt="Maomao"><strong>Maomao</strong></div>
+          <div class="avatar"><img src="assets/asset-1a6dde1f17e8.png" alt="Maomao"><strong>Maomao</strong></div>
           <div class="line-body"><div class="num">08</div><p class="en">Not too far. I went there by bus. Where did you go, Guoguo?</p><p class="cn">不太远。我乘公共汽车去的。果果，你去了哪里？</p>
           <p class="chunks">意群：Not too far / went there by bus / Where did you go, Guoguo</p>
           <p class="timing">本句0.75倍示范后，留 11 秒自己读。</p>
-
-
-
-
-
-
-
-
-
-
-
-
-          <audio controls preload="none" src="line-08-Maomao.m4a"></audio></div>
+          <audio controls preload="none" src="assets/asset-a1fd6e2a662a.m4a"></audio></div>
         </article>
         <article class="line-card">
-          <div class="avatar"><img src="avatar-Guoguo.png" alt="Guoguo"><strong>Guoguo</strong></div>
+          <div class="avatar"><img src="assets/asset-8101bbf64640.png" alt="Guoguo"><strong>Guoguo</strong></div>
           <div class="line-body"><div class="num">09</div><p class="en">I went to Hubei to see my grandparents. I learned to take care of plants and animals.</p><p class="cn">我去了湖北看望祖父母。我学会了照顾植物和动物。</p>
           <p class="chunks">意群：went to Hubei / to see my grandparents / learned to take care of / plants and animals</p>
           <p class="timing">本句0.75倍示范后，留 14 秒自己读。</p>
-
-
-
-
-
-
-
-
-
-
-
-
-          <audio controls preload="none" src="line-09-Guoguo.m4a"></audio></div>
+          <audio controls preload="none" src="assets/asset-4e8faba5da8c.m4a"></audio></div>
         </article>
         <article class="line-card">
-          <div class="avatar"><img src="avatar-Lingling.png" alt="Lingling"><strong>Lingling</strong></div>
+          <div class="avatar"><img src="assets/asset-7ab1c72ce8b0.png" alt="Lingling"><strong>Lingling</strong></div>
           <div class="line-body"><div class="num">10</div><p class="en">Hubei is far from here. How did you get there?</p><p class="cn">湖北离这里很远。你是怎么去的？</p>
           <p class="chunks">意群：Hubei is far from here / How did you get there</p>
           <p class="timing">本句0.75倍示范后，留 8 秒自己读。</p>
-
-
-
-
-
-
-
-
-
-
-
-
-          <audio controls preload="none" src="line-10-Lingling.m4a"></audio></div>
+          <audio controls preload="none" src="assets/asset-698b5ccecc55.m4a"></audio></div>
         </article>
         <article class="line-card">
-          <div class="avatar"><img src="avatar-Guoguo.png" alt="Guoguo"><strong>Guoguo</strong></div>
+          <div class="avatar"><img src="assets/asset-8101bbf64640.png" alt="Guoguo"><strong>Guoguo</strong></div>
           <div class="line-body"><div class="num">11</div><p class="en">I took a train.</p><p class="cn">我乘了火车。</p>
           <p class="chunks">意群：took a train</p>
           <p class="timing">本句0.75倍示范后，留 5 秒自己读。</p>
-
-
-
-
-
-
-
-
-
-
-
-
-          <audio controls preload="none" src="line-11-Guoguo.m4a"></audio></div>
+          <audio controls preload="none" src="assets/asset-edc6100fda0e.m4a"></audio></div>
         </article>
         <article class="line-card">
-          <div class="avatar"><img src="avatar-Maomao.png" alt="Maomao"><strong>Maomao</strong></div>
+          <div class="avatar"><img src="assets/asset-1a6dde1f17e8.png" alt="Maomao"><strong>Maomao</strong></div>
           <div class="line-body"><div class="num">12</div><p class="en">Wow! All of us had a meaningful summer vacation.</p><p class="cn">哇！我们所有人都度过了一个有意义的暑假。</p>
           <p class="chunks">意群：All of us / had a meaningful / summer vacation</p>
           <p class="timing">本句0.75倍示范后，留 9 秒自己读。</p>
-
-
-
-
-
-
-
-
-
-
-
-
-          <audio controls preload="none" src="line-12-Maomao.m4a"></audio></div>
+          <audio controls preload="none" src="assets/asset-9f0d48a449c1.m4a"></audio></div>
         </article></section>
-<section><h2>家庭纠音：标准美语示范 + 再读一次</h2><p class="privacy"><strong>现在采用零账号、零付费方案：</strong>页面提供经审核的标准美语示范，但不自动判分、不假装能识别错音。孩子先听0.75倍标准句，再完整读一遍；家人每次只提醒下方一个关键点，重听示范后让孩子再读一次即可。可选的本机临时录音只用于当场回放，不上传、不保存，关闭页面即失效。</p><div class="grid">
-<article class="study-card family-pronunciation-card" data-model="model-01-meaningful-sentence-075.m4a"><h3>1. meaningful <span>/ˈmiː.nɪŋ.fəl/</span></h3><p><strong>All of us had a meaningful summer vacation.</strong></p><p class="family-checklist"><strong>家人只听这一个点：</strong>MEAN 要重读，后两部分轻一些；不要把 meaningful 含混成一团。</p><p class="why"><strong>为什么：</strong>重音符号在第一个音节前，所以先把 MEAN 读清楚，再轻读后两部分。</p><div class="practice-actions"><button class="play-standard" type="button">播放0.75倍标准美语</button><button class="record-local" type="button">可选：录下孩子朗读</button><button class="stop-recording" type="button" disabled>停止本机录音</button><button class="play-recording" type="button" disabled>回放孩子录音</button><button class="complete-practice" type="button">家人已纠正，完成这一项</button></div><p class="recording-note">不想录音可直接跟读；录音功能不可用时也不影响学习。</p><p class="practice-status" aria-live="polite">先播放标准音，孩子完整读一遍；家人只提醒上面一个点，再听、再读一次。</p></article>
-<article class="study-card family-pronunciation-card" data-model="model-02-worked-sentence-075.m4a"><h3>2. worked <span>/wɝːkt/</span></h3><p><strong>I worked as a volunteer.</strong></p><p class="family-checklist"><strong>家人只听这一个点：</strong>worked 词尾清楚收在 /t/；不要多读成一个“伊德”音节。</p><p class="why"><strong>为什么：</strong>work 末尾是清辅音 /k/，规则过去式 -ed 在这里读 /t/，整个词仍是一个音节。</p><div class="practice-actions"><button class="play-standard" type="button">播放0.75倍标准美语</button><button class="record-local" type="button">可选：录下孩子朗读</button><button class="stop-recording" type="button" disabled>停止本机录音</button><button class="play-recording" type="button" disabled>回放孩子录音</button><button class="complete-practice" type="button">家人已纠正，完成这一项</button></div><p class="recording-note">不想录音可直接跟读；录音功能不可用时也不影响学习。</p><p class="practice-status" aria-live="polite">先播放标准音，孩子完整读一遍；家人只提醒上面一个点，再听、再读一次。</p></article>
-<article class="study-card family-pronunciation-card" data-model="model-03-read-sentence-075.m4a"><h3>3. read <span>/red/</span></h3><p><strong>I read books there.</strong></p><p class="family-checklist"><strong>家人只听这一个点：</strong>本句讲已经发生的暑假经历，所以 read 要读 /red/，不是 /riːd/。</p><p class="why"><strong>为什么：</strong>拼写相同，要靠时间和句意判断：过去时读 /red/；现在或习惯动作读 /riːd/。</p><div class="practice-actions"><button class="play-standard" type="button">播放0.75倍标准美语</button><button class="record-local" type="button">可选：录下孩子朗读</button><button class="stop-recording" type="button" disabled>停止本机录音</button><button class="play-recording" type="button" disabled>回放孩子录音</button><button class="complete-practice" type="button">家人已纠正，完成这一项</button></div><p class="recording-note">不想录音可直接跟读；录音功能不可用时也不影响学习。</p><p class="practice-status" aria-live="polite">先播放标准音，孩子完整读一遍；家人只提醒上面一个点，再听、再读一次。</p></article>
-</div></section>
+<section><h2>三遍录音纠音</h2><p class="privacy"><strong>隐私说明：</strong>录音只保存在当前设备浏览器内，不会上传，也不会保存到服务器。点击录音时需要家长允许麦克风。普通网页录音不能可靠判断音素，因此这里不冒充“专业自动评分”；专业逐词/音素评测需另行配置受保护的语音评测服务。</p><div class="grid"><article class='study-card pronunciation-card' data-practice='1' data-target='meaningful'><h3>1. meaningful <span>/ˈmi.nɪŋ.fəl/</span></h3><p><strong>All of us had a meaningful summer vacation.</strong></p><p>重音在第一个音节 MEAN；三个音节要清楚，不要把中间部分含混带过。</p><p class='why'><strong>为什么：</strong>词典重音符号放在第一个音节前，所以先把 MEAN 读清楚，再轻读后两部分。</p><div class='practice-actions'><button class='record-sentence' type='button'>先录整句初读</button><button class='play-standard' type='button' data-src='assets/asset-9ad78baf2822.m4a'>播放目标词标准音</button><button class='record-word' type='button' disabled>录第 1 遍</button><button class='stop-record' type='button' disabled>停止录音</button></div><audio class='recording-playback' controls hidden></audio><p class='practice-status' aria-live='polite'>第一步：不听答案，先完整读句子并在本机录音。</p><ol class='rounds'><li>第1遍：听标准音 → 自己读 → 回放自查</li><li>第2遍：按提示调整 → 再录再听</li><li>第3遍：最后核对；三遍清楚就继续</li></ol></article><article class='study-card pronunciation-card' data-practice='2' data-target='worked'><h3>2. worked <span>/wɝkt/</span></h3><p><strong>I worked as a volunteer.</strong></p><p>词尾 -ed 在 worked 中读清晰的 /t/，不另加一个 /ɪd/ 音节。</p><p class='why'><strong>为什么：</strong>work 末尾是清辅音 /k/，规则过去式 -ed 在这里读 /t/，整个词仍是一个音节。</p><div class='practice-actions'><button class='record-sentence' type='button'>先录整句初读</button><button class='play-standard' type='button' data-src='assets/asset-abd115f16790.m4a'>播放目标词标准音</button><button class='record-word' type='button' disabled>录第 1 遍</button><button class='stop-record' type='button' disabled>停止录音</button></div><audio class='recording-playback' controls hidden></audio><p class='practice-status' aria-live='polite'>第一步：不听答案，先完整读句子并在本机录音。</p><ol class='rounds'><li>第1遍：听标准音 → 自己读 → 回放自查</li><li>第2遍：按提示调整 → 再录再听</li><li>第3遍：最后核对；三遍清楚就继续</li></ol></article><article class='study-card pronunciation-card' data-practice='3' data-target='read'><h3>3. read <span>/rɛd/</span></h3><p><strong>I read books there.</strong></p><p>本句说过去，所以 read 读 /rɛd/；说现在或习惯时读 /rid/。</p><p class='why'><strong>为什么：</strong>拼写相同，要靠时间和句意判断。</p><div class='practice-actions'><button class='record-sentence' type='button'>先录整句初读</button><button class='play-standard' type='button' data-src='assets/asset-bbe600a2aea1.m4a'>播放目标词标准音</button><button class='record-word' type='button' disabled>录第 1 遍</button><button class='stop-record' type='button' disabled>停止录音</button></div><audio class='recording-playback' controls hidden></audio><p class='practice-status' aria-live='polite'>第一步：不听答案，先完整读句子并在本机录音。</p><ol class='rounds'><li>第1遍：听标准音 → 自己读 → 回放自查</li><li>第2遍：按提示调整 → 再录再听</li><li>第3遍：最后核对；三遍清楚就继续</li></ol></article></div></section>
 <section><h2>Listen and say：听后会回答</h2>
         <article class="qa"><h3>1. Where did he/she go this summer vacation?</h3><p>他或她这个暑假去了哪里？</p>
         <button onclick="this.nextElementSibling.hidden=false;this.hidden=true">我先回答，再看参考答案</button>
@@ -284,56 +129,49 @@ button{min-height:44px}.seek-controls{display:grid;grid-template-columns:1fr 1fr
         <div class="answer" hidden><strong>Lingling went on foot. Maomao went by bus. Guoguo took a train.</strong><br>玲玲步行去，毛毛乘公共汽车去，果果乘火车去。</div></article></section>
 <section><h2>四级主动回忆</h2><p class="note">从听辨、线索补全、中文提取英语，到独立复述；每一步都先开口，再核对。</p><article class='qa'><h3>第1级：听辨回忆</h3><p><strong>Who stayed in Beijing?</strong><br>谁留在北京？先说人物名。</p><button onclick="this.nextElementSibling.hidden=false;this.hidden=true">我先开口，再看答案</button><div class='answer' hidden><strong>Lingling stayed in Beijing.</strong><br>玲玲留在北京。</div></article><article class='qa'><h3>第2级：线索回忆</h3><p><strong>Maomao worked as a volunteer at ...</strong><br>根据句首线索补完整地点。</p><button onclick="this.nextElementSibling.hidden=false;this.hidden=true">我先开口，再看答案</button><div class='answer' hidden><strong>Maomao worked as a volunteer at China Science and Technology Museum.</strong><br>毛毛在中国科学技术馆做志愿者。</div></article><article class='qa'><h3>第3级：中文提取英语</h3><p><strong>How did Guoguo get to Hubei?</strong><br>果果怎么去湖北？不用看课文，用完整英语回答。</p><button onclick="this.nextElementSibling.hidden=false;this.hidden=true">我先开口，再看答案</button><div class='answer' hidden><strong>She took a train.</strong><br>她乘了火车。</div></article><article class='qa'><h3>第4级：独立复述</h3><p><strong>Retell one summer vacation story: where, what, and how.</strong><br>任选一个人物，不看课文，说出去了哪里、做了什么、怎么去。</p><button onclick="this.nextElementSibling.hidden=false;this.hidden=true">我先开口，再看答案</button><div class='answer' hidden><strong>Lingling stayed in Beijing. She went to the National Library of China on foot and read books there.</strong><br>示范：玲玲留在北京，步行去了中国国家图书馆，并在那里读书。</div></article>
 <article class="study-card"><h3>课后间隔提取</h3><ol><li>本视频结尾立即回忆一次</li><li>约10分钟后只回忆、不先重看答案</li><li>第1天回放主动回忆段</li><li>第3天独立复述一个人物</li><li>第7天完成三问三答</li></ol><p class="note">采用提取练习与间隔练习原则；具体间隔按学习材料和保持时长调整，不把艾宾浩斯曲线误写成人人相同的固定分钟表。</p></article></section>
-
-
-
-
-
-
-<section id="think-share-bilingual"><h2>Think and share：逐句中英对应</h2><p class="note">每句英文下面紧跟对应中文；视频已把较长内容拆成多页，避免小字、重影、截断或越出边框。</p><div class="think-grid"><article class='study-card think-card'><small>三步表达</small><h3>第1步：先介绍自己</h3><div class='bilingual-pair'><p class='pair-en'>Please tell us your name first.</p><p class='pair-cn'>请先告诉大家你的名字。</p></div><div class='bilingual-pair'><p class='pair-en'>Hello, everyone!</p><p class='pair-cn'>大家好！</p></div><div class='bilingual-pair'><p class='pair-en'>My name is Lingling.</p><p class='pair-cn'>我叫玲玲。</p></div><div class='bilingual-pair'><p class='pair-en'>I’m from Class 1, Grade 6.</p><p class='pair-cn'>我来自六年级一班。</p></div></article><article class='study-card think-card'><small>三步表达</small><h3>第2步：回答暑假问题</h3><div class='bilingual-pair'><p class='pair-en'>How was your summer vacation?</p><p class='pair-cn'>你的暑假过得怎么样？</p></div><div class='bilingual-pair'><p class='pair-en'>Did you travel ... ?</p><p class='pair-cn'>你去旅行了吗……？</p></div><div class='bilingual-pair'><p class='pair-en'>Where did you go?</p><p class='pair-cn'>你去了哪里？</p></div><div class='bilingual-pair'><p class='pair-en'>How did you get there?</p><p class='pair-cn'>你是怎么到那里的？</p></div></article><article class='study-card think-card'><small>三步表达</small><h3>第2步：参考回答</h3><div class='bilingual-pair'><p class='pair-en'>It was meaningful.</p><p class='pair-cn'>暑假很有意义。</p></div><div class='bilingual-pair'><p class='pair-en'>No, I didn’t.</p><p class='pair-cn'>没有，我没有去旅行。</p></div><div class='bilingual-pair'><p class='pair-en'>I stayed in Beijing.</p><p class='pair-cn'>我留在北京。</p></div><div class='bilingual-pair'><p class='pair-en'>I went to the National Library of China on foot.</p><p class='pair-cn'>我步行去了中国国家图书馆。</p></div></article><article class='study-card think-card'><small>三步表达</small><h3>第3步：继续追问</h3><div class='bilingual-pair'><p class='pair-en'>When did you go there?</p><p class='pair-cn'>你什么时候去的？</p></div><div class='bilingual-pair'><p class='pair-en'>What did you do there?</p><p class='pair-cn'>你在那里做了什么？</p></div><div class='bilingual-pair'><p class='pair-en'>What else do you want to share about your summer vacation?</p><p class='pair-cn'>关于你的暑假，你还想分享什么？</p></div></article><article class='study-card think-card'><small>三步表达</small><h3>第3步：参考回答</h3><div class='bilingual-pair'><p class='pair-en'>I went there during the summer vacation and read books.</p><p class='pair-cn'>暑假期间我去了那里并读了书。</p></div><div class='bilingual-pair'><p class='pair-en'>I also learned many new things.</p><p class='pair-cn'>我还学到了许多新知识。</p></div></article><article class='study-card think-card'><small>完整示范</small><h3>完整示范 1 / 4</h3><div class='bilingual-pair'><p class='pair-en'>Welcome to our School TV Show!</p><p class='pair-cn'>欢迎来到我们的校园电视节目！</p></div><div class='bilingual-pair'><p class='pair-en'>This week, we will talk about our summer vacation.</p><p class='pair-cn'>本周我们将谈论暑假。</p></div><div class='bilingual-pair'><p class='pair-en'>Hello, everyone!</p><p class='pair-cn'>大家好！</p></div></article><article class='study-card think-card'><small>完整示范</small><h3>完整示范 2 / 4</h3><div class='bilingual-pair'><p class='pair-en'>My name is Lingling.</p><p class='pair-cn'>我叫玲玲。</p></div><div class='bilingual-pair'><p class='pair-en'>I’m from Class 1, Grade 6.</p><p class='pair-cn'>我来自六年级一班。</p></div><div class='bilingual-pair'><p class='pair-en'>My summer vacation was meaningful.</p><p class='pair-cn'>我的暑假很有意义。</p></div></article><article class='study-card think-card'><small>完整示范</small><h3>完整示范 3 / 4</h3><div class='bilingual-pair'><p class='pair-en'>I didn’t travel.</p><p class='pair-cn'>我没有外出旅行。</p></div><div class='bilingual-pair'><p class='pair-en'>I stayed in Beijing.</p><p class='pair-cn'>我留在北京。</p></div></article><article class='study-card think-card'><small>完整示范</small><h3>完整示范 4 / 4</h3><div class='bilingual-pair'><p class='pair-en'>I went to the National Library of China on foot and read books there.</p><p class='pair-cn'>我步行去了中国国家图书馆，并在那里读了书。</p></div><div class='bilingual-pair'><p class='pair-en'>I also learned many new things.</p><p class='pair-cn'>我还学到了许多新知识。</p></div></article></div></section>
+<section id="think-share-bilingual"><h2>Think and share：逐句中英对应</h2><p class="note">每句英文下面紧跟对应中文；长内容必须拆成多页，禁止用缩小字体硬塞进一页。</p><div class="think-grid"><article class='study-card think-card'><small>三步表达</small><h3>第1步：先介绍自己</h3><div class='bilingual-pair'><p class='pair-en'>Please tell us your name first.</p><p class='pair-cn'>请先告诉大家你的名字。</p></div><div class='bilingual-pair'><p class='pair-en'>Hello, everyone!</p><p class='pair-cn'>大家好！</p></div><div class='bilingual-pair'><p class='pair-en'>My name is Lingling.</p><p class='pair-cn'>我叫玲玲。</p></div><div class='bilingual-pair'><p class='pair-en'>I’m from Class 1, Grade 6.</p><p class='pair-cn'>我来自六年级一班。</p></div></article><article class='study-card think-card'><small>三步表达</small><h3>第2步：回答暑假问题</h3><div class='bilingual-pair'><p class='pair-en'>How was your summer vacation?</p><p class='pair-cn'>你的暑假过得怎么样？</p></div><div class='bilingual-pair'><p class='pair-en'>Did you travel ... ?</p><p class='pair-cn'>你去旅行了吗……？</p></div><div class='bilingual-pair'><p class='pair-en'>Where did you go?</p><p class='pair-cn'>你去了哪里？</p></div><div class='bilingual-pair'><p class='pair-en'>How did you get there?</p><p class='pair-cn'>你是怎么到那里的？</p></div></article><article class='study-card think-card'><small>三步表达</small><h3>第2步：参考回答</h3><div class='bilingual-pair'><p class='pair-en'>It was meaningful.</p><p class='pair-cn'>暑假很有意义。</p></div><div class='bilingual-pair'><p class='pair-en'>No, I didn’t.</p><p class='pair-cn'>没有，我没有去旅行。</p></div><div class='bilingual-pair'><p class='pair-en'>I stayed in Beijing.</p><p class='pair-cn'>我留在北京。</p></div><div class='bilingual-pair'><p class='pair-en'>I went to the National Library of China on foot.</p><p class='pair-cn'>我步行去了中国国家图书馆。</p></div></article><article class='study-card think-card'><small>三步表达</small><h3>第3步：继续追问</h3><div class='bilingual-pair'><p class='pair-en'>When did you go there?</p><p class='pair-cn'>你什么时候去的？</p></div><div class='bilingual-pair'><p class='pair-en'>What did you do there?</p><p class='pair-cn'>你在那里做了什么？</p></div><div class='bilingual-pair'><p class='pair-en'>What else do you want to share about your summer vacation?</p><p class='pair-cn'>关于你的暑假，你还想分享什么？</p></div></article><article class='study-card think-card'><small>三步表达</small><h3>第3步：参考回答</h3><div class='bilingual-pair'><p class='pair-en'>I went there during the summer vacation and read books.</p><p class='pair-cn'>暑假期间我去了那里并读了书。</p></div><div class='bilingual-pair'><p class='pair-en'>I also learned many new things.</p><p class='pair-cn'>我还学到了许多新知识。</p></div></article><article class='study-card think-card'><small>完整示范</small><h3>完整示范 1 / 4</h3><div class='bilingual-pair'><p class='pair-en'>Welcome to our School TV Show!</p><p class='pair-cn'>欢迎来到我们的校园电视节目！</p></div><div class='bilingual-pair'><p class='pair-en'>This week, we will talk about our summer vacation.</p><p class='pair-cn'>本周我们将谈论暑假。</p></div><div class='bilingual-pair'><p class='pair-en'>Hello, everyone!</p><p class='pair-cn'>大家好！</p></div></article><article class='study-card think-card'><small>完整示范</small><h3>完整示范 2 / 4</h3><div class='bilingual-pair'><p class='pair-en'>My name is Lingling.</p><p class='pair-cn'>我叫玲玲。</p></div><div class='bilingual-pair'><p class='pair-en'>I’m from Class 1, Grade 6.</p><p class='pair-cn'>我来自六年级一班。</p></div><div class='bilingual-pair'><p class='pair-en'>My summer vacation was meaningful.</p><p class='pair-cn'>我的暑假很有意义。</p></div></article><article class='study-card think-card'><small>完整示范</small><h3>完整示范 3 / 4</h3><div class='bilingual-pair'><p class='pair-en'>I didn’t travel.</p><p class='pair-cn'>我没有外出旅行。</p></div><div class='bilingual-pair'><p class='pair-en'>I stayed in Beijing.</p><p class='pair-cn'>我留在北京。</p></div></article><article class='study-card think-card'><small>完整示范</small><h3>完整示范 4 / 4</h3><div class='bilingual-pair'><p class='pair-en'>I went to the National Library of China on foot and read books there.</p><p class='pair-cn'>我步行去了中国国家图书馆，并在那里读了书。</p></div><div class='bilingual-pair'><p class='pair-en'>I also learned many new things.</p><p class='pair-cn'>我还学到了许多新知识。</p></div></article></div></section>
 <section><h2>本课五词精讲</h2><p class="note">每课只精学5项：听读音、懂中文、学搭配、放进句子里使用。教材原词与教学补充已经分开标注。</p><div class="grid">
-        <article class="study-card vocab-card"><h3>1. meaningful <span>/ˈmiːnɪŋfəl/</span></h3>
+        <article class="study-card vocab-card"><h3>1. meaningful <span>/ˈmi.nɪŋ.fəl/</span></h3>
         <p><strong>形容词</strong> · 有意义的</p>
         <p>形容一件事有价值、值得做，可放在名词前。</p>
         <ul><li><strong>常用搭配：</strong>a meaningful summer vacation · 一个有意义的暑假</li>
         <li><strong>例句：</strong>All of us had a meaningful summer vacation.<br>我们所有人都度过了一个有意义的暑假。</li></ul>
         <small>教材来源：Lesson 2 Word List（教材第98页）；搭配、讲解和例句为教学补充。</small>
-        <audio controls preload="none" src="vocab-01-meaningful.m4a"></audio></article>
-        <article class="study-card vocab-card"><h3>2. on foot <span>/ɑːn fʊt/</span></h3>
+        <audio controls preload="none" src="assets/asset-721826069279.m4a"></audio></article>
+        <article class="study-card vocab-card"><h3>2. on foot <span>/ɑn fʊt/</span></h3>
         <p><strong>介词短语</strong> · 步行</p>
         <p>表示步行时说 on foot，不说 by foot。</p>
         <ul><li><strong>常用搭配：</strong>go there on foot · 步行去那里</li>
         <li><strong>例句：</strong>Lingling went to the library on foot.<br>玲玲步行去了图书馆。</li></ul>
         <small>教材来源：Lesson 2 Word List（教材第98页）；搭配、讲解和例句为教学补充。</small>
-        <audio controls preload="none" src="vocab-02-on-foot.m4a"></audio></article>
+        <audio controls preload="none" src="assets/asset-8af5d00cce6f.m4a"></audio></article>
         <article class="study-card vocab-card"><h3>3. National Library of China <span>/ˌnæʃənəl ˈlaɪbreri əv ˈtʃaɪnə/</span></h3>
         <p><strong>专有名词</strong> · 中国国家图书馆</p>
         <p>机构全名作为一个整体使用，前面通常加 the。</p>
         <ul><li><strong>常用搭配：</strong>visit the National Library of China · 参观中国国家图书馆</li>
         <li><strong>例句：</strong>I read books at the National Library of China.<br>我在中国国家图书馆读书。</li></ul>
         <small>教材来源：Lesson 2 Word List（教材第98页）；搭配、讲解和例句为教学补充。</small>
-        <audio controls preload="none" src="vocab-03-National-Library-of-China.m4a"></audio></article>
-        <article class="study-card vocab-card"><h3>4. China Science and Technology Museum <span>/ˈtʃaɪnə ˈsaɪəns ænd tɛkˈnɑːlədʒi mjuˈziːəm/</span></h3>
+        <audio controls preload="none" src="assets/asset-61077f80c054.m4a"></audio></article>
+        <article class="study-card vocab-card"><h3>4. China Science and Technology Museum <span>/ˈtʃaɪ.nə ˈsaɪ.əns ænd tɛkˈnɑ.lə.dʒi mjuˈzi.əm/</span></h3>
         <p><strong>专有名词</strong> · 中国科学技术馆</p>
         <p>机构全名作为一个整体使用；在馆内做志愿者可说 work as a volunteer at ...。</p>
         <ul><li><strong>常用搭配：</strong>volunteer at China Science and Technology Museum · 在中国科学技术馆做志愿者</li>
         <li><strong>例句：</strong>Maomao worked at China Science and Technology Museum.<br>毛毛在中国科学技术馆工作。</li></ul>
         <small>教材来源：Lesson 2 Word List（教材第98页）；搭配、讲解和例句为教学补充。</small>
-        <audio controls preload="none" src="vocab-04-China-Science-and-Technology-Museum.m4a"></audio></article>
-        <article class="study-card vocab-card"><h3>5. far from <span>/fɑːr frəm/</span></h3>
+        <audio controls preload="none" src="assets/asset-8c2e7753cc54.m4a"></audio></article>
+        <article class="study-card vocab-card"><h3>5. far from <span>/fɑr frəm/</span></h3>
         <p><strong>形容词短语</strong> · 离……远</p>
         <p>far from 后面接地点；问距离可用 Is ... far from ...?。</p>
         <ul><li><strong>常用搭配：</strong>far from home · 离家远</li>
         <li><strong>例句：</strong>Hubei is far from Beijing.<br>湖北离北京很远。</li></ul>
         <small>教材来源：Lesson 2 Word List（教材第98页）；搭配、讲解和例句为教学补充。</small>
-        <audio controls preload="none" src="vocab-05-far-from.m4a"></audio></article></div></section>
-<section><h2>本课语法</h2><div class="grid"><article class='study-card'><h3>1. 用 Did 询问过去是否发生</h3><p>Did + 主语 + 动词原形 ...? 肯定回答 Yes, ... did；否定回答 No, ... didn’t。</p><ul><li><strong>Did you travel this summer vacation?</strong><br>你这个暑假旅行了吗？</li><li><strong>No, I didn’t. I stayed in Beijing.</strong><br>没有。我留在北京。</li></ul></article><article class='study-card'><h3>2. 用 Where、What、How 追问过去</h3><p>特殊疑问词 + did + 主语 + 动词原形，用来问地点、事情和交通方式。</p><ul><li><strong>Where did Guoguo go?</strong><br>果果去了哪里？</li><li><strong>What did Maomao do there?</strong><br>毛毛在那里做了什么？</li><li><strong>How did Lingling get there?</strong><br>玲玲怎么到那里的？</li></ul></article><article class='study-card'><h3>3. 一般过去时的规则与不规则变化</h3><p>stay→stayed、work→worked；go→went、take→took。read 的现在式与过去式拼写相同：说现在或习惯时读 /riːd/，说已经发生的过去时读 /red/。本句讲暑假里已经发生的事，所以读 /red/。</p><ul><li><strong>I read books every day.</strong><br>我每天读书（现在或习惯，read /riːd/）。</li><li><strong>I read books there yesterday.</strong><br>我昨天在那里读书（过去，read /red/）。</li></ul></article></div></section>
-<section><h2>语法慢读复听</h2><p class="note">重点词 work /wɝːk/ 与 worked /wɝːkt/ 使用清晰美语女声词典音；每页只示范原形一次、过去式一次，中间停1秒。worked 的 -ed 在 /k/ 后读清辅音 /t/，/k/ 与 /t/ 连成 /kt/，整个词仍是1个音节。/t/ 分类画面和声音统一为 looked、helped。交付前除整词反向识别外，还把 worked 的实际词尾与 stayed、played 的浊音 /d/ 词尾做清浊声学对比，未检出清辅音释放就停止发布。</p><div class="grid"><article class="study-card"><h3>stay → stayed · work → worked · go → went · take → took</h3><audio controls preload="none" src="grammar-verb-pairs-ed-v16.m4a"></audio></article><article class="study-card"><h3>worked /wɝːkt/ 与 -ed 三类读音</h3><audio controls preload="none" src="grammar-ed-rule-v16.m4a"></audio></article><article class="study-card"><h3>read <span>/riːd/</span> 与 read <span>/red/</span></h3><audio controls preload="none" src="grammar-read-contrast-v16.m4a"></audio></article></div></section>
-<section><h2>自然拼读：字母名称、字母组合、词中声音分开学</h2><p class="note">先听分开的字母名，再看连写的字母组合。常见音用音标控制清楚示范3遍，每遍间隔0.9秒；不把连写组合拆成字母名。例外页会再次读出画面上的常见音，再把每个例外音单独示范3遍，最后读完整例外词2遍；画面上的字母组合、音和词都必须有对应声音。</p><div class="grid"><article class='study-card'><h3>字母名称：o — o</h3><p><strong>字母组合：</strong>oo　<strong>本组常见声音：</strong><span>/ʊ/</span></p><p>在 foot、book、good、look 这一组词里，oo 表示短元音 /ʊ/；先把 /ʊ/ 听清3遍，再用这个声音拼读同组词。字母名称不是单词里的这个元音。</p><ul><li><strong>foot /fʊt/</strong>：脚；步行短语 on foot</li><li><strong>book /bʊk/</strong>：书</li><li><strong>good /ɡʊd/</strong>：好的</li><li><strong>look /lʊk/</strong>：看</li></ul><h4>例外词单独记</h4><ul><li><strong>school /skuːl/</strong>：这里是 /uː/</li><li><strong>blood /blʌd/</strong>：这里是 /ʌ/</li></ul><audio controls preload="none" src="phonics-oo-calibrated-v15.m4a"></audio></article><article class='study-card'><h3>字母名称：a — r</h3><p><strong>字母组合：</strong>ar　<strong>本组常见声音：</strong><span>/ɑːr/</span></p><p>在 far、car、park、start 这一组词里，ar 表示 /ɑːr/；先把 /ɑːr/ 听清3遍，再用这个声音拼读同组词。字母名称与词中声音分开听。</p><ul><li><strong>far /fɑːr/</strong>：远的</li><li><strong>car /kɑːr/</strong>：小汽车</li><li><strong>park /pɑːrk/</strong>：公园</li><li><strong>start /stɑːrt/</strong>：开始</li></ul><h4>例外词单独记</h4><ul><li><strong>warm /wɔːrm/</strong>：这里的 ar 表示 /ɔːr/</li></ul><audio controls preload="none" src="phonics-ar-calibrated-v15.m4a"></audio></article></div></section>
-<section class="study-card completion"><div><h2 style="margin-top:0">完成啦：先轻松想起三件事</h2><ol><li>谁留在北京？</li><li>谁在科技馆做志愿者？</li><li>果果怎样去湖北？</li></ol><p>能说出一个关键词就算成功。下一课开始前再快速提取一次，不要求今天全部背完。</p></div><img src="mascot.png" alt="欢呼跳跃的卡通学习伙伴"></section>
-<footer>儿童英语整课视频工厂 · 家庭学习网页 · 标准美语示范 + 家庭纠音 · 不包含真人声纹模仿</footer>
+        <audio controls preload="none" src="assets/asset-32209c13d9cd.m4a"></audio></article></div></section>
+<section><h2>本课语法</h2><div class="grid"><article class='study-card'><h3>1. 用 Did 询问过去是否发生</h3><p>Did + 主语 + 动词原形 ...? 肯定回答 Yes, ... did；否定回答 No, ... didn’t。</p><ul><li><strong>Did you travel this summer vacation?</strong><br>你这个暑假旅行了吗？</li><li><strong>No, I didn’t. I stayed in Beijing.</strong><br>没有。我留在北京。</li></ul></article><article class='study-card'><h3>2. 用 Where、What、How 追问过去</h3><p>特殊疑问词 + did + 主语 + 动词原形，用来问地点、事情和交通方式。</p><ul><li><strong>Where did Guoguo go?</strong><br>果果去了哪里？</li><li><strong>What did Maomao do there?</strong><br>毛毛在那里做了什么？</li><li><strong>How did Lingling get there?</strong><br>玲玲怎么到那里的？</li></ul></article><article class='study-card'><h3>3. 一般过去时的规则与不规则变化</h3><p>stay→stayed、work→worked；go→went、take→took。read 的现在式与过去式拼写相同：说现在或习惯时读 /rid/，说已经发生的过去时读 /rɛd/。本句讲暑假里已经发生的事，所以读 /rɛd/。</p><ul><li><strong>I read books every day.</strong><br>我每天读书（现在或习惯，read /rid/）。</li><li><strong>I read books there yesterday.</strong><br>我昨天在那里读书（过去，read /rɛd/）。</li></ul></article></div></section>
+<section id='tense-inventory'><h2>本课一般过去时完整对应表</h2><p class='note'>本课正文、问答、角色扮演和教材示范中实际出现的全部过去式。原形和过去式意思对应，但表达的时间和句法位置不同。</p><div class='tense-table-wrap'><table class='tense-table'><thead><tr><th>动词原形</th><th>过去式</th><th>中文意思</th><th>变化类型</th></tr></thead><tbody><tr><td><strong>be</strong> /bi/</td><td><strong>was</strong><br>was /wʌz/</td><td>是；处于</td><td>不规则</td></tr><tr><td><strong>do</strong> /du/</td><td><strong>did</strong><br>did /dɪd/</td><td>做</td><td>不规则</td></tr><tr><td><strong>stay</strong> /steɪ/</td><td><strong>stayed</strong><br>stayed /steɪd/</td><td>停留；居住</td><td>规则变化</td></tr><tr><td><strong>go</strong> /ɡoʊ/</td><td><strong>went</strong><br>went /wɛnt/</td><td>去</td><td>不规则</td></tr><tr><td><strong>read</strong> /rid/</td><td><strong>read</strong><br>read /rɛd/</td><td>阅读</td><td>不规则；拼写不变但读音变化</td></tr><tr><td><strong>work</strong> /wɝk/</td><td><strong>worked</strong><br>worked /wɝkt/</td><td>工作；担任</td><td>规则变化</td></tr><tr><td><strong>have</strong> /hæv/</td><td><strong>had</strong><br>had /hæd/</td><td>有；度过</td><td>不规则</td></tr><tr><td><strong>learn</strong> /lɝn/</td><td><strong>learned</strong><br>learned /lɝnd/</td><td>学习；学会</td><td>规则变化</td></tr><tr><td><strong>take</strong> /teɪk/</td><td><strong>took</strong><br>took /tʊk/</td><td>拿；乘坐</td><td>不规则</td></tr></tbody></table></div><article class='study-card'><h3>疑问句中 did 后面必须用动词原形</h3><p>did 已经表示过去，所以后面的主要动词回到原形。</p><ul><li><strong>Where did you go?</strong><br>did + go，不能说 did went。</li><li><strong>What did you do?</strong><br>did + do，不能说 did did。</li><li><strong>How did you get there?</strong><br>did + get，不能说 did got。</li></ul></article><article class='study-card'><h3>不要混进过去式表的其他时态</h3><ul><li><strong>will talk</strong>：一般将来时，will + 动词原形，将要谈论</li></ul></article></section>
+<section><h2>自然拼读：减少死记硬背</h2><div class="grid"><article class='study-card'><small>字母名称：o /oʊ/ — o /oʊ/</small><h3>字母组合：oo <span>组合音：/ʊ/</span></h3><p>先听字母名 o、o，再把 oo 连起来看。在 foot、book、good、look 这一组词里，oo 表示短元音 /ʊ/；听清三遍，再用这个声音拼读同组词。</p><ul><li><strong>foot /fʊt/</strong>：脚；步行短语 on foot</li><li><strong>book /bʊk/</strong>：书</li><li><strong>good /ɡʊd/</strong>：好的</li><li><strong>look /lʊk/</strong>：看</li></ul><p><strong>例外：</strong></p><ul><li><strong>school /skul/</strong>：元音 /u/</li><li><strong>blood /blʌd/</strong>：短元音 /ʌ/</li></ul></article><article class='study-card'><small>字母名称：a /eɪ/ — r /ɑr/</small><h3>字母组合：ar <span>组合音：/ɑr/</span></h3><p>先听字母名 a、r，再把 ar 连起来看。在 far、car、park、start 这一组词里，ar 表示 /ɑr/；听清三遍，再用这个声音拼读同组词。</p><ul><li><strong>far /fɑr/</strong>：远的</li><li><strong>car /kɑr/</strong>：小汽车</li><li><strong>park /pɑrk/</strong>：公园</li><li><strong>start /stɑrt/</strong>：开始</li></ul><p><strong>例外：</strong></p><ul><li><strong>warm /wɔrm/</strong>：ar 在这里读 /ɔr/</li></ul></article></div></section>
+<section class="study-card completion"><div><h2 style="margin-top:0">完成啦：今天学会了什么？</h2><p>听懂暑假对话；会读会用5项重点词汇；用 How、Where、What 提问；用一般过去时回答；按拼读规律记单词。</p><ol><li>谁留在北京？</li><li>毛毛在哪里做志愿者？</li><li>果果怎么去湖北？</li></ol><p>能说出一个关键词就算成功。下一课开始前会再提取一次，不要求今天全部背完。</p></div><img src="assets/asset-5b64c9594298.png" alt="欢呼跳跃的卡通学习伙伴"></section>
+<footer>儿童英语整课视频工厂 · 本页离线可用 · 不包含真人声纹模仿</footer>
 </main><script>
-const voiceAssetVersion='worked-final-t-20260721-v16';document.querySelectorAll('video[src],audio[src]').forEach(m=>{const src=m.getAttribute('src');if(src&&!src.includes('?'))m.setAttribute('src',`${src}?voice=${voiceAssetVersion}`);});document.querySelectorAll('[data-model]').forEach(card=>{const src=card.dataset.model;if(src&&!src.includes('?'))card.dataset.model=`${src}?voice=${voiceAssetVersion}`;});
 const mainVideo=document.getElementById('mainVideo');const media=[mainVideo,...document.querySelectorAll('audio')];const buttons=[...document.querySelectorAll('[data-speed]')];
 function setSpeed(s){media.forEach(m=>m.playbackRate=s);buttons.forEach(b=>{const on=Number(b.dataset.speed)===s;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});document.getElementById('speedText').textContent=`当前速度：${s}×${s===1?'（默认）':''}`;}
 function seekBy(seconds){if(!Number.isFinite(mainVideo.currentTime))return;const end=Number.isFinite(mainVideo.duration)?mainVideo.duration:Infinity;mainVideo.currentTime=Math.max(0,Math.min(end,mainVideo.currentTime+seconds));}
@@ -341,4 +179,8 @@ document.getElementById('back15').onclick=()=>seekBy(-15);document.getElementByI
 buttons.forEach(b=>b.onclick=()=>setSpeed(Number(b.dataset.speed)));setSpeed(1.0);
 document.getElementById('copyLink').onclick=()=>{const url=location.href;const status=document.getElementById('copyStatus');function done(){status.textContent='已复制，请到微信粘贴发送。';}if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(url).then(done).catch(()=>fallbackCopy(url,done));}else{fallbackCopy(url,done);}};
 function fallbackCopy(text,done){const t=document.createElement('textarea');t.value=text;t.style.position='fixed';t.style.opacity='0';document.body.appendChild(t);t.focus();t.select();let ok=false;try{ok=document.execCommand('copy');}catch(e){ok=false;}t.remove();if(ok)done();else prompt('长按复制这个链接：',text);}
-</script><script src="family-practice.js"></script></body></html>
+let activeRecorder=null,activeStream=null,activeCard=null,chunks=[];
+function stopTracks(){if(activeStream)activeStream.getTracks().forEach(t=>t.stop());activeStream=null;}
+async function beginRecord(card,kind){const status=card.querySelector('.practice-status');if(!navigator.mediaDevices||!window.MediaRecorder){status.textContent='当前浏览器不支持网页录音。仍可播放标准音并用手机录音机自查。';return;}try{activeStream=await navigator.mediaDevices.getUserMedia({audio:true});chunks=[];activeCard=card;activeRecorder=new MediaRecorder(activeStream);activeRecorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);};activeRecorder.onstop=()=>{const audio=card.querySelector('.recording-playback');audio.src=URL.createObjectURL(new Blob(chunks,{type:activeRecorder.mimeType||'audio/webm'}));audio.hidden=false;const wordButton=card.querySelector('.record-word');let round=Number(card.dataset.round||0);if(kind==='sentence'){card.dataset.screened='1';wordButton.disabled=false;status.textContent='整句初读已录好。现在播放目标词标准音，再录第 1 遍。';}else{round=Math.min(3,round+1);card.dataset.round=String(round);if(round<3){wordButton.textContent=`录第 ${round+1} 遍`;wordButton.disabled=false;status.textContent=`第 ${round} 遍已录好。先回放对比，再按上方提示调整。`;}else{wordButton.disabled=true;status.textContent='三遍完成。若三次都清楚：你太了不起啦！继续后面的任务。';}}stopTracks();};activeRecorder.start();card.querySelector('.stop-record').disabled=false;card.querySelector('.record-sentence').disabled=true;card.querySelector('.record-word').disabled=true;status.textContent=kind==='sentence'?'正在录整句，读完点“停止录音”。':'正在录目标词，读完点“停止录音”。';}catch(e){stopTracks();status.textContent='麦克风没有开启。请在浏览器设置中允许本页使用麦克风，或继续用标准音自查。';}}
+document.querySelectorAll('.pronunciation-card').forEach(card=>{card.dataset.round='0';card.querySelector('.record-sentence').onclick=()=>beginRecord(card,'sentence');card.querySelector('.record-word').onclick=()=>beginRecord(card,'word');card.querySelector('.stop-record').onclick=()=>{if(activeRecorder&&activeRecorder.state==='recording'&&activeCard===card){card.querySelector('.stop-record').disabled=true;activeRecorder.stop();}};card.querySelector('.play-standard').onclick=e=>{const a=new Audio(e.currentTarget.dataset.src);const selected=document.querySelector('[data-speed][aria-pressed="true"]');a.playbackRate=Number(selected?selected.dataset.speed:1);a.play().catch(()=>{card.querySelector('.practice-status').textContent='请再点一次播放标准音。';});};});
+</script></body></html>

@@ -1,0 +1,1468 @@
+{
+  "policy_version": "key-english-final-pcm-and-routing-gate-v1",
+  "scope": [
+    "pronunciation self-correction targets",
+    "vocabulary headwords",
+    "vocabulary collocations",
+    "vocabulary derived example sentences",
+    "grammar example sentences",
+    "phonics common and exception sounds",
+    "phonics example and exception words"
+  ],
+  "english_voice": "Samantha",
+  "english_variety": "General American",
+  "source_english_rate": 165,
+  "vocabulary_teacher_model_repetitions": 3,
+  "vocabulary_learner_response_repetitions": 3,
+  "self_correction_target_model_repetitions": 3,
+  "raw_ipa_sent_to_ordinary_tts_count": 0,
+  "english_embedded_in_mandarin_tts_count": 0,
+  "critical_pcm_row_count": 47,
+  "critical_pcm_rows": [
+    {
+      "context": "retrieval_practice.self_correction[1].target_model",
+      "display_text": "meaningful",
+      "expected_ipa": "/ˈmi.nɪŋ.fəl/",
+      "authoritative_source_url": "https://dictionary.cambridge.org/us/pronunciation/english/meaningful",
+      "synthesis_route": "reviewed General American lexical target",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 135,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 0.766,
+      "pcm_sha256": "8a13753a12ff8c617c61b287a80ee69f90d2ce28dd57c844237f06f67e138730",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 22048,
+        "rms_amplitude": 5954.0,
+        "effective_sound_seconds": 0.71,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "retrieval_practice.self_correction[2].target_model",
+      "display_text": "worked",
+      "expected_ipa": "/wɝkt/",
+      "authoritative_source_url": "https://dictionary.cambridge.org/us/pronunciation/english/worked",
+      "synthesis_route": "reviewed General American lexical target",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 135,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 0.544,
+      "pcm_sha256": "2733dd185c83b9a515e295428ef38cc523774a6c8cfa5025572878a4662e366a",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 22082,
+        "rms_amplitude": 4046.29,
+        "effective_sound_seconds": 0.34,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "retrieval_practice.self_correction[3].target_model",
+      "display_text": "read",
+      "expected_ipa": "/rɛd/",
+      "authoritative_source_url": "https://dictionary.cambridge.org/us/pronunciation/english/read",
+      "synthesis_route": "reviewed General American lexical target",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 135,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 0.469,
+      "pcm_sha256": "6afed3c0b86b153edf07a8679798697e2656be8d08b98bff8b185449c37ac9f8",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 19641,
+        "rms_amplitude": 4390.21,
+        "effective_sound_seconds": 0.37,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[1].headword",
+      "display_text": "meaningful",
+      "expected_ipa": "/ˈmi.nɪŋ.fəl/",
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English vocabulary headword",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 0.643,
+      "pcm_sha256": "7adf4d53057b945388257b8b1fb29ec43f88e720dfdc7fe462b8b95b99c7e01c",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 22410,
+        "rms_amplitude": 5934.88,
+        "effective_sound_seconds": 0.59,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[1].collocation",
+      "display_text": "a meaningful summer vacation",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English vocabulary collocation",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 1.692,
+      "pcm_sha256": "6966fbee4ae26fb0e3d087402698134f942588944e54f2fcadf9ab006633e63e",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 24668,
+        "rms_amplitude": 5852.55,
+        "effective_sound_seconds": 1.63,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[1].derived_example_sentence",
+      "display_text": "All of us had a meaningful summer vacation.",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English derived example sentence",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 2.313,
+      "pcm_sha256": "ff59ca81ee0417e7bd4adc182e96799d7f549dc971add16defab7919af658644",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 24253,
+        "rms_amplitude": 5832.4,
+        "effective_sound_seconds": 2.24,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[2].headword",
+      "display_text": "on foot",
+      "expected_ipa": "/ɑn fʊt/",
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English vocabulary headword",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 0.564,
+      "pcm_sha256": "b9847742f853870deb552bc8b09126030e696145d9801e7da934ca85c67501be",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 21413,
+        "rms_amplitude": 4922.43,
+        "effective_sound_seconds": 0.46,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[2].collocation",
+      "display_text": "go there on foot",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English vocabulary collocation",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 0.944,
+      "pcm_sha256": "f45f4f6ae10778fcf7b29325f643e79a1e89710977b7984282f212917c0d9a43",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 23349,
+        "rms_amplitude": 5419.82,
+        "effective_sound_seconds": 0.84,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[2].derived_example_sentence",
+      "display_text": "Lingling went to the library on foot.",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English derived example sentence",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 1.996,
+      "pcm_sha256": "21df23f6b837f81b97fc75c623b1d4f9f0b7a50d865022f6904cd0f8974deac9",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 24626,
+        "rms_amplitude": 5214.99,
+        "effective_sound_seconds": 1.77,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[3].headword",
+      "display_text": "National Library of China",
+      "expected_ipa": "/ˌnæʃənəl ˈlaɪbreri əv ˈtʃaɪnə/",
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English vocabulary headword",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 1.644,
+      "pcm_sha256": "afcad70327737a77ebea03dbefa6a7a021a816afbebb217538d51beb3e4888ad",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 24089,
+        "rms_amplitude": 5798.54,
+        "effective_sound_seconds": 1.58,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[3].collocation",
+      "display_text": "visit the National Library of China",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English vocabulary collocation",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 2.448,
+      "pcm_sha256": "dd7d31339dde38ecbeea9937a169501186fb140287c7be3898e4e9f115686ee3",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 24089,
+        "rms_amplitude": 5345.37,
+        "effective_sound_seconds": 2.22,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[3].derived_example_sentence",
+      "display_text": "I read books at the National Library of China.",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English derived example sentence",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 2.914,
+      "pcm_sha256": "e7d1d79ba6f0e43856227acd2895db128f5e609e59275f3f13673922369e34ff",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 24089,
+        "rms_amplitude": 5357.2,
+        "effective_sound_seconds": 2.6,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[4].headword",
+      "display_text": "China Science and Technology Museum",
+      "expected_ipa": "/ˈtʃaɪ.nə ˈsaɪ.əns ænd tɛkˈnɑ.lə.dʒi mjuˈzi.əm/",
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English vocabulary headword",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 2.274,
+      "pcm_sha256": "2b65ac85b8b987adafcdbc9015fb5bbdab2358af20c9cd858e11905c2349beab",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 25156,
+        "rms_amplitude": 6027.6,
+        "effective_sound_seconds": 2.2,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[4].collocation",
+      "display_text": "volunteer at China Science and Technology Museum",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English vocabulary collocation",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 3.275,
+      "pcm_sha256": "09ae69aeb8e2d767f0c1bb48f00333e0b1fe76912be0733e4646a05bde918605",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 25156,
+        "rms_amplitude": 5857.92,
+        "effective_sound_seconds": 3.05,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[4].derived_example_sentence",
+      "display_text": "Maomao worked at China Science and Technology Museum.",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English derived example sentence",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 3.431,
+      "pcm_sha256": "4cb0314df9549ee31959340eed5244f1c4afacc6544a1fd30c474a375e6524ce",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 25156,
+        "rms_amplitude": 5501.75,
+        "effective_sound_seconds": 3.02,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[5].headword",
+      "display_text": "far from",
+      "expected_ipa": "/fɑr frəm/",
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English vocabulary headword",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 0.756,
+      "pcm_sha256": "f7c39bb50ebc2639f1e7a9b3d8c9f3a85246db1d8480ec54b64a18d18c6778a2",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 24341,
+        "rms_amplitude": 4751.44,
+        "effective_sound_seconds": 0.64,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[5].collocation",
+      "display_text": "far from home",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English vocabulary collocation",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 0.884,
+      "pcm_sha256": "8543e15933cfec79acdb6f7d315985ade8729dad5557e9d538596a966bd9f6e6",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 23730,
+        "rms_amplitude": 5160.95,
+        "effective_sound_seconds": 0.78,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "vocabulary[5].derived_example_sentence",
+      "display_text": "Hubei is far from Beijing.",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English derived example sentence",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 3,
+      "learner_response_repetitions": 3,
+      "duration_seconds_per_model": 1.756,
+      "pcm_sha256": "cb612c6ec80cb2b65cc8171640718e06ad091f47b60fab3f9347243d3153c433",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 26350,
+        "rms_amplitude": 4259.8,
+        "effective_sound_seconds": 1.4,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "grammar[1].examples[1]",
+      "display_text": "Did you travel this summer vacation?",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English grammar example",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 1.954,
+      "pcm_sha256": "89a388011ebc36491b8947fb97caee072ab9899a29d49203e59131ae924e5dc3",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 24384,
+        "rms_amplitude": 5431.33,
+        "effective_sound_seconds": 1.87,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "grammar[1].examples[2]",
+      "display_text": "No, I didn’t. I stayed in Beijing.",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English grammar example",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 2.651,
+      "pcm_sha256": "3b9a8832709f885a5a7e87e27cc408501ee99dec34e65a32f93e1c7e8dd93d25",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 24711,
+        "rms_amplitude": 4574.78,
+        "effective_sound_seconds": 1.91,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "grammar[2].examples[1]",
+      "display_text": "Where did Guoguo go?",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English grammar example",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 1.439,
+      "pcm_sha256": "2775139da217234c1cd99b78754c851e899ac931a33df6a54cd2ebf6620d216d",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 25515,
+        "rms_amplitude": 4833.28,
+        "effective_sound_seconds": 1.16,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "grammar[2].examples[2]",
+      "display_text": "What did Maomao do there?",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English grammar example",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 1.534,
+      "pcm_sha256": "b7d078a0c0daa4e7cee42e1d24a50f2a3e6651595f0e1d5dfc8934b53044b112",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 24838,
+        "rms_amplitude": 4949.08,
+        "effective_sound_seconds": 1.27,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "grammar[2].examples[3]",
+      "display_text": "How did Lingling get there?",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English grammar example",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 1.591,
+      "pcm_sha256": "9d753553fbbce86dbe19df06d542cd664ce34bd4645863a64c15d16e7ad1e7d3",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 22473,
+        "rms_amplitude": 4576.67,
+        "effective_sound_seconds": 1.3,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "grammar[3].examples[1]",
+      "display_text": "I read books every day.",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English grammar example",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 1.262,
+      "pcm_sha256": "c06c2e944549c020f6218582da9257a10bc3654530432c7859a7393b1fd247f5",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 23542,
+        "rms_amplitude": 5342.69,
+        "effective_sound_seconds": 1.17,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "grammar[3].examples[2]",
+      "display_text": "I read books there yesterday.",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English grammar example",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 1.471,
+      "pcm_sha256": "84febd7bc50028905e94e547d6641598b12e6be4eb221b3c00e97d20a2ec9cc3",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 23426,
+        "rms_amplitude": 5295.2,
+        "effective_sound_seconds": 1.31,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[1].past[1]",
+      "display_text": "was",
+      "expected_ipa": "/wʌz/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/be",
+      "synthesis_route": "General American English lesson tense form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.623,
+      "pcm_sha256": "1b2ce31f06c108bc59c638b423e2b488b40d623349cf0792a933397fdc5918be",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 23001,
+        "rms_amplitude": 4536.17,
+        "effective_sound_seconds": 0.55,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[1].base",
+      "display_text": "be",
+      "expected_ipa": "/bi/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/be",
+      "synthesis_route": "General American English lesson base form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.395,
+      "pcm_sha256": "961d08cbc64cb5e36309e0df824d626a943d7bd58373accb2bb885f501633428",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 18788,
+        "rms_amplitude": 5171.08,
+        "effective_sound_seconds": 0.33,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[2].past[1]",
+      "display_text": "did",
+      "expected_ipa": "/dɪd/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/do",
+      "synthesis_route": "General American English lesson tense form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.451,
+      "pcm_sha256": "0ac2bb2850e792afb291c86bcc15d800d52f2a3e534049fbf4eae38ec22d377a",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 19549,
+        "rms_amplitude": 4636.4,
+        "effective_sound_seconds": 0.35,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[2].base",
+      "display_text": "do",
+      "expected_ipa": "/du/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/do",
+      "synthesis_route": "General American English lesson base form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.451,
+      "pcm_sha256": "d73388e45656cae174a4383918dea5736eaa364e978e4be46b25a6a71f7e7bb8",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 17629,
+        "rms_amplitude": 4967.72,
+        "effective_sound_seconds": 0.4,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[3].past[1]",
+      "display_text": "stayed",
+      "expected_ipa": "/steɪd/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/stay",
+      "synthesis_route": "General American English lesson tense form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.68,
+      "pcm_sha256": "b56e10cfba75f0c191eda0793432932c738878c81f3921af4d9615f7ca77428a",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 21660,
+        "rms_amplitude": 3805.93,
+        "effective_sound_seconds": 0.52,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[3].base",
+      "display_text": "stay",
+      "expected_ipa": "/steɪ/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/stay",
+      "synthesis_route": "General American English lesson base form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.668,
+      "pcm_sha256": "06d91a846e0d965c7486831b460a6e544a4d46cdb36b8d1d1324dd5ca75bde18",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 22810,
+        "rms_amplitude": 4006.54,
+        "effective_sound_seconds": 0.55,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[4].past[1]",
+      "display_text": "went",
+      "expected_ipa": "/wɛnt/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/go",
+      "synthesis_route": "General American English lesson tense form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 150,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.453,
+      "pcm_sha256": "6a0dd2f314e7f9545e2fab4359f0835b0f5bad264880842fecee2924d3676b79",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 18668,
+        "rms_amplitude": 4963.76,
+        "effective_sound_seconds": 0.37,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[4].base",
+      "display_text": "go",
+      "expected_ipa": "/ɡoʊ/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/go",
+      "synthesis_route": "General American English lesson base form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.486,
+      "pcm_sha256": "8021e3cb791ba8bcecb7d95cb7a70fdb7b1ca1c5f13bd0b4a4b51e4ba056eed5",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 25704,
+        "rms_amplitude": 4807.93,
+        "effective_sound_seconds": 0.43,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[5].past[1]",
+      "display_text": "read",
+      "expected_ipa": "/rɛd/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/read",
+      "synthesis_route": "General American English lesson tense form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.502,
+      "pcm_sha256": "5da690105b6a043f4b3d70b8b81132fb707906498bfdb93771e4cb1ce2d52045",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 18898,
+        "rms_amplitude": 4393.06,
+        "effective_sound_seconds": 0.39,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[5].base",
+      "display_text": "read",
+      "expected_ipa": "/rid/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/read",
+      "synthesis_route": "General American English lesson base form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.502,
+      "pcm_sha256": "5da690105b6a043f4b3d70b8b81132fb707906498bfdb93771e4cb1ce2d52045",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 18898,
+        "rms_amplitude": 4393.06,
+        "effective_sound_seconds": 0.39,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[1].past[1]",
+      "display_text": "worked",
+      "expected_ipa": "/wɝkt/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/work",
+      "synthesis_route": "General American English lesson tense form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 150,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.5,
+      "pcm_sha256": "3eacc54bee64f88c52605896646dd11696f27ff0ae468be8dd697e0e79b00a2e",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 22554,
+        "rms_amplitude": 4060.65,
+        "effective_sound_seconds": 0.31,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[1].base",
+      "display_text": "work",
+      "expected_ipa": "/wɝk/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/work",
+      "synthesis_route": "General American English lesson base form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.53,
+      "pcm_sha256": "2520b5ec98b80c83503904afa6e64ca9a58e2bbded470d98f2ef9a5048dd8c98",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 22119,
+        "rms_amplitude": 4268.81,
+        "effective_sound_seconds": 0.37,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[2].past[1]",
+      "display_text": "had",
+      "expected_ipa": "/hæd/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/have",
+      "synthesis_route": "General American English lesson tense form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.509,
+      "pcm_sha256": "741d758249056af60bef1affa782a87d353882d39f48a513e5f2b7590ba7d25c",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 19403,
+        "rms_amplitude": 4196.7,
+        "effective_sound_seconds": 0.37,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[2].base",
+      "display_text": "have",
+      "expected_ipa": "/hæv/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/have",
+      "synthesis_route": "General American English lesson base form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.498,
+      "pcm_sha256": "78bc9702cc46dd035ca1650e298895d4c292be26fe228633e5631682142f7b18",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 19253,
+        "rms_amplitude": 4234.45,
+        "effective_sound_seconds": 0.36,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[3].past[1]",
+      "display_text": "learned",
+      "expected_ipa": "/lɝnd/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/learn",
+      "synthesis_route": "General American English lesson tense form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.556,
+      "pcm_sha256": "d7efee92c9f22148001abbc86eff1e04efb498ab1cdcf5506837f094f8244e17",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 20320,
+        "rms_amplitude": 4695.48,
+        "effective_sound_seconds": 0.47,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[3].base",
+      "display_text": "learn",
+      "expected_ipa": "/lɝn/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/learn",
+      "synthesis_route": "General American English lesson base form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.533,
+      "pcm_sha256": "5ae1ef512d8450aaf2e784f10df8f6cc445b9ebcd290d5c90109031f11e0b291",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 20456,
+        "rms_amplitude": 4779.97,
+        "effective_sound_seconds": 0.47,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[4].past[1]",
+      "display_text": "took",
+      "expected_ipa": "/tʊk/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/take",
+      "synthesis_route": "General American English lesson tense form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.522,
+      "pcm_sha256": "9329ab37e4d27229b320730b0e89531f28ebfca876ed315a4ddbe95a377cdf79",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 21733,
+        "rms_amplitude": 3714.96,
+        "effective_sound_seconds": 0.34,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[4].base",
+      "display_text": "take",
+      "expected_ipa": "/teɪk/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/take",
+      "synthesis_route": "General American English lesson base form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 112,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.615,
+      "pcm_sha256": "558d86b6efe94f93b0b04e5ec9ef89fe1c7d629d5e372199c066d4a7135e3522",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 21797,
+        "rms_amplitude": 3894.78,
+        "effective_sound_seconds": 0.43,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.did_rule.examples[1]",
+      "display_text": "Where did you go?",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English did-plus-base example",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 1.124,
+      "pcm_sha256": "fba3b86175a9207d97b81b85176e1c85045f228277807d40b138328a47492ab7",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 24697,
+        "rms_amplitude": 5296.22,
+        "effective_sound_seconds": 1.07,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.did_rule.examples[2]",
+      "display_text": "What did you do?",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English did-plus-base example",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 1.032,
+      "pcm_sha256": "cbbe459fb7d38d50650b5e3b2d87617424460636b2989bc5e0cd77fd029baa06",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 25217,
+        "rms_amplitude": 5257.21,
+        "effective_sound_seconds": 0.91,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.did_rule.examples[3]",
+      "display_text": "How did you get there?",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English did-plus-base example",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 1.302,
+      "pcm_sha256": "b0f38fcd957e45558520b1db461cbc23fbacbe56160e2f8733fb23e6250221e7",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 23234,
+        "rms_amplitude": 5103.32,
+        "effective_sound_seconds": 1.15,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.other_tenses[1]",
+      "display_text": "will talk",
+      "expected_ipa": null,
+      "authoritative_source_url": null,
+      "synthesis_route": "General American English contrasted future form",
+      "voice": "Samantha",
+      "voice_variety": "General American",
+      "rate_words_per_minute": 165,
+      "teacher_model_repetitions": 1,
+      "learner_response_repetitions": 0,
+      "duration_seconds_per_model": 0.741,
+      "pcm_sha256": "06136e73c2442efa8e274eeb50045dbfc21a4e91f685fef1364b0b0de19af320",
+      "raw_ipa_sent_to_ordinary_tts": false,
+      "english_embedded_in_mandarin_tts": false,
+      "final_pcm_metrics": {
+        "peak_amplitude": 24563,
+        "rms_amplitude": 4453.25,
+        "effective_sound_seconds": 0.57,
+        "clipped_sample_count": 0,
+        "checks": {
+          "not_silent": true,
+          "audible_body_present": true,
+          "not_clipped": true
+        },
+        "status": "passed"
+      },
+      "status": "passed"
+    }
+  ],
+  "self_correction_offline_backcheck": {
+    "policy_version": "self-correction-final-pcm-offline-backcheck-v1",
+    "item_count": 3,
+    "raw_ipa_sent_to_ordinary_tts": false,
+    "network_audio_upload": false,
+    "items": [
+      {
+        "target": "meaningful",
+        "expected_ipa": "/ˈmi.nɪŋ.fəl/",
+        "authoritative_source_url": "https://dictionary.cambridge.org/us/pronunciation/english/meaningful",
+        "accepted_asr_labels": [
+          "meaningful"
+        ],
+        "rejected_asr_confusions": [],
+        "recognized_words": [
+          "[unk]",
+          "meaningful",
+          "meaningful"
+        ],
+        "rejected_confusion_hits": [],
+        "pcm_sha256": "8a13753a12ff8c617c61b287a80ee69f90d2ce28dd57c844237f06f67e138730",
+        "network_audio_upload": false,
+        "checks": {
+          "target_recognized_twice": true,
+          "no_rejected_confusion": true
+        },
+        "status": "passed"
+      },
+      {
+        "target": "worked",
+        "expected_ipa": "/wɝkt/",
+        "authoritative_source_url": "https://dictionary.cambridge.org/us/pronunciation/english/worked",
+        "accepted_asr_labels": [
+          "worked"
+        ],
+        "rejected_asr_confusions": [],
+        "recognized_words": [
+          "worked",
+          "worked"
+        ],
+        "rejected_confusion_hits": [],
+        "pcm_sha256": "2733dd185c83b9a515e295428ef38cc523774a6c8cfa5025572878a4662e366a",
+        "network_audio_upload": false,
+        "checks": {
+          "target_recognized_twice": true,
+          "no_rejected_confusion": true
+        },
+        "status": "passed"
+      },
+      {
+        "target": "read",
+        "expected_ipa": "/rɛd/",
+        "authoritative_source_url": "https://dictionary.cambridge.org/us/pronunciation/english/read",
+        "accepted_asr_labels": [
+          "read"
+        ],
+        "rejected_asr_confusions": [],
+        "recognized_words": [
+          "read",
+          "read"
+        ],
+        "rejected_confusion_hits": [],
+        "pcm_sha256": "6afed3c0b86b153edf07a8679798697e2656be8d08b98bff8b185449c37ac9f8",
+        "network_audio_upload": false,
+        "checks": {
+          "target_recognized_twice": true,
+          "no_rejected_confusion": true
+        },
+        "status": "passed"
+      }
+    ],
+    "status": "passed"
+  },
+  "phonics_linked_audits": {
+    "sound_audit_file": "自然拼读组合音审计.json",
+    "timing_audit_file": "自然拼读节奏审计.json",
+    "lexical_backcheck_file": "自然拼读权威整词反查审计.json",
+    "isolated_or_lexical_sound_count": 5,
+    "timing_item_count": 2,
+    "status": "passed"
+  },
+  "status": "passed"
+}

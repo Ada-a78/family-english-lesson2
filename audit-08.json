@@ -1,0 +1,557 @@
+{
+  "policy_version": "lesson-focus-inflection-complete-map-v1",
+  "focus": "一般过去时",
+  "scope": "本课正文、问答、角色扮演和教材示范中实际出现的全部过去式",
+  "row_count": 9,
+  "lesson_past_surfaces": [
+    "did",
+    "had",
+    "learned",
+    "read",
+    "stayed",
+    "took",
+    "was",
+    "went",
+    "worked"
+  ],
+  "rows": [
+    {
+      "base": "be",
+      "base_ipa": "/bi/",
+      "past": "was",
+      "past_forms": [
+        {
+          "word": "was",
+          "ipa": "/wʌz/",
+          "teacher_model_repetitions": 1,
+          "audio_covered": true
+        }
+      ],
+      "meaning_cn": "是；处于",
+      "change_type": "不规则",
+      "source_url": "https://www.dictionary.com/browse/be",
+      "occurrences": [
+        "was"
+      ],
+      "base_audio_covered": true,
+      "chinese_meaning_audio_covered": true,
+      "visible_spoken_alignment": "exact",
+      "status": "passed"
+    },
+    {
+      "base": "do",
+      "base_ipa": "/du/",
+      "past": "did",
+      "past_forms": [
+        {
+          "word": "did",
+          "ipa": "/dɪd/",
+          "teacher_model_repetitions": 1,
+          "audio_covered": true
+        }
+      ],
+      "meaning_cn": "做",
+      "change_type": "不规则",
+      "source_url": "https://www.dictionary.com/browse/do",
+      "occurrences": [
+        "did"
+      ],
+      "base_audio_covered": true,
+      "chinese_meaning_audio_covered": true,
+      "visible_spoken_alignment": "exact",
+      "status": "passed"
+    },
+    {
+      "base": "stay",
+      "base_ipa": "/steɪ/",
+      "past": "stayed",
+      "past_forms": [
+        {
+          "word": "stayed",
+          "ipa": "/steɪd/",
+          "teacher_model_repetitions": 1,
+          "audio_covered": true
+        }
+      ],
+      "meaning_cn": "停留；居住",
+      "change_type": "规则变化",
+      "source_url": "https://www.dictionary.com/browse/stay",
+      "occurrences": [
+        "stayed"
+      ],
+      "base_audio_covered": true,
+      "chinese_meaning_audio_covered": true,
+      "visible_spoken_alignment": "exact",
+      "status": "passed"
+    },
+    {
+      "base": "go",
+      "base_ipa": "/ɡoʊ/",
+      "past": "went",
+      "past_forms": [
+        {
+          "word": "went",
+          "ipa": "/wɛnt/",
+          "teacher_model_repetitions": 1,
+          "audio_covered": true
+        }
+      ],
+      "meaning_cn": "去",
+      "change_type": "不规则",
+      "source_url": "https://www.dictionary.com/browse/go",
+      "occurrences": [
+        "went"
+      ],
+      "base_audio_covered": true,
+      "chinese_meaning_audio_covered": true,
+      "visible_spoken_alignment": "exact",
+      "status": "passed"
+    },
+    {
+      "base": "read",
+      "base_ipa": "/rid/",
+      "past": "read",
+      "past_forms": [
+        {
+          "word": "read",
+          "ipa": "/rɛd/",
+          "teacher_model_repetitions": 1,
+          "audio_covered": true
+        }
+      ],
+      "meaning_cn": "阅读",
+      "change_type": "不规则；拼写不变但读音变化",
+      "source_url": "https://www.dictionary.com/browse/read",
+      "occurrences": [
+        "read"
+      ],
+      "base_audio_covered": true,
+      "chinese_meaning_audio_covered": true,
+      "visible_spoken_alignment": "exact",
+      "status": "passed"
+    },
+    {
+      "base": "work",
+      "base_ipa": "/wɝk/",
+      "past": "worked",
+      "past_forms": [
+        {
+          "word": "worked",
+          "ipa": "/wɝkt/",
+          "teacher_model_repetitions": 1,
+          "audio_covered": true
+        }
+      ],
+      "meaning_cn": "工作；担任",
+      "change_type": "规则变化",
+      "source_url": "https://www.dictionary.com/browse/work",
+      "occurrences": [
+        "worked"
+      ],
+      "base_audio_covered": true,
+      "chinese_meaning_audio_covered": true,
+      "visible_spoken_alignment": "exact",
+      "status": "passed"
+    },
+    {
+      "base": "have",
+      "base_ipa": "/hæv/",
+      "past": "had",
+      "past_forms": [
+        {
+          "word": "had",
+          "ipa": "/hæd/",
+          "teacher_model_repetitions": 1,
+          "audio_covered": true
+        }
+      ],
+      "meaning_cn": "有；度过",
+      "change_type": "不规则",
+      "source_url": "https://www.dictionary.com/browse/have",
+      "occurrences": [
+        "had"
+      ],
+      "base_audio_covered": true,
+      "chinese_meaning_audio_covered": true,
+      "visible_spoken_alignment": "exact",
+      "status": "passed"
+    },
+    {
+      "base": "learn",
+      "base_ipa": "/lɝn/",
+      "past": "learned",
+      "past_forms": [
+        {
+          "word": "learned",
+          "ipa": "/lɝnd/",
+          "teacher_model_repetitions": 1,
+          "audio_covered": true
+        }
+      ],
+      "meaning_cn": "学习；学会",
+      "change_type": "规则变化",
+      "source_url": "https://www.dictionary.com/browse/learn",
+      "occurrences": [
+        "learned"
+      ],
+      "base_audio_covered": true,
+      "chinese_meaning_audio_covered": true,
+      "visible_spoken_alignment": "exact",
+      "status": "passed"
+    },
+    {
+      "base": "take",
+      "base_ipa": "/teɪk/",
+      "past": "took",
+      "past_forms": [
+        {
+          "word": "took",
+          "ipa": "/tʊk/",
+          "teacher_model_repetitions": 1,
+          "audio_covered": true
+        }
+      ],
+      "meaning_cn": "拿；乘坐",
+      "change_type": "不规则",
+      "source_url": "https://www.dictionary.com/browse/take",
+      "occurrences": [
+        "took"
+      ],
+      "base_audio_covered": true,
+      "chinese_meaning_audio_covered": true,
+      "visible_spoken_alignment": "exact",
+      "status": "passed"
+    }
+  ],
+  "did_plus_base_rule": {
+    "title": "疑问句中 did 后面必须用动词原形",
+    "explanation_cn": "did 已经表示过去，所以后面的主要动词回到原形。",
+    "examples": [
+      [
+        "Where did you go?",
+        "did + go，不能说 did went。"
+      ],
+      [
+        "What did you do?",
+        "did + do，不能说 did did。"
+      ],
+      [
+        "How did you get there?",
+        "did + get，不能说 did got。"
+      ]
+    ]
+  },
+  "other_tenses": [
+    {
+      "surface": "will talk",
+      "label": "一般将来时",
+      "pattern": "will + 动词原形",
+      "meaning_cn": "将要谈论"
+    }
+  ],
+  "actual_dictionary_calibrated_audio": [
+    {
+      "context": "tense_inventory.page[1].row[1].base",
+      "display_text": "be",
+      "actual_synthesis_text": "be",
+      "expected_ipa": "/bi/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/be",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.395,
+      "peak_amplitude": 18788,
+      "pcm_sha256": "961d08cbc64cb5e36309e0df824d626a943d7bd58373accb2bb885f501633428",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[1].past[1]",
+      "display_text": "was",
+      "actual_synthesis_text": "was",
+      "expected_ipa": "/wʌz/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/be",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.623,
+      "peak_amplitude": 23001,
+      "pcm_sha256": "1b2ce31f06c108bc59c638b423e2b488b40d623349cf0792a933397fdc5918be",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[2].base",
+      "display_text": "do",
+      "actual_synthesis_text": "do",
+      "expected_ipa": "/du/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/do",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.451,
+      "peak_amplitude": 17629,
+      "pcm_sha256": "d73388e45656cae174a4383918dea5736eaa364e978e4be46b25a6a71f7e7bb8",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[2].past[1]",
+      "display_text": "did",
+      "actual_synthesis_text": "did",
+      "expected_ipa": "/dɪd/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/do",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.451,
+      "peak_amplitude": 19549,
+      "pcm_sha256": "0ac2bb2850e792afb291c86bcc15d800d52f2a3e534049fbf4eae38ec22d377a",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[3].base",
+      "display_text": "stay",
+      "actual_synthesis_text": "stay",
+      "expected_ipa": "/steɪ/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/stay",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.668,
+      "peak_amplitude": 22810,
+      "pcm_sha256": "06d91a846e0d965c7486831b460a6e544a4d46cdb36b8d1d1324dd5ca75bde18",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[3].past[1]",
+      "display_text": "stayed",
+      "actual_synthesis_text": "stayed",
+      "expected_ipa": "/steɪd/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/stay",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.68,
+      "peak_amplitude": 21660,
+      "pcm_sha256": "b56e10cfba75f0c191eda0793432932c738878c81f3921af4d9615f7ca77428a",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[4].base",
+      "display_text": "go",
+      "actual_synthesis_text": "go",
+      "expected_ipa": "/ɡoʊ/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/go",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.486,
+      "peak_amplitude": 25704,
+      "pcm_sha256": "8021e3cb791ba8bcecb7d95cb7a70fdb7b1ca1c5f13bd0b4a4b51e4ba056eed5",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[4].past[1]",
+      "display_text": "went",
+      "actual_synthesis_text": "went",
+      "expected_ipa": "/wɛnt/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/go",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 150,
+      "duration_seconds": 0.453,
+      "peak_amplitude": 18668,
+      "pcm_sha256": "6a0dd2f314e7f9545e2fab4359f0835b0f5bad264880842fecee2924d3676b79",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[5].base",
+      "display_text": "read",
+      "actual_synthesis_text": "read",
+      "expected_ipa": "/rid/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/read",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.502,
+      "peak_amplitude": 18898,
+      "pcm_sha256": "5da690105b6a043f4b3d70b8b81132fb707906498bfdb93771e4cb1ce2d52045",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[1].row[5].past[1]",
+      "display_text": "read",
+      "actual_synthesis_text": "read",
+      "expected_ipa": "/rɛd/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/read",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.502,
+      "peak_amplitude": 18898,
+      "pcm_sha256": "5da690105b6a043f4b3d70b8b81132fb707906498bfdb93771e4cb1ce2d52045",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[1].base",
+      "display_text": "work",
+      "actual_synthesis_text": "work",
+      "expected_ipa": "/wɝk/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/work",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.53,
+      "peak_amplitude": 22119,
+      "pcm_sha256": "2520b5ec98b80c83503904afa6e64ca9a58e2bbded470d98f2ef9a5048dd8c98",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[1].past[1]",
+      "display_text": "worked",
+      "actual_synthesis_text": "worked",
+      "expected_ipa": "/wɝkt/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/work",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 150,
+      "duration_seconds": 0.5,
+      "peak_amplitude": 22554,
+      "pcm_sha256": "3eacc54bee64f88c52605896646dd11696f27ff0ae468be8dd697e0e79b00a2e",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[2].base",
+      "display_text": "have",
+      "actual_synthesis_text": "have",
+      "expected_ipa": "/hæv/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/have",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.498,
+      "peak_amplitude": 19253,
+      "pcm_sha256": "78bc9702cc46dd035ca1650e298895d4c292be26fe228633e5631682142f7b18",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[2].past[1]",
+      "display_text": "had",
+      "actual_synthesis_text": "had",
+      "expected_ipa": "/hæd/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/have",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.509,
+      "peak_amplitude": 19403,
+      "pcm_sha256": "741d758249056af60bef1affa782a87d353882d39f48a513e5f2b7590ba7d25c",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[3].base",
+      "display_text": "learn",
+      "actual_synthesis_text": "learn",
+      "expected_ipa": "/lɝn/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/learn",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.533,
+      "peak_amplitude": 20456,
+      "pcm_sha256": "5ae1ef512d8450aaf2e784f10df8f6cc445b9ebcd290d5c90109031f11e0b291",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[3].past[1]",
+      "display_text": "learned",
+      "actual_synthesis_text": "learned",
+      "expected_ipa": "/lɝnd/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/learn",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.556,
+      "peak_amplitude": 20320,
+      "pcm_sha256": "d7efee92c9f22148001abbc86eff1e04efb498ab1cdcf5506837f094f8244e17",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[4].base",
+      "display_text": "take",
+      "actual_synthesis_text": "take",
+      "expected_ipa": "/teɪk/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/take",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.615,
+      "peak_amplitude": 21797,
+      "pcm_sha256": "558d86b6efe94f93b0b04e5ec9ef89fe1c7d629d5e372199c066d4a7135e3522",
+      "status": "passed"
+    },
+    {
+      "context": "tense_inventory.page[2].row[4].past[1]",
+      "display_text": "took",
+      "actual_synthesis_text": "took",
+      "expected_ipa": "/tʊk/",
+      "authoritative_source_url": "https://www.dictionary.com/browse/take",
+      "voice": "Samantha",
+      "voice_identifier": "com.apple.voice.compact.en-US.Samantha",
+      "synthesis_api": "macOS say plain lexical item",
+      "whole_word_ipa_override_used": false,
+      "rate_words_per_minute": 112,
+      "duration_seconds": 0.522,
+      "peak_amplitude": 21733,
+      "pcm_sha256": "9329ab37e4d27229b320730b0e89531f28ebfca876ed315a4ddbe95a377cdf79",
+      "status": "passed"
+    }
+  ],
+  "actual_audio_synthesis_count": 18,
+  "raw_ipa_sent_to_ordinary_tts": false,
+  "checks": {
+    "every_base_has_past_mapping": true,
+    "every_row_has_chinese_meaning": true,
+    "every_visible_base_has_audio": true,
+    "every_visible_past_has_audio": true,
+    "every_chinese_meaning_has_audio": true,
+    "displayed_and_spoken_rows_align": true,
+    "lesson_past_surface_coverage_complete": true,
+    "did_plus_base_rule_present": true,
+    "other_tenses_separated": true,
+    "no_raw_ipa_sent_to_ordinary_tts": true
+  },
+  "status": "passed"
+}

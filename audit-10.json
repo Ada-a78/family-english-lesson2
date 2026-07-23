@@ -1,0 +1,55 @@
+{
+  "policy_version": "lesson-focus-actual-audio-offline-backcheck-v2",
+  "targets": {
+    "work": {
+      "expected_ipa": "/wɝk/"
+    },
+    "worked": {
+      "expected_ipa": "/wɝkt/"
+    }
+  },
+  "actual_synthesis_policy": "plain reviewed English lexical item; never whole-word forced IPA",
+  "voices_by_target": {
+    "work": "Samantha",
+    "worked": "Samantha"
+  },
+  "sequence_sent_to_offline_asr": [
+    "work",
+    "worked",
+    "work",
+    "worked",
+    "work",
+    "worked"
+  ],
+  "accepted_asr_labels": {
+    "work": [
+      "work"
+    ],
+    "worked": [
+      "worked"
+    ]
+  },
+  "recognized_words": [
+    "work",
+    "worked",
+    "work",
+    "worked",
+    "work",
+    "worked"
+  ],
+  "checks": {
+    "work_twice": true,
+    "worked_twice": true,
+    "no_rejected_confusion": true
+  },
+  "rejected_confusions": [
+    "wok",
+    "wood",
+    "word",
+    "worm",
+    "would"
+  ],
+  "network_audio_upload": false,
+  "audio_saved_for_parent_spot_check": "发音校准/work-worked-交付前发音校准.m4a",
+  "status": "passed"
+}

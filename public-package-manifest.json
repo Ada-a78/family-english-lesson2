@@ -1,0 +1,22 @@
+{
+  "slug": "lesson2",
+  "version": "ipa-unified-past-inventory-worked-20260724-v17",
+  "master_video": "lesson2-ipa-unified-past-inventory-worked-20260724-v17.mp4",
+  "master_video_bytes": 23837177,
+  "source_master_video_bytes": 29514430,
+  "public_video_transcoded": true,
+  "hosting_single_file_limit_bytes": 26214400,
+  "interactive_speed_buttons": [
+    0.5,
+    0.75,
+    1,
+    1.25,
+    1.5,
+    1.75,
+    2
+  ],
+  "default_speed": 1,
+  "seek_seconds": 15,
+  "ascii_public_asset_paths": true,
+  "copied_asset_count": 32
+}
